@@ -3,7 +3,7 @@
 
 This document lists metadata sources for data updated and maintained by the NYC Department of Information Technology and Telecommunications (DOITT).
 
-| Data/Layer Name | Description | Preview |
+| <p style="width: 25%;">Data/Layer Name </p> | <p style="width: 50%;">Description </p>  | <p style="width: 25%;">Preview </p>  |
 | ---|---|------------------|
 [Address Point](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Metadata/Metadata_AddressPoint.md) | Address points were initially created from data in the Department of City Planning Property Address Directory (PAD) file. Points were created approximately five feet inside building footprints along the correct street frontage. A field collection/verification process was undertaken to validate "multi-valued" addresses contained in the PAD file (i.e. those locations with a range of addresses). Additionally, a statistical sample of PAD single valued addresses was field checked. Approximately 100,000 locations were visited (about 10% of the total). | ![image](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Images/AddressPoint.PNG)
 [After-School Programs](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Metadata/Metadata_AfterSchoolPrograms.md) | The New York City Department of Youth and Community Development offers engaging high quality programs for young people in all five boroughs of New York City during the hours they are not in school. | ![image](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Images/AfterSchoolProgram.PNG)
