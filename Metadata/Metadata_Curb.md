@@ -24,9 +24,9 @@ Filename: CURB<br>Geometry Type: polyline<br><br>![image](https://github.com/Cit
 **Resolution** |NA
 **Spatial Coverage** |New York City, NY
 **Temporal Coverage** |For this dataset, the source imagery was captured on the following dates:<br>Manhattan - June 24, 2014<br>The Bronx, Brooklyn, Queens and Staten Island  - April 1st through April 25th, 2014<br>Final delivery of all imagery - April 10, 2015<br>Using this orthoimagery, the planimetric base layers were updated citywide starting in March 2015 and were completed in February 2016.
-**Positional Accuracy** |All curbs between roadbed pavement and other surfaces (i.e., within the street right-of-way) were captured.
-**Features Captured** |Curbs inside Parking lots were not captured.
-**Features Excluded** |
+**Positional Accuracy** |
+**Features Captured** |All curbs between roadbed pavement and other surfaces (i.e., within the street right-of-way) were captured.
+**Features Excluded** |Curbs inside Parking lots were not captured.
 **Capture and Update Notes** |This is a new feature class in the 2014 collection. Prior to the 2014 capture, Curbs were a subset of the Pavement Edge feature class but have been broken out into a seperate feature class in 2014.
 ## 3. Attribute Information
 ---------------------------------------------

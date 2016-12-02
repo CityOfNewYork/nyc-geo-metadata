@@ -24,9 +24,9 @@ Filename: MISC_STRUCTURE_POLY<br>Geometry Type: polygon<br><br>![image](https://
 **Resolution** |NA
 **Spatial Coverage** |New York City, NY
 **Temporal Coverage** |For this dataset, the source imagery was captured on the following dates:<br>Manhattan - June 24, 2014<br>The Bronx, Brooklyn, Queens and Staten Island  - April 1st through April 25th, 2014<br>Final delivery of all imagery - April 10, 2015<br>Using this orthoimagery, the planimetric base layers were updated citywide starting in March 2015 and were completed in February 2016.
-**Positional Accuracy** |The following features were captured for each subtype: <br>Large Billboard and Signs: All billboards (including those found on rooftops), with three (3) foot standard width.<br> Sign Gantry: Traffic information strutures that cross traffic lanes.<br>Toll Area: Roof outline of toll plaza buildings (tool booths), regardless of size.
-**Features Captured** |The following features were excluded from each subtype:<br>Large Billboard and Signs: Support structures were not included as part of these features.
-**Features Excluded** |
+**Positional Accuracy** |
+**Features Captured** |The following features were captured for each subtype: <br>Large Billboard and Signs: All billboards (including those found on rooftops), with three (3) foot standard width.<br> Sign Gantry: Traffic information strutures that cross traffic lanes.<br>Toll Area: Roof outline of toll plaza buildings (tool booths), regardless of size.
+**Features Excluded** |The following features were excluded from each subtype:<br>Large Billboard and Signs: Support structures were not included as part of these features.
 **Capture and Update Notes** |The following capture notes for each subtype captured:<br> Large Billboard and Signs: These features are represented with multiple shapes (triangle, V- shaped, etc.)<br>Sign Gantry: These features were digitized end-to-end, with seven (7) foot standard width.
 ## 3. Attribute Information
 ---------------------------------------------

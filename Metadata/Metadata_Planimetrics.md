@@ -28,9 +28,9 @@ Based on the stereo models developed from the raw imagery and aerotriangulation,
 **Resolution** |1'=100''
 **Spatial Coverage** |New York City, NY
 **Temporal Coverage** |For this dataset, the source imagery was captured on the following dates:<br>Manhattan - June 24, 2014<br>The Bronx, Brooklyn, Queens and Staten Island  - April 1st through April 25th, 2014<br>Final delivery of all imagery - April 10, 2015<br>Using this orthoimagery, the planimetric base layers were updated citywide starting in March 2015 and were completed in February 2016.
-**Positional Accuracy** |See individual feature classes for details on which features were captured in the planimetrics database. 
-**Features Captured** |See individual feature classes for details on which features were excluded in the planimetrics database. 
-**Features Excluded** |
+**Positional Accuracy** |
+**Features Captured** |See individual feature classes for details on which features were captured in the planimetrics database. 
+**Features Excluded** |See individual feature classes for details on which features were excluded in the planimetrics database. 
 **Capture and Update Notes** |See individual feature classes for details on capture and update notes. 
 ## 3. Attribute Information
 ---------------------------------------------

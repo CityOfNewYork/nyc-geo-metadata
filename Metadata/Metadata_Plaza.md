@@ -24,9 +24,9 @@ Filename: PLAZA<br>Geometry Type: Polygon<br><br>![image](https://github.com/Cit
 **Resolution** |NA
 **Spatial Coverage** |New York City, NY
 **Temporal Coverage** |For this dataset, the source imagery was captured on the following dates:<br>Manhattan - June 24, 2014<br>The Bronx, Brooklyn, Queens and Staten Island  - April 1st through April 25th, 2014<br>Final delivery of all imagery - April 10, 2015<br>Using this orthoimagery, the planimetric base layers were updated citywide starting in March 2015 and were completed in February 2016.
-**Positional Accuracy** |Plazas are hard surfaced "parks" adjacent to public sidewalks or pavement edges.
-**Features Captured** |Private plazas were not captured using maps showing Privately Owned Public Space ("POPS").
-**Features Excluded** |
+**Positional Accuracy** |
+**Features Captured** |Plazas are hard surfaced "parks" adjacent to public sidewalks or pavement edges.
+**Features Excluded** |Private plazas were not captured using maps showing Privately Owned Public Space ("POPS").
 **Capture and Update Notes** |All public space plazas were captured or updated. Where a plaza is connected to a sidewalk by steps, the steps were considered to be part of the plaza polygon. Planters at the edge of plaza were included as part of the plaza boundary. Plazas cannot overlap medians or sidewalks. Walkways within the plaza were captured as part of the overall plaza polygon and were not considered a separate polygon. Additionally, potential plazas were also identified using CSCL (TRAFDIR=NV and BIKE_LANE<>1), to find plazas in and around greenways.
 ## 3. Attribute Information
 ---------------------------------------------

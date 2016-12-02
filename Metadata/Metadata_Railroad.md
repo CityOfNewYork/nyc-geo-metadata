@@ -24,9 +24,9 @@ Filename: RAILROAD<br>Geometry Type: polyline<br><br>![image](https://github.com
 **Resolution** |NA
 **Spatial Coverage** |New York City, NY
 **Temporal Coverage** |For this dataset, the source imagery was captured on the following dates:<br>Manhattan - June 24, 2014<br>The Bronx, Brooklyn, Queens and Staten Island  - April 1st through April 25th, 2014<br>Final delivery of all imagery - April 10, 2015<br>Using this orthoimagery, the planimetric base layers were updated citywide starting in March 2015 and were completed in February 2016.
-**Positional Accuracy** |The following features were captured for each subtype: <br>Railroad: Updated railroad centerlines. <br><br>Elevated Railroad: Updated elevated railroad centerlines.<br><br>Embankment Railroad: Updated embankment railroad centerlines. <br><br>Viaduct Centerline: Updated viaduct railroad centerlines.  <br><br>Open Cut Depression Railroad: Updated open cut depression railroad centerlines. <br><br>Railway Fence: Updated open railway fence lines. <br><br>Abandoned Railroad: Updated abandoned railroad centerlines.
-**Features Captured** |--
-**Features Excluded** |
+**Positional Accuracy** |
+**Features Captured** |The following features were captured for each subtype: <br>Railroad: Updated railroad centerlines. <br><br>Elevated Railroad: Updated elevated railroad centerlines.<br><br>Embankment Railroad: Updated embankment railroad centerlines. <br><br>Viaduct Centerline: Updated viaduct railroad centerlines.  <br><br>Open Cut Depression Railroad: Updated open cut depression railroad centerlines. <br><br>Railway Fence: Updated open railway fence lines. <br><br>Abandoned Railroad: Updated abandoned railroad centerlines.
+**Features Excluded** |--
 **Capture and Update Notes** |The following capture notes for each subtype captured:<br>Railroad: All visible railroad centerlines were collected/updated. Hidden railroad centerlines (in tunnels) were copied from existing data with no elevation value or change.<br><br>Elevated Railroad: No elevation value was calculated.
 ## 3. Attribute Information
 ---------------------------------------------

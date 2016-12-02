@@ -24,9 +24,9 @@ Filename: HYDRO_STRUCTURE<br>Geometry Type: polygon<br><br>![image](https://gith
 **Resolution** |NA
 **Spatial Coverage** |New York City, NY
 **Temporal Coverage** |For this dataset, the source imagery was captured on the following dates:<br>Manhattan - June 24, 2014<br>The Bronx, Brooklyn, Queens and Staten Island  - April 1st through April 25th, 2014<br>Final delivery of all imagery - April 10, 2015<br>Using this orthoimagery, the planimetric base layers were updated citywide starting in March 2015 and were completed in February 2016.
-**Positional Accuracy** |Decks supported by posts extending into the water (Piers). Structures, usually comprised of stone, earth, or concrete; extending from shore to lessen erosion. They are often installed in continuation of river channels at their outlets or into docks, and outside their entrances (Jetty). Seawalls are typically built on the land parallel to the coast, but may also include breakwaters that are built into the water.
-**Features Captured** |Individual/private docks for recreational watercraft were not captured, unless they had already been captured as such in existing planimetric data.
-**Features Excluded** |
+**Positional Accuracy** |
+**Features Captured** |Decks supported by posts extending into the water (Piers). Structures, usually comprised of stone, earth, or concrete; extending from shore to lessen erosion. They are often installed in continuation of river channels at their outlets or into docks, and outside their entrances (Jetty). Seawalls are typically built on the land parallel to the coast, but may also include breakwaters that are built into the water.
+**Features Excluded** |Individual/private docks for recreational watercraft were not captured, unless they had already been captured as such in existing planimetric data.
 **Capture and Update Notes** |Piers, commercial piers, and docks were updated using existing planimetrics data as guide. Jetty features are delineated at the water level.
 ## 3. Attribute Information
 ---------------------------------------------

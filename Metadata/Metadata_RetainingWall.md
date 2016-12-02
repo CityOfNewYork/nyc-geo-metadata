@@ -24,9 +24,9 @@ Filename: RETAILINGWALL<br>Geometry Type: polyline<br><br>![image](https://githu
 **Resolution** |NA
 **Spatial Coverage** |New York City, NY
 **Temporal Coverage** |For this dataset, the source imagery was captured on the following dates:<br>Manhattan - June 24, 2014<br>The Bronx, Brooklyn, Queens and Staten Island  - April 1st through April 25th, 2014<br>Final delivery of all imagery - April 10, 2015<br>Using this orthoimagery, the planimetric base layers were updated citywide starting in March 2015 and were completed in February 2016.
-**Positional Accuracy** |The following features were captured for each subtype: <br> Retaining Wall: Walls built to retain earth from falling on transportation features with a height of ten (10) feet or greater.<br>Railroad Retaining Wall: Walls built to retain earth from falling on railroad bed.
-**Features Captured** |The following features were excluded from each subtype: <br>Retaining Wall: Walls in backyards used for landscape were not captured. Walls in areas under construction (excavation) were not captured.
-**Features Excluded** |
+**Positional Accuracy** |
+**Features Captured** |The following features were captured for each subtype: <br> Retaining Wall: Walls built to retain earth from falling on transportation features with a height of ten (10) feet or greater.<br>Railroad Retaining Wall: Walls built to retain earth from falling on railroad bed.
+**Features Excluded** |The following features were excluded from each subtype: <br>Retaining Wall: Walls in backyards used for landscape were not captured. Walls in areas under construction (excavation) were not captured.
 **Capture and Update Notes** |The following capture notes for each subtype captured:<br>
 ## 3. Attribute Information
 ---------------------------------------------

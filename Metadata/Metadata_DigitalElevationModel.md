@@ -24,9 +24,9 @@ Filename: Digital Elevation Model<br>Geometry Type: raster<br><br>![image]()
 **Resolution** |
 **Spatial Coverage** |New York City, NY
 **Temporal Coverage** |2010.0
-**Positional Accuracy** |NA
+**Positional Accuracy** |
 **Features Captured** |NA
-**Features Excluded** |
+**Features Excluded** |NA
 **Capture and Update Notes** |Vertical datum NAVD1988
 ## 3. Attribute Information
 ---------------------------------------------

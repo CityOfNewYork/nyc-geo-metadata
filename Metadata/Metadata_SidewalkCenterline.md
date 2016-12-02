@@ -24,9 +24,9 @@ Filename: SIDEWALK_LINE<br>Geometry Type: polyline<br><br>![image](https://githu
 **Resolution** |NA
 **Spatial Coverage** |New York City, NY
 **Temporal Coverage** |For this dataset, the source imagery was captured on the following dates:<br>Manhattan - June 24, 2014<br>The Bronx, Brooklyn, Queens and Staten Island  - April 1st through April 25th, 2014<br>Final delivery of all imagery - April 10, 2015<br>Using this orthoimagery, the planimetric base layers were updated citywide starting in March 2015 and were completed in February 2016.
-**Positional Accuracy** |These features represent interior sidewalk centerlines for all interior sidewalk polygon features (not for the ROW Sidewalk).
-**Features Captured** |Row sidewalks were excluded. 
-**Features Excluded** |
+**Positional Accuracy** |
+**Features Captured** |These features represent interior sidewalk centerlines for all interior sidewalk polygon features (not for the ROW Sidewalk).
+**Features Excluded** |Row sidewalks were excluded. 
 **Capture and Update Notes** |The business use of this feature is to identify potential areas, outside of the public Right of Way (ROW), that could permit emergency vehicles through travel. Interior Sidewalk Centerlines were extended beyond the Interior Sidewalk Polygons when connecting to a CSCL feature.
 ## 3. Attribute Information
 ---------------------------------------------

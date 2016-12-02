@@ -24,9 +24,9 @@ Filename: AddressPoint.shp<br>Geometry Type: point<br><br>![image](https://githu
 **Resolution** |NA
 **Spatial Coverage** |New York City, NY
 **Temporal Coverage** |Data is current as of last update date.
-**Positional Accuracy** |All possible measures have been taken to ensure all registered address points are collected.
-**Features Captured** |Only registered address points are included in the dataset.
-**Features Excluded** |Points were created approximately five feet inside building footprints along the correct street frontage.
+**Positional Accuracy** |Points were created approximately five feet inside building footprints along the correct street frontage.
+**Features Captured** |All possible measures have been taken to ensure all registered address points are collected.
+**Features Excluded** |Only registered address points are included in the dataset.
 **Capture and Update Notes** |Address points were initially created from data in the Department of City Planning Property Address Directory (PAD) file. A field collection/verification process was undertaken to validate "multi-valued" addresses contained in the PAD file (i.e. those locations with a range of addresses). Additionally, a statistical sample of PAD single valued addresses was field checked. Approximately 100,000 locations were visited (about 10% of the total).
 ## 3. Attribute Information
 ---------------------------------------------

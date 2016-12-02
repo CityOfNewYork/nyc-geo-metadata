@@ -24,9 +24,9 @@ Filename: RAILROAD_STRUCTURE<br>Geometry Type: polygon<br><br>![image](https://g
 **Resolution** |NA
 **Spatial Coverage** |New York City, NY
 **Temporal Coverage** |For this dataset, the source imagery was captured on the following dates:<br>Manhattan - June 24, 2014<br>The Bronx, Brooklyn, Queens and Staten Island  - April 1st through April 25th, 2014<br>Final delivery of all imagery - April 10, 2015<br>Using this orthoimagery, the planimetric base layers were updated citywide starting in March 2015 and were completed in February 2016.
-**Positional Accuracy** |The following features were captured for each subtype: <br> Subway/Train Station: Updated all stand-alone subway and train stations, and their platforms. These structures were found on terrain level or lower.<br>Elevated Subway/Train Station: Updated all elevated subway and train stations, and their platforms.<br> Ventilation Grate: Ventilation grates were be captured throughout the city.<br>Emergency Exit: Updated all emergency exits on railroad structures.<br>Transit Entrance: Updated all transit entrances.
-**Features Captured** |The following features were excluded from each subtype: <br>
-**Features Excluded** |
+**Positional Accuracy** |
+**Features Captured** |The following features were captured for each subtype: <br> Subway/Train Station: Updated all stand-alone subway and train stations, and their platforms. These structures were found on terrain level or lower.<br>Elevated Subway/Train Station: Updated all elevated subway and train stations, and their platforms.<br> Ventilation Grate: Ventilation grates were be captured throughout the city.<br>Emergency Exit: Updated all emergency exits on railroad structures.<br>Transit Entrance: Updated all transit entrances.
+**Features Excluded** |The following features were excluded from each subtype: <br>
 **Capture and Update Notes** |The following capture notes for each subtype captured: <br>Subway/Train Station: Roof outlines were delineated to include any underlying stairways. <br>Elevated Subway/Train Station: Roof outlines were delineated to include any underlying stairways. <br>Ventilation Grate: These locations are not dependent on vicinity to subway centerline or subway entrance / exit.<br>Emergency Exit: Usually identified as painted yellow plates/grates for subways. Used ROW of existing subway centerlines as guide.<br>Transit Entrance: Usually identified as painted stairs for subways. Used ROW of existing subway centerlines as guide.
 ## 3. Attribute Information
 ---------------------------------------------

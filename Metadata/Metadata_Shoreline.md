@@ -24,9 +24,9 @@ Filename: SHORELINE<br>Geometry Type: polyline<br><br>![image](https://github.co
 **Resolution** |NA
 **Spatial Coverage** |New York City, NY
 **Temporal Coverage** |For this dataset, the source imagery was captured on the following dates:<br>Manhattan - June 24, 2014<br>The Bronx, Brooklyn, Queens and Staten Island  - April 1st through April 25th, 2014<br>Final delivery of all imagery - April 10, 2015<br>Using this orthoimagery, the planimetric base layers were updated citywide starting in March 2015 and were completed in February 2016.
-**Positional Accuracy** |Significant changes (longer than 10 feet) along shorelines were updated to reflect new conditions.
-**Features Captured** |Not updated when existing shoreline follows the general shape of the shoreline in the imagery, but is offset due to tidal conditions. Streams greater than 8 feet that intersect bay/ocean were considered as part of the shoreline. When such conditions exist, those features were used and combined with Hydrography.
-**Features Excluded** |
+**Positional Accuracy** |
+**Features Captured** |Significant changes (longer than 10 feet) along shorelines were updated to reflect new conditions.
+**Features Excluded** |Not updated when existing shoreline follows the general shape of the shoreline in the imagery, but is offset due to tidal conditions. Streams greater than 8 feet that intersect bay/ocean were considered as part of the shoreline. When such conditions exist, those features were used and combined with Hydrography.
 **Capture and Update Notes** |The following capture notes for each subtype captured:<br>
 ## 3. Attribute Information
 ---------------------------------------------

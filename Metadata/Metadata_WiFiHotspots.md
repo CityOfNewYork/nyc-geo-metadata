@@ -24,8 +24,8 @@ Filename: NYC_Free_WiFi_Hotspots_812016<br>Geometry Type: point<br><br>![image](
 **Resolution** |
 **Spatial Coverage** |New York City, NY
 **Temporal Coverage** |
-**Positional Accuracy** |See description
-**Features Captured** |
+**Positional Accuracy** |
+**Features Captured** |See description
 **Features Excluded** |
 **Capture and Update Notes** |
 ## 3. Attribute Information
