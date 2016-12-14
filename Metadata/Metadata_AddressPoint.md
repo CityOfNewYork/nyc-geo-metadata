@@ -11,9 +11,9 @@ Filename: AddressPoint.shp<br>Geometry Type: point<br><br>![image](https://githu
 **Source(s)** |Department of City Planning Property Address Directory (PAD), DOITT
 **Publication Dates** |**Data**: 4/27/2015<br>**Last Update**: 11/17/16<br>**Metadata**: 12/02/16<br>**Update Frequency**: As needed
 **Available Formats** |Shapefile. Additional data formats are available for download on the [NYC Open Data Portal](https://data.cityofnewyork.us/City-Government/NYC-Address-Points/g6pj-hd8k).
-**Use Limitations** |While all possible measures have been taken to ensure the accuracy of this data, the City of New York assumes no responsibility for the accuracy of the data for their purposes.
+**Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public
-**Contact Information** |**Name**: Colin Reilly, Director GIS Division, Department of Information Technology and Telecommunication (DOITT)<br>**Phone**: 718-403-8394<br>**Email**: creilly@doitt.nyc.gov
+**Contact Information** |**Name**: Colin Reilly, Director GIS Division, Department of Information Technology and Telecommunication (DOITT)<br>**Phone**: <br>**Email**: creilly@doitt.nyc.gov
 **Links** |https://data.cityofnewyork.us/City-Government/NYC-Address-Points/g6pj-hd8k
 **Tags** |address, BIN, New York City, NYC, Brooklyn, Bronx, Manhattan, Queens, Staten Island, gis, doitt
 ## 2. Data Quality and Specifications
