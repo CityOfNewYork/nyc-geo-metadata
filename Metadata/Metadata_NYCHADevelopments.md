@@ -11,9 +11,9 @@ Filename: NYCHA_Developments<br>Geometry Type: polygon<br><br>![image](https://g
 **Source(s)** |New York City Housing Authority
 **Publication Dates** |**Data**: 03/29/13<br>**Last Update**: 09/15/16<br>**Metadata**: 12/02/16<br>**Update Frequency**: As needed
 **Available Formats** |Shapefile. Additional data formats are available for download on the [NYC Open Data Portal](https://data.cityofnewyork.us/Housing-Development/Map-of-NYCHA-Developments/i9rv-hdr5).
-**Use Limitations** |Use constraints: While all possible measures have been taken to ensure the accuracy of this data, the NYC Housing Authority and the City of New York assume no responsibility for the accuracy of this data. All users should independently verify the accuracy of the data for their purposes.
+**Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public
-**Contact Information** |**Name**: Colin Reilly, Director GIS Division, Department of Information Technology and Telecommunication (DOITT)<br>**Phone**: <br>**Email**: creilly@doitt.nyc.gov
+**Contact Information** |**Name**: Colin Reilly, Director GIS Division, Department of Information Technology and Telecommunication (DOITT)<br>**Email**: creilly@doitt.nyc.gov
 **Links** |https://data.cityofnewyork.us/Housing-Development/Map-of-NYCHA-Developments/i9rv-hdr5
 **Tags** |nycha, nyc housing, gis, building sizes, residential, facilities, map of nycha developments
 ## 2. Data Quality and Specifications

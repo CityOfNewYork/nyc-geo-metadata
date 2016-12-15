@@ -7,15 +7,15 @@ Filename: ZIP_CODE_040114<br>Geometry Type: polygon<br><br>![image](https://gith
 |     |     |
 | --- | --- |
 **Purpose** |
-**Description** |This dataset contains boundaries of zip codes within New York City, NY. 
+**Description** |This dataset contains boundaries of zip codes within New York City, NY. Estimate population, PO City name, county, and state per zip code are also included. 
 **Source(s)** |Department of Information Technology & Telecommunications (DOITT)
 **Publication Dates** |**Data**: 04/08/14<br>**Last Update**: 09/08/14<br>**Metadata**: 12/02/16<br>**Update Frequency**: As needed
-**Available Formats** |Shapefile. Additional data formats are available for download on the [NYC Open Data Portal]().
-**Use Limitations** |Use constraints: While all possible measures have been taken to ensure the accuracy of this data, the NYC Housing Authority and the City of New York assume no responsibility for the accuracy of this data. All users should independently verify the accuracy of the data for their purposes.
+**Available Formats** |Shapefile. Additional data formats are available for download on the [NYC Open Data Portal](https://data.cityofnewyork.us/Business/Zip-Code-Boundaries/i8iw-xf4u).
+**Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public
-**Contact Information** |**Name**: Colin Reilly, Director GIS Division, Department of Information Technology and Telecommunication (DOITT)<br>**Phone**: <br>**Email**: creilly@doitt.nyc.gov
-**Links** |
-**Tags** |
+**Contact Information** |**Name**: Colin Reilly, Director GIS Division, Department of Information Technology and Telecommunication (DOITT)<br>**Email**: creilly@doitt.nyc.gov
+**Links** |https://data.cityofnewyork.us/Business/Zip-Code-Boundaries/i8iw-xf4u
+**Tags** |zip, postal code, zip code boundaries, zip code, area, doitt, doitt gis
 ## 2. Data Quality and Specifications
 ---------------------------------------------
 |     |     |
@@ -25,10 +25,20 @@ Filename: ZIP_CODE_040114<br>Geometry Type: polygon<br><br>![image](https://gith
 **Spatial Coverage** |New York City, NY
 **Temporal Coverage** |
 **Positional Accuracy** |
-**Features Captured** |
-**Features Excluded** |
-**Capture and Update Notes** |
+**Features Captured** |All zip codes within the five boroughs of New York City. 
+**Features Excluded** |NA
+**Capture and Update Notes** |NA
 ## 3. Attribute Information
 ---------------------------------------------
 | Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 
 |------------ | ------------- | -------- | ----------- | ----------|
+| ZIPCODE | Five-digit postal zip code. | text | No
+| BLDGZIP | Binary field (0,1) indicating whether the zip is unique to a building. 0 = NO, 1 = YES | text | No
+| PO_NAME | Postal city of zip code | text | No
+| POPULATION | Estimate population per zip code | double | No
+| AREA | Area of zip code boundary in square feet | double | No
+| STATE | State of zip code boundary | text | No
+| COUNTY | County of zip code boundary | text | No
+| ST_FIPS | State FIPS code | text | No
+| CTY_FIPS | County FIPS code | text | No
+| URL | Link to USPS website | text | No

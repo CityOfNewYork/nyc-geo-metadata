@@ -6,14 +6,14 @@ Filename: NYC_Free_WiFi_Hotspots_812016<br>Geometry Type: point<br><br>![image](
 ---------------------------------------------
 |     |     |
 | --- | --- |
-**Purpose** |
+**Purpose** |The purpose of this dataset is to help users identify Wi-Fi Hotspot locations throughout New York City. 
 **Description** |This dataset includes public Wi-Fi Hotspot locations throughout the 5 boroughs. Wi-Fi providers include At&T, LinkNYC-Citybridge (BETA), BPL, Cablevision, Chelsea, City Tech, Downtown Brooklyn, Harlem, Manhattan Down Alliance, NYCHA, NYPL, QPL, Time Warner Cable, Transit Wireless, and various partners. 
 **Source(s)** |Providers. See Description
-**Publication Dates** |**Data**: 07/08/05<br>**Last Update**: 08/01/16<br>**Metadata**: 12/02/16<br>**Update Frequency**: 
+**Publication Dates** |**Data**: 09/12/2014<br>**Last Update**: 09/22/2016<br>**Metadata**: 12/02/16<br>**Update Frequency**: As needed
 **Available Formats** |Shapefile. Additional data formats are available for download on the [NYC Open Data Portal](https://data.cityofnewyork.us/Social-Services/NYC-Wi-Fi-Hotspot-Locations/a9we-mtpn).
-**Use Limitations** |While all possible measures have been taken to ensure the accuracy of this data, the City of New York assumes no responsibility for the accuracy of the data for their purposes.
+**Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public
-**Contact Information** |**Name**: Colin Reilly, Director GIS Division, Department of Information Technology and Telecommunication (DOITT)<br>**Phone**: 718-403-8394<br>**Email**: creilly@doitt.nyc.gov
+**Contact Information** |**Name**: Colin Reilly, Director GIS Division, Department of Information Technology and Telecommunication (DOITT)<br>**Email**: creilly@doitt.nyc.gov
 **Links** |https://data.cityofnewyork.us/Social-Services/NYC-Wi-Fi-Hotspot-Locations/a9we-mtpn
 **Tags** |wi-fi, parks, wifi, nyc wi-fi hotspot locations, internet, mifi, connectivity, optics, doitt, mobile, web, www, world wide web, websites
 ## 2. Data Quality and Specifications
@@ -23,7 +23,7 @@ Filename: NYC_Free_WiFi_Hotspots_812016<br>Geometry Type: point<br><br>![image](
 **Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot
 **Resolution** |
 **Spatial Coverage** |New York City, NY
-**Temporal Coverage** |
+**Temporal Coverage** |Data is current as of last update date.
 **Positional Accuracy** |
 **Features Captured** |See description
 **Features Excluded** |
@@ -41,4 +41,4 @@ Filename: NYC_Free_WiFi_Hotspots_812016<br>Geometry Type: point<br><br>![image](
 | REMARKS | Miscellaneous notes on location (ex. station number) or status | text | No
 | CITY | City of Wi-Fi location | text | No
 | SSID | Network name | text | No
-| SOURCEID |  |  | No
+| SOURCEID |  | text | No
