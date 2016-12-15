@@ -21,12 +21,12 @@ Filename: NYC_Free_WiFi_Hotspots_812016<br>Geometry Type: point<br><br>![image](
 |     |     |
 | --- | --- |
 **Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot
-**Resolution** |
+**Resolution** |NA
 **Spatial Coverage** |New York City, NY
 **Temporal Coverage** |Data is current as of last update date.
-**Positional Accuracy** |
+**Positional Accuracy** |Locations of Wi-Fi Hotspots are provided by service providers. 
 **Features Captured** |See description
-**Features Excluded** |
+**Features Excluded** |This dataset does not include all LinkNYC - CityBridge, LLC (Free) internet kiosks. For LinkNYC locations, see [Open Data Portal - LinkNYC](https://data.cityofnewyork.us/Social-Services/LinkNYC-Map/tgrn-h24f)
 **Capture and Update Notes** |
 ## 3. Attribute Information
 ---------------------------------------------
@@ -41,4 +41,4 @@ Filename: NYC_Free_WiFi_Hotspots_812016<br>Geometry Type: point<br><br>![image](
 | REMARKS | Miscellaneous notes on location (ex. station number) or status | text | No
 | CITY | City of Wi-Fi location | text | No
 | SSID | Network name | text | No
-| SOURCEID |  | text | No
+| SOURCEID | ID of feature from provider source | text | No

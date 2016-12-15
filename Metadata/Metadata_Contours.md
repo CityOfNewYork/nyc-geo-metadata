@@ -7,7 +7,7 @@ Filename: CONTOUR.shp<br>Geometry Type: polyline<br><br>![image](https://github.
 |     |     |
 | --- | --- |
 **Purpose** |
-**Description** |Planimetric basemap layer containing citywide 2-ft contour line features
+**Description** |This dataset includes polylines representing citywide 2-ft elevation contours.
 **Source(s)** |Department of Information Technology & Telecommunications (DOITT)
 **Publication Dates** |**Data**: 41859.0<br>**Last Update**: 09/08/14<br>**Metadata**: 12/02/16<br>**Update Frequency**: As needed
 **Available Formats** |Shapefile. Additional data formats are available for download on the [NYC Open Data Portal](https://data.cityofnewyork.us/City-Government/Contours/3cdm-p29e).
@@ -15,19 +15,19 @@ Filename: CONTOUR.shp<br>Geometry Type: polyline<br><br>![image](https://github.
 **Access Rights** |Public
 **Contact Information** |**Name**: Colin Reilly, Director GIS Division, Department of Information Technology and Telecommunication (DOITT)<br>**Email**: creilly@doitt.nyc.gov
 **Links** |https://data.cityofnewyork.us/City-Government/Contours/3cdm-p29e
-**Tags** |2-ft, basemap, contours, doitt, 
+**Tags** |2-ft, basemap, contours, doitt
 ## 2. Data Quality and Specifications
 ---------------------------------------------
 |     |     |
 | --- | --- |
 **Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot
 **Resolution** |ASPRS CLASS 1.5 for 1"=100' scale maps
-**Spatial Coverage** |
-**Temporal Coverage** |
+**Spatial Coverage** |New York City, NY
+**Temporal Coverage** |Data is current as of last update date.
 **Positional Accuracy** |
 **Features Captured** |
 **Features Excluded** |
-**Capture and Update Notes** |
+**Capture and Update Notes** |Contours are updated as part of the planimetric update. 
 ## 3. Attribute Information
 ---------------------------------------------
 | Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 

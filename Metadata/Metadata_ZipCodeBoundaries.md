@@ -21,13 +21,13 @@ Filename: ZIP_CODE_040114<br>Geometry Type: polygon<br><br>![image](https://gith
 |     |     |
 | --- | --- |
 **Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot
-**Resolution** |
+**Resolution** |NA
 **Spatial Coverage** |New York City, NY
-**Temporal Coverage** |
+**Temporal Coverage** |Data is current as of last update date.
 **Positional Accuracy** |
 **Features Captured** |All zip codes within the five boroughs of New York City. 
 **Features Excluded** |NA
-**Capture and Update Notes** |NA
+**Capture and Update Notes** |How is this updated?
 ## 3. Attribute Information
 ---------------------------------------------
 | Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 

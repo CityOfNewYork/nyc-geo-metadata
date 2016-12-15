@@ -6,10 +6,10 @@ Filename: Centerline.shp<br>Geometry Type: polyline<br><br>![image](https://gith
 ---------------------------------------------
 |     |     |
 | --- | --- |
-**Purpose** |The Centerline file has been maintained as a major component of the Department of City Planning's Geosupport System and has been updated to meet the needs of the public safety agencies for dispatch.
-**Description** |Centerline is a single line representation of New York City streets containing address ranges and other information such as traffic directions, road types, segment types.
-**Source(s)** |Department of City Planning
-**Publication Dates** |**Data**: 4/19/2014<br>**Last Update**: 11/17/16<br>**Metadata**: 12/02/16<br>**Update Frequency**: Daily
+**Purpose** |The Centerline file has been maintained as a major component of the Department of City Planning's Geosupport System and has been updated to meet the needs of the public safety agencies (NYPD & FDNY) for dispatch.
+**Description** |The original source of geomtry for centerline was Linear Integrated Ordered Network (LION), which was maintained by the Department of City Planning. Centerline is a single line representation of New York City streets containing address ranges and other information such as traffic directions, road types, segment types. Street Centerline is part of the Citywide Street Centerline (CSCL) enterprise geospatial database and data maintenance system that supports multiple agencies, including the emergency 911 dispatching systems. 
+**Source(s)** |Department of City Planning, Linear Integrated Ordered Network (LION)
+**Publication Dates** |**Data**: 4/19/2014<br>**Last Update**: 11/17/2016<br>**Metadata**: 12/02/16<br>**Update Frequency**: Agency data is updated daily by Centerline Management Group (CMG). Public releases of this data are made X
 **Available Formats** |Shapefile. Additional data formats are available for download on the [NYC Open Data Portal](https://data.cityofnewyork.us/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b).
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public
@@ -24,17 +24,16 @@ Filename: Centerline.shp<br>Geometry Type: polyline<br><br>![image](https://gith
 **Resolution** |NA
 **Spatial Coverage** |New York City, NY
 **Temporal Coverage** |Data is current as of last update date.
-**Positional Accuracy** |
-**Features Captured** |
+**Positional Accuracy** |The dataset represents the roadbed centerline. 
+**Features Captured** |The dataset includes information on traffic directions, road types, and segment types. 
 **Features Excluded** |
-**Capture and Update Notes** |The Centerline Maintenance Group (CMG) is the entity that is responsible for all updates to the CSCL centerline. The Department of City Planning (DCP) is responsible for segments whose SEGMENTID >-9000000 and are crated by CSCL. 
+**Capture and Update Notes** |The Centerline Maintenance Group (CMG) is the entity that is responsible for all updates to the CSCL centerline.  Agency users of CSCL use a "CSCL User Update Tracking System" to submit discrepancies and update requests. These requests are routed to the CMG group for update and review daily. The Department of City Planning (DCP) is responsible for segments whose SEGMENTID >-9000000 and are crated by CSCL.
 ## 3. Attribute Information
 ---------------------------------------------
 | Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 
 |------------ | ------------- | -------- | ----------- | ----------|
 | PHYSICALID | A unqiude ID assigned to intersection to intersection stretches of a street.  | double | No
-| L_LOW_HN | Low value for the address range on the left side of the street segment, relative to the digitized
-direction of the segment. | text | No
+| L_LOW_HN | Low value for the address range on the left side of the street segment, relative to the digitized direction of the segment. | text | No
 | L_HIGH_HN | High value for the address range on the left side of the street segment, relative to the digitized direction of the segment. | text | No
 | R_LOW_HN | Low value for the address range on the right side of the street segment, relative to the digitized direction of the segment. | text | No
 | R_HIGH_HN | High value for the address range on the right side of the street segment, relative to the digitized direction of the segment. | text | No
@@ -49,8 +48,7 @@ direction of the segment. | text | No
 | ST_WIDTH | The width, in feet, of the paved area of the street | double | No
 | CREATED | Date feature was created | date | No
 | MODIFIED | Date the feature was last modified | date | No
-| TRAFDIR | Traffic Direction. Code indicating the flow of traffic relative to the street segment's address
-range.<br>FT = With<br>TF = Against<br>TW = Two-Way<br>NV = Non-Vehicular | text | No
+| TRAFDIR | Traffic Direction. Code indicating the flow of traffic relative to the street segment's address range.<br>FT = With<br>TF = Against<br>TW = Two-Way<br>NV = Non-Vehicular | text | No
 | RW_TYPE | Street Centerline roadway type.<br>1 = Street<br>2 = Highway<br>3 = Bridge<br>4 = Tunnel<br>5 = Boardwalk<br>6 = Path/Trail<br>7 = StepStreet<br>8 = Driveway<br>9 = Ramp<br>10 = Alley<br>11 = Unknown<br>12 = Non-Physical Street Segment<br>13 = U Turn<br>14 = Ferry Route | integer | No
 | FRM_LVL_CO | Numeric value indicating the vertical position of the feature's "from" node relative to grade level. <br> 1 = Below Grade 1  <br> 2 = Below Grade 2  <br> 3 = Below Grade 3  <br> 4 = Below Grade 4  <br> 5 = Below Grade 5  <br> 6 = Below Grade 6  <br> 7 = Below Grade 7  <br> 8 = Below Grade 8 <br> 9 = Below Grade 9   <br> 10 = Below Grade 10  <br> 11 = Below Grade 11  <br> 12 = Below Grade 12  <br> 13 = At Grade <br> 14 = Above Grade 1  <br> 15 = Above Grade 2  <br> 16 = Above Grade 3 <br> 17 = Below Grade 4  <br> 18 = Below Grade 5  <br> 19 = Below Grade 6  <br> 20 = Below Grade 7  <br> 21 = Below Grade 8 <br> 22 = Below Grade 9   <br> 23 = Below Grade 10  <br> 24 = Below Grade 11  <br> 25 = Below Grade 12 <br> 25 = Below Grade 12<br> 26 = Below Grade 13<br> 99 = Not Applicable | integer | No
 | TO_LVL_CO | Numeric value indicating the vertical position of the feature's "to" node relative to grade level. <br> 1 = Below Grade 1  <br> 2 = Below Grade 2  <br> 3 = Below Grade 3  <br> 4 = Below Grade 4  <br> 5 = Below Grade 5  <br> 6 = Below Grade 6  <br> 7 = Below Grade 7  <br> 8 = Below Grade 8 <br> 9 = Below Grade 9   <br> 10 = Below Grade 10  <br> 11 = Below Grade 11  <br> 12 = Below Grade 12  <br> 13 = At Grade <br> 14 = Above Grade 1  <br> 15 = Above Grade 2  <br> 16 = Above Grade 3 <br> 17 = Below Grade 4  <br> 18 = Below Grade 5  <br> 19 = Below Grade 6  <br> 20 = Below Grade 7  <br> 21 = Below Grade 8 <br> 22 = Below Grade 9   <br> 23 = Below Grade 10  <br> 24 = Below Grade 11  <br> 25 = Below Grade 12 <br> 25 = Below Grade 12<br> 26 = Below Grade 13<br> 99 = Not Applicable | integer | No
