@@ -1,5 +1,5 @@
 # Contours
-Filename: CONTOUR.shp<br>Geometry Type: polyline<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Images/Contours.PNG)
+Filename: CONTOUR<br>Geometry Type: polyline<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Images/Contours.PNG)
 
 ### Table of Contents<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**1. Identification**](#1-identification)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**2. Data Quality and Specifications**](#2-data-quality-and-specifications)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**3. Attribute Information**](#3-attribute-information)<br><br>
 ## 1. Identification
@@ -9,7 +9,7 @@ Filename: CONTOUR.shp<br>Geometry Type: polyline<br><br>![image](https://github.
 **Purpose** |
 **Description** |This dataset includes polylines representing citywide 2-ft elevation contours.
 **Source(s)** |Department of Information Technology & Telecommunications (DOITT)
-**Publication Dates** |**Data**: 41859.0<br>**Last Update**: 09/08/14<br>**Metadata**: 12/02/16<br>**Update Frequency**: As needed
+**Publication Dates** |**Data**: 08/08/2014<br>**Last Update**: 09/08/14<br>**Metadata**: 12/02/16<br>**Update Frequency**: As needed
 **Available Formats** |Shapefile. Additional data formats are available for download on the [NYC Open Data Portal](https://data.cityofnewyork.us/City-Government/Contours/3cdm-p29e).
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public

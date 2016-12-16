@@ -27,7 +27,7 @@ Filename: ZIP_CODE_040114<br>Geometry Type: polygon<br><br>![image](https://gith
 **Positional Accuracy** |
 **Features Captured** |All zip codes within the five boroughs of New York City. 
 **Features Excluded** |NA
-**Capture and Update Notes** |How is this updated?
+**Capture and Update Notes** |
 ## 3. Attribute Information
 ---------------------------------------------
 | Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 

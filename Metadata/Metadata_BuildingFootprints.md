@@ -1,0 +1,54 @@
+# Building Footprints
+Filename: building_0716.shp<br>Geometry Type: polygon<br><br>![image](https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Images/FeatureViews/Build_Foot.png)
+
+### Table of Contents<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**1. Identification**](#1-identification)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**2. Data Quality and Specifications**](#2-data-quality-and-specifications)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**3. Attribute Information**](#3-attribute-information)<br><br>
+## 1. Identification
+---------------------------------------------
+|     |     |
+| --- | --- |
+**Purpose** |This feature class is part of the planimetrics database used by the NYC DOITT GIS group to maintain and distribute an accurate 'basemap' for NYC. The basemap provides the foundation upon virtually all other geospatial data with New York. Digital planimetrics are derived using the imagery products delivered with the 2014 New York Statewide Flyover (see Summary for specific flight dates), which includes raw imagery collected to support the generation of 0.5 Ft Ground Sample Distance (GSD) natural color imagery. 
+**Description** |This feature class contains building footprints. Each footprint represents the perimenter extent of the building.
+**Source(s)** |Current Imagery
+**Publication Dates** |**Data**: 05/03/16<br>**Last Update**: 11/27/16<br>**Metadata**: 12/02/16<br>**Update Frequency**: Agency data is updated daily by Centerline Management Group (CMG). Public releases of this data are made X
+**Available Formats** |File Geodatabase Feature Class as part of the Planimetrics geodatabase and individual shapefile on the [NYC Open Data Portal](https://data.cityofnewyork.us/Housing-Development/Building-Footprints/nqwf-w8eh)
+**Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
+**Access Rights** |Public
+**Contact Information** |**Name**: Colin Reilly, Director GIS Division, Department of Information Technology and Telecommunication (DOITT)<br>**Email**: spatialdatarequest@doitt.nyc.gov
+**Links** |https://data.cityofnewyork.us/Housing-Development/Building-Footprints/nqwf-w8eh
+**Tags** |Buildings, Building footprint, BIN, Structure
+## 2. Data Quality and Specifications
+---------------------------------------------
+|     |     |
+| --- | --- |
+**Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot
+**Resolution** |NA
+**Spatial Coverage** |New York City, NY
+**Temporal Coverage** |For this dataset, the source imagery was captured on the following dates:<br>Manhattan - June 24, 2014<br>The Bronx, Brooklyn, Queens and Staten Island  - April 1st through April 25th, 2014<br>Final delivery of all imagery - April 10, 2015<br>Using this orthoimagery, the planimetric base layers were updated citywide starting in March 2015 and were completed in February 2016.
+**Positional Accuracy** |Estimated positional accuracy: 95% of the data is accurate to +/- 2 feet. All the NYCMap data was aerotriangulated and stereo-compiled to meet ASPRS Class 1 horizontal mapping standards and ASPRS vertical Class 2 accuracy specifications.  The mapping standards deal with Root Mean Square (RMS) calculations that states if a random number of clearly identifiable surveyed ground control points throughout the project were compared to the mapped features, the RMS of the points would not exceed 2'. In layman's terms,  95% of the data is accurate to +/- 2'.
+
+**Features Captured** |Collect all buildings >400 sq. feet and taller than 12 feet.  Buildings with <12 feet height but with BIN should be captured.<br>Buildings with BIN but <400 sq. feet will be captured.<br>Buildings with flat roofs will be captured on roof outline, capturing the largest outline (excluding overhangs, awnings, construction features, etc.).<br>Buildings with pitched roofs will be captured on the building footprint.<br>Carports, when attached to main building, will be included in the outline.
+**Features Excluded** |Do not collect interior divisions (use existing building layer and BIN as guide).<br>Do not collect temporary trailers, tents, or roofs at gas stations (over pumps). Do NOT collect roofs (overhang) to gas stations, unless connected to building.<br>Do NOT collect movable jet bridge for access to aircraft.<br>Do NOT collect awnings, scaffolds, or sidewalk sheds.<br>Do NOT collect small tool or storage sheds in backyards which have no visible car access.  In cases where there is no BIN for the garage, a dummy BIN (1000000, 2000000, etc. for each of the Boroughs, see LION manuals pdf) will be populated
+
+**Capture and Update Notes** |Use parcel data and BIN as guidance for collection.  Where the parcel data indicates that a building should be two or more geometries AND there is NO physical indication, split the building using the parcel lines.   Where the parcel data indicates that a building should be two or more geometries AND there is a physical indication, split the building using the physical indications.  In cases where geometry previously existed in the legacy data, populate all resulting geometries with the original BIN (BINs will be duplicated in these cases).<br>Use Parcel layer to place garages within parcel or at parcel boundary  check for special cases where parcel boundary clearly crosses garage.  In these cases, either split the garage using physical features, or use the property line where there is no distinguishing physical feature.
+
+
+## 3. Attribute Information
+---------------------------------------------
+| Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 
+|------------ | ------------- | -------- | ----------- | ----------|
+| BBL | Borough block and lot number | text | No
+| BIN | Building identification number. Asssigned by City Planning | double | No
+| NAME | Building name (limited to commonly known names) | text | No
+| CONSTRUCTION_YEAR | The year construction of the building was completed. If the year of construction is an estimate, it is indicated in the "BuiltCode" field with an E code.<br>Source: Department of Finance  = Real Property Assessment Database (RPAD). | double | No
+| LAST_MODIFIED_DATE | The date the record was last modified. | date | No
+| LAST_STATUS_TYPE | Last Status Type | text | No
+| DOITT_ID | Unique identifier assigned by DOITT.  | double | No
+| HEIGHTROOF | Building Height is calculated as the difference from the building elevation from the Elevation point feature class and the elevation in the interpolated TIN model. This value then is the height of the roof above the ground elevation, NOT its height above sea level. | double | No
+| FEAT_CODE | Type of Building. List of values:<br>2100 = Building<br>5100 = Building Under Construction<br>5110 = Garage | long | No
+| SUB_CODE | Sub feature code | double | No
+| GROUND_ELEVATION | Lowest Elevation at the building ground level. Calculated from LiDAR or photogrammetrically using the methodology outlined below. Methodology:<br>Building Centroids: Generate centroids (imaginary center point) for the building polygons on completion of the building data update according to 2010 photography. These points will be used for the extraction of elevation value from 2010 LiDAR Bare-earth and 2007/08 Contour surfaces and populate as "GROUND ELEVATION" attribute for the "BUILDING_FOOTPRINT" feature class.<br>LiDAR  = Bare-earth Surface: Import the City supplied bare-earth LiDAR data (.las) to the LiDAR processing software and overlay the updated building polygons data. Remove any points which fall inside the building polygon to eliminate anomalous points inside the building polygon.  Generate a Digital Terrain Model (DTM) from the cleaned LiDAR bare-earth points using interpolation algorithms to develop a continuous surface/TIN based on the elevation attribute. Then convert the TIN surface to GRID at 10ft pixel resolution.<br>2007/08 Contour Surface: Generate Digital Terrain Model (DTM)/TIN from 2007/08 contour data according to the elevation value using interpolation algorithms. Convert the TIN surface to GRID at 10ft pixel resolution.<br>Elevation Attribute Calculation: Centroids developed for the buildings will be overlaid on the LiDAR Bare-earth surface and the Contour-derived surface. Elevation value at the point of intersection will be extracted and populated as "LiDAR Ground Elevation" and "Contour Ground Elevation" attributes respectively. Delta between these two values will be calculated and analyzed.<br><br> 1) If delta is <2 ft, the "LiDAR Ground Elevation" value derived from LiDAR Bare-earth surface will be populated to respective "Building Footprint" features class as "GROUND ELEVATION" attribute.<br> 2) If delta is >2ft, respective buildings will be reviewed manually through photogrammetric approach and the ground elevation value will be collected.<br> a. If a building is on a flat terrain, then the elevation at the outer edge of the building will be populated as "GROUND ELEVATION" attribute.<br>  b. If a building is on a sloping terrain, low and high terrain adjacent to the building will be reviewed photogrammetrically by a photogrammetrist. An appropriate ground elevation value along the building footprint edge near to the centroid at the visible ground will be collected and populated as "GROUND ELEVATION" attribute.<br>   i. In order to support the visual inspection of the terrain, the photogrammetrist will display the 2008 contour data and review the elevation.<br>   ii. Measure the correct ground elevations from the visible outer edges of the building and assign the correct value which is suitable for contour data.<br>   iii. If the ground elevations are not matching the contour data, assign the nearest ground elevation from the centroid of the building irrespective of high/low/average values.<br> 3) Buildings which are updated or newly collected, the ground elevation value will be derived from photogrammetric approach as described in point 2a and 2b, the value will be populated as the "GROUND ELEVATION" attribute provided the elevation difference is more than 2ft between LiDAR and contour surfaces. Otherwise, the elevation from LiDAR surface will be populated.
+ | double | No
+| NUM_FLOORS | Number of full and partial stories, starting from the ground floor. If a lot has more than one building, the number of stories in the primary building on the tax lot is applied to all buildings on the lot.
+Source: Department of Finance  = Real Property Assessment Database (RPAD). | double | No
+| BUILT_CODE | A code indicating whether the year the building was built (CONSTRUCTION_YEAR) was an estimate.<br>E = Estimate<br>Blank = Year Built is not an Estimate.<br>
+Source: Department of Finance  = Real Property Assessment Database (RPAD). | text | No

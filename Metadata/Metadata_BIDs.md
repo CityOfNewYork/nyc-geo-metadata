@@ -27,7 +27,7 @@ Filename: NYC_BIDS_09112015<br>Geometry Type: polygon<br><br>![image](https://gi
 **Positional Accuracy** |NA
 **Features Captured** |Includes only current BIDs. Each BID is made up of individual builidng and city block polygons that make up the district. 
 **Features Excluded** |
-**Capture and Update Notes** |How is this updated?
+**Capture and Update Notes** |
 ## 3. Attribute Information
 ---------------------------------------------
 | Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 
