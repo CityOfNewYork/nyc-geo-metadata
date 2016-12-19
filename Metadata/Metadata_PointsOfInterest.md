@@ -13,7 +13,7 @@ Filename: PointsOfInterest<br>Geometry Type: point<br><br>![image](https://githu
 **Available Formats** |Shapefile. Additional data formats are available for download on the [NYC Open Data Portal](https://data.cityofnewyork.us/City-Government/Points-Of-Interest/rxuy-2muj).
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public
-**Contact Information** |**Name**: Colin Reilly, Director GIS Division, Department of Information Technology and Telecommunication (DOITT)<br>**Email**: creilly@doitt.nyc.gov
+**Contact Information** |**Name**: Colin Reilly, Director GIS Division, Department of Information Technology and Telecommunication (DoITT)<br>**Email**: creilly@doitt.nyc.gov
 **Links** |https://data.cityofnewyork.us/City-Government/Points-Of-Interest/rxuy-2muj
 **Tags** |Manhattan, Brooklyn, Staten Island, New York City, Bronx, Common Place Name, complex, Queens, Common Place
 ## 2. Data Quality and Specifications
@@ -22,12 +22,12 @@ Filename: PointsOfInterest<br>Geometry Type: point<br><br>![image](https://githu
 | --- | --- |
 **Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot
 **Resolution** |NA
-**Spatial Coverage** |New York City, NY
+**Spatial Coverage** |New York City, NY. Although features outside of NYC limits are not included, there is an exception for features that are needed to maintain connectivity with other street centerlines of New Jersey or other counties. For example, the Lincoln Tunnel Ventilator on the NJ side is included in the dataset. 
 **Temporal Coverage** |Data is current as of last update date.
-**Positional Accuracy** | NA
+**Positional Accuracy** | Points are manually placed near the centroid of POI feature. 
 **Features Captured** | Point of Interest/Common Place features include Residential, Educational, Cultural, Recreational, Social, Transportation, Commerical, Government, Religious, Health, Public Safety, Water, and Miscellaneous Facilities. 
-**Features Excluded** | 
-**Capture and Update Notes** | Point of Interest data is updated regularly through requests from City Agencies as needed. 
+**Features Excluded** | Only POI features identified by agencies are included. 
+**Capture and Update Notes** | Point of Interest data is updated regularly through requests from city agencies as needed. 
 ## 3. Attribute Information
 ---------------------------------------------
 | Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 
@@ -39,7 +39,7 @@ Filename: PointsOfInterest<br>Geometry Type: point<br><br>![image](https://githu
 | PLACEID | The unique identifier for each CommonPlace point. Links to the point to the FeatureName table. | double | N
 | FACI_DOM | Facility Domain: <br>1 = Residential<br>2 = Education Facility<br>3 = Cultural Facility<br>4 = Recreational Facility<br>5 = Social Services<br>6 = Transportation Facility<br>7 = Commercial<br>8 = Government Facility (non public safety)<br>9 = Religious Institution<br>10 = Health Services<br>11 = Public Safety<br>12 = Water<br>13 = Miscellaneous | text | N
 | BIN | BIN is an abbreviation of Building Identification Number. Point is assigned a BIN if it falls within a building. | double | N
-| BOROUGH | Numeric codes for NYC 5 boroughs. <br>1 = Manhattan<br>2 = Bronx<br>3 = Brooklyn<br>4 = Queens<br>5 = Staten Island | text | N
+| BOROUGH | Numeric code for NYC borough. <br>1 = Manhattan<br>2 = Bronx<br>3 = Brooklyn<br>4 = Queens<br>5 = Staten Island | text | N
 | CREATED | Date feature was created | date | N
 | MODIFIED | Date feature was modified | date | N
 | FACILITY_T | This is a SubType field organizing the CommonPlace points into categories and sets up the domain values for the FACILITY_DOMAINS field.<br>1 = Residential<br>2 = Education Facility<br>3 = Cultural Facility<br>4 = Recreational Facility<br>5 = Social Services<br>6 = Transportation Facility<br>7 = Commercial<br>8 = Government Facility (non public safety)<br>9 = Religious Institution<br>10 = Health Services<br>11 = Public Safety<br>12 = Water<br>13 = Miscellaneous | integer | N
