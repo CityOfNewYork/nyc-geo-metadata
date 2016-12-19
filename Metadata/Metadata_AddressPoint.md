@@ -9,7 +9,7 @@ Filename: AddressPoint.shp<br>Geometry Type: point<br><br>![image](https://githu
 **Purpose** |Address points were developed to supplement the address information supplied by street centerline data (CSCL). Some computer aided dispatch systems use address points as the primary source for locating an address.
 **Description** |Address points were initially created from data in the Department of City Planning Property Address Directory (PAD) file. Points were created approximately five feet inside building footprints along the correct street frontage. A field collection/verification process was undertaken to validate "multi-valued" addresses contained in the PAD file (i.e. those locations with a range of addresses). Additionally, a statistical sample of PAD single valued addresses was field checked. Approximately 100,000 locations were visited (about 10% of the total).
 **Source(s)** |Department of City Planning Property Address Directory (PAD), DOITT
-**Publication Dates** |**Data**: 4/27/2015<br>**Last Update**: 11/17/16<br>**Metadata**: 12/02/16<br>**Update Frequency**: Agency data is updated daily by Centerline Management Group (CMG). Public releases of this data are made X
+**Publication Dates** |**Data**: 4/27/2015<br>**Last Update**: Every Week <br>**Metadata**: 12/02/16<br>**Update Frequency**: Agency data is updated daily by Centerline Management Group (CMG). Public releases of this data are made weekly.
 **Available Formats** |Shapefile. Additional data formats are available for download on the [NYC Open Data Portal](https://data.cityofnewyork.us/City-Government/NYC-Address-Points/g6pj-hd8k).
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public
