@@ -9,11 +9,11 @@ Filename: Centerline.shp<br>Geometry Type: polyline<br><br>![image](https://gith
 **Purpose** |The Centerline file has been maintained as a major component of the Department of City Planning's Geosupport System and has been updated to meet the needs of the public safety agencies (NYPD & FDNY) for dispatch.
 **Description** |The original source of geomtry for centerline was Linear Integrated Ordered Network (LION), which was maintained by the Department of City Planning. Centerline is a single line representation of New York City streets containing address ranges and other information such as traffic directions, road types, segment types. Street Centerline is part of the Citywide Street Centerline (CSCL) enterprise geospatial database and data maintenance system that supports multiple agencies, including the emergency 911 dispatching systems. 
 **Source(s)** |Department of City Planning, Linear Integrated Ordered Network (LION)
-**Publication Dates** |**Data**: 4/19/2014<br>**Last Update**: 11/17/2016<br>**Metadata**: 12/02/16<br>**Update Frequency**: Agency data is updated daily by Centerline Management Group (CMG). Public releases of this data are made X
+**Publication Dates** |**Data**: 4/19/2014<br>**Last Update**: Updated weekly <br>**Metadata**: 12/02/16<br>**Update Frequency**: Agency data is updated daily by Centerline Management Group (CMG). Public releases of this data are made weekly. 
 **Available Formats** |Shapefile. Additional data formats are available for download on the [NYC Open Data Portal](https://data.cityofnewyork.us/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b).
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public
-**Contact Information** |**Name**: Colin Reilly, Director GIS Division, Department of Information Technology and Telecommunication (DOITT)<br>**Email**: creilly@doitt.nyc.gov
+**Contact Information** |**Name**: Colin Reilly, Director GIS Division, Department of Information Technology and Telecommunication (DoITT)<br>**Email**: creilly@doitt.nyc.gov
 **Links** |https://data.cityofnewyork.us/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b
 **Tags** |New York, Manhattan, Staten Island, LION, Bronx, Transportation, Queens, centerline, Brooklyn, Highway, CSCL, Streets, Roads
 ## 2. Data Quality and Specifications
@@ -27,7 +27,7 @@ Filename: Centerline.shp<br>Geometry Type: polyline<br><br>![image](https://gith
 **Positional Accuracy** |The dataset represents the roadbed centerline. 
 **Features Captured** |The dataset includes information on traffic directions, road types, and segment types. 
 **Features Excluded** |
-**Capture and Update Notes** |The Centerline Maintenance Group (CMG) is the entity that is responsible for all updates to the CSCL centerline.  Agency users of CSCL use a "CSCL User Update Tracking System" to submit discrepancies and update requests. These requests are routed to the CMG group for update and review daily. The Department of City Planning (DCP) is responsible for segments whose SEGMENTID >-9000000 and are crated by CSCL.
+**Capture and Update Notes** |The Centerline Maintenance Group (CMG) is the entity that is responsible for all updates to the CSCL centerline.  Agency users of CSCL use a "CSCL User Update Tracking System" to submit discrepancies and update requests. These requests are routed to the CMG group for update and review daily. 
 ## 3. Attribute Information
 ---------------------------------------------
 | Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 
