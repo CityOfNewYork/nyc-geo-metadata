@@ -8,12 +8,12 @@ Filename: PointsOfInterest<br>Geometry Type: point<br><br>![image](https://githu
 | --- | --- |
 **Purpose** |Point of Interest (CommonPlace) is a point feature representation of points of interest throughout New York City. The primary intended purpose of CommonPlace is to help aid dispatch efforts to these points of interest throughout New York City.
 **Description** |The Point of Interest (CommonPlace) points are a compilation of what the different city agencies consider to be a Common Place or Place/Point of Interest. Sources for the data include: - NYPD (Sprint and PCAD) - FDNY (Starfire and EMSCAD) - OEM Hospitals - DCP Special Address File - DoITT - Points of Interest, NYCHA developments, Schools - DPR Parks Properties Points were either loaded from a previously existing point feature class or they were created. The different methods to create the points include: manual location based on Orthophotography, buildings and/or parcels based on an address or known location, automatically using ArcMap functions, or by entering the centerline XY coordinate of the location from Geosupport.
-**Source(s)** |Department of Information Technology & Telecommunications (DOITT)
-**Publication Dates** |**Data**: 8/30/2016<br>**Last Update**: 11/22/2016<br>**Metadata**: 12/16/2016<br>**Update Frequency**: Agency data is updated daily by Centerline Management Group (CMG). Public releases of this data are made X
+**Source(s)** |Department of Information Technology & Telecommunications (DoITT)
+**Publication Dates** |**Data**: 8/30/2016<br>**Last Update**: Updates are made weekly<br>**Metadata**: 12/16/2016<br>**Update Frequency**: Agency data is updated daily by Centerline Management Group (CMG). Public releases of this data are made weekly.
 **Available Formats** |Shapefile. Additional data formats are available for download on the [NYC Open Data Portal](https://data.cityofnewyork.us/City-Government/Points-Of-Interest/rxuy-2muj).
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public
-**Contact Information** |**Name**: Colin Reilly, Director GIS Division, Department of Information Technology and Telecommunication (DOITT)<br>**Email**: 
+**Contact Information** |**Name**: Colin Reilly, Director GIS Division, Department of Information Technology and Telecommunication (DOITT)<br>**Email**: creilly@doitt.nyc.gov
 **Links** |https://data.cityofnewyork.us/City-Government/Points-Of-Interest/rxuy-2muj
 **Tags** |Manhattan, Brooklyn, Staten Island, New York City, Bronx, Common Place Name, complex, Queens, Common Place
 ## 2. Data Quality and Specifications
@@ -22,12 +22,12 @@ Filename: PointsOfInterest<br>Geometry Type: point<br><br>![image](https://githu
 | --- | --- |
 **Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot
 **Resolution** |NA
-**Spatial Coverage** |New York City, NY and areas of Nassau County, Westechester, and New Jersey. 
+**Spatial Coverage** |New York City, NY
 **Temporal Coverage** |Data is current as of last update date.
 **Positional Accuracy** | NA
 **Features Captured** | Point of Interest/Common Place features include Residential, Educational, Cultural, Recreational, Social, Transportation, Commerical, Government, Religious, Health, Public Safety, Water, and Miscellaneous Facilities. 
 **Features Excluded** | 
-**Capture and Update Notes** | Point of Interest data is updated regularly through requests from City Agencies and the CSCL Managment Group (CMG) as needed. 
+**Capture and Update Notes** | Point of Interest data is updated regularly through requests from City Agencies as needed. 
 ## 3. Attribute Information
 ---------------------------------------------
 | Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 
