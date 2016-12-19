@@ -44,7 +44,7 @@ Filename: Centerline.shp<br>Geometry Type: polyline<br><br>![image](https://gith
 | ST_NAME | Street Name added for cartographic labeling purposes. | text | No
 | STATUS | Refers to the construction status of a street segment: Constructed, Paper, Under Construction, Demapped, or Paper Street Coincident with Boundary. <br>1 = Planned Private <br>2 = Constructed <br>3 = Paper <br>4 = Under Construction <br>5 = Demapped <br>9 = Paper Street Coincident with Boundary | text | No
 | BIKE_LANE | Defines which segments are part of the bicycle network as defined by the NYC Department of Transportation. <br>1 = Class I <br>2 = Class II <br>3 = Class III <br>4 = Links <br>5 = Class I, II <br>6 = Class II, III <br>7 = Stairs <br>8 = Class I, III <br>9 = Class II, I <br>10 = Class III, I <br>11 = Class III, II | text | No
-| BOROCODE | Numeric codes for NYC 5 boroughs. <br>1 = Manhattan<br>2 = Bronx<br>3 = Brooklyn<br>4 = Queens<br>5 = Staten Island | text | No
+| BOROCODE | Numeric codes for NYC boroughs. <br>1 = Manhattan<br>2 = Bronx<br>3 = Brooklyn<br>4 = Queens<br>5 = Staten Island | text | No
 | ST_WIDTH | The width, in feet, of the paved area of the street | double | No
 | CREATED | Date feature was created | date | No
 | MODIFIED | Date the feature was last modified | date | No
