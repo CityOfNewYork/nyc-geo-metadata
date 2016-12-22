@@ -6,7 +6,6 @@ Filename: CONTOUR<br>Geometry Type: polyline<br><br>![image](https://github.com/
 ---------------------------------------------
 |     |     |
 | --- | --- |
-**Purpose** |
 **Description** |Continuous lines representing points of equal elevation  at 2-ft intervals.
 **Source(s)** |Department of Information Technology & Telecommunications (DOITT)
 **Publication Dates** |**Data**: 08/08/2014<br>**Last Update**: 09/08/14<br>**Metadata**: 12/22/2016<br>**Update Frequency**: As needed
