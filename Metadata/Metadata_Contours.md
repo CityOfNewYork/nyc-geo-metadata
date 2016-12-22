@@ -7,9 +7,9 @@ Filename: CONTOUR<br>Geometry Type: polyline<br><br>![image](https://github.com/
 |     |     |
 | --- | --- |
 **Purpose** |
-**Description** |This dataset includes polylines representing citywide 2-ft elevation contours.
+**Description** |Continuous lines representing points of equal elevation  at 2-ft intervals.
 **Source(s)** |Department of Information Technology & Telecommunications (DOITT)
-**Publication Dates** |**Data**: 08/08/2014<br>**Last Update**: 09/08/14<br>**Metadata**: 12/02/16<br>**Update Frequency**: As needed
+**Publication Dates** |**Data**: 08/08/2014<br>**Last Update**: 09/08/14<br>**Metadata**: 12/22/2016<br>**Update Frequency**: As needed
 **Available Formats** |Shapefile. Additional data formats are available for download on the [NYC Open Data Portal](https://data.cityofnewyork.us/City-Government/Contours/3cdm-p29e).
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public

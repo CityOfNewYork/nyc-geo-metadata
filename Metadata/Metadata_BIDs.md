@@ -7,9 +7,9 @@ Filename: NYC_BIDS_09112015<br>Geometry Type: polygon<br><br>![image](https://gi
 |     |     |
 | --- | --- |
 **Purpose** |New York City is home to the most comprehensive network of Business Improvement Districts (BIDs) in the country. For more than 30 years, BIDs have been valuable and proven partners in ongoing initiatives of neighborhood revitalization and economic development across the five boroughs. BIDs have proven themselves catalytic in the process of transforming commercial corridors and driving economic change in all five boroughs. 
-**Description** |This dataset includes polygons representing the location of Business Improvement Districts (BIDs). A BID is a public/private partnership in which property and business owners elect to make a collective contribution to the maintenance, development, and promotion of their commercial district. 
+**Description** |Polygons representing the extent of Business Improvement Districts (BIDs). A BID is a public/private partnership in which property and business owners elect to make a collective contribution to the maintenance, development, and promotion of their commercial district. 
 **Source(s)** |Small Business Services
-**Publication Dates** |**Data**: 11/18/14<br>**Last Update**: 08/27/16<br>**Metadata**: 12/02/16<br>**Update Frequency**: As needed
+**Publication Dates** |**Data**: 11/18/14<br>**Last Update**: 08/27/16<br>**Metadata**: 12/22/2016<br>**Update Frequency**: As needed
 **Available Formats** |Shapefile. Additional data formats are available for download on the [NYC Open Data Portal](https://data.cityofnewyork.us/Business/Business-Improvement-Districts/ejxk-d93y<br>http://www.nyc.gov/html/sbs/html/neighborhood_development/bid_directory.shtml).
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public

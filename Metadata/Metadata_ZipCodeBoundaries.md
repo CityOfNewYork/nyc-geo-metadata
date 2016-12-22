@@ -6,10 +6,10 @@ Filename: ZIP_CODE_040114<br>Geometry Type: polygon<br><br>![image](https://gith
 ---------------------------------------------
 |     |     |
 | --- | --- |
-**Purpose** | Zip Codes are used by the United States Postal Service (USPS) as a system to send mail more efficiently. 
-**Description** |This dataset contains boundaries of zip codes within New York City, NY. Estimate population, PO City name, county, and state per zip code are also included. 
-**Source(s)** | USPS, Department of Information Technology & Telecommunications (DOITT)
-**Publication Dates** |**Data**: 04/08/14<br>**Last Update**: 09/08/14<br>**Metadata**: 12/02/16<br>**Update Frequency**: As needed
+**Purpose** |
+**Description** |Geographic approximation of USPS zip code boundaries. 
+**Source(s)** |Department of Information Technology & Telecommunications (DOITT)
+**Publication Dates** |**Data**: 04/08/14<br>**Last Update**: 09/08/14<br>**Metadata**: 12/22/2016<br>**Update Frequency**: As needed
 **Available Formats** |Shapefile. Additional data formats are available for download on the [NYC Open Data Portal](https://data.cityofnewyork.us/Business/Zip-Code-Boundaries/i8iw-xf4u).
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public
