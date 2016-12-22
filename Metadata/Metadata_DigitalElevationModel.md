@@ -23,7 +23,7 @@ Filename: DEM_LiDAR_1ft_2010_Improved_NYC<br>Geometry Type: raster<br><br>![imag
 **Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot
 **Resolution** |1 foot resolution
 **Spatial Coverage** |New York City, NY
-**Temporal Coverage** |2010.0
+**Temporal Coverage** |2010
 **Positional Accuracy** |Hunter College conducted an accuracy assessment of the LiDAR point cloud data and determined the vertical RMSE to be 9.5cm.  As this data set represents an interpolated surface the vertical accuracy of an individual cell might be much greater. Hunter College determined the horizontal accuracy RMSE for the original LiDAR data to be 33.08cm.  As this data set represents an interpolated surface the actual positional accuracy will vary.
 **Features Captured** |NA
 **Features Excluded** |NA
