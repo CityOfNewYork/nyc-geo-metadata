@@ -6,7 +6,6 @@ Filename: ZIP_CODE_040114<br>Geometry Type: polygon<br><br>![image](https://gith
 ---------------------------------------------
 |     |     |
 | --- | --- |
-**Purpose** |
 **Description** |Geographic approximation of USPS zip code boundaries. 
 **Source(s)** |Department of Information Technology & Telecommunications (DOITT)
 **Publication Dates** |**Data**: 04/08/14<br>**Last Update**: 09/08/14<br>**Metadata**: 12/22/2016<br>**Update Frequency**: As needed
