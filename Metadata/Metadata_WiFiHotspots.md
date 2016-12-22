@@ -8,7 +8,7 @@ Filename: NYC_Free_WiFi_Hotspots_812016<br>Geometry Type: point<br><br>![image](
 | --- | --- |
 **Purpose** |The purpose of this dataset is to help users identify Wi-Fi Hotspot locations throughout New York City. 
 **Description** |Public Wi-Fi Hotspot locations throughout the 5 boroughs including LinkNYC-Citybridge.
-**Source(s)** |Wi-Fi providers include At&T, LinkNYC-Citybridge (BETA), BPL, Cablevision, Chelsea, City Tech, Downtown Brooklyn, Harlem, Manhattan Down Alliance, NYCHA, NYPL, QPL, Time Warner Cable, Transit Wireless, and various partners.
+**Source(s)** |Department of Information Technology and Telecommunications (DoITT)
 **Publication Dates** |**Data**: 09/12/2014<br>**Last Update**: 09/22/2016<br>**Metadata**: 12/22/2016<br>**Update Frequency**: As needed
 **Available Formats** |Shapefile. Additional data formats are available for download on the [NYC Open Data Portal](https://data.cityofnewyork.us/Social-Services/NYC-Wi-Fi-Hotspot-Locations/a9we-mtpn).
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
