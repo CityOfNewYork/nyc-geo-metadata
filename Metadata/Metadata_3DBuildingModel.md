@@ -23,15 +23,15 @@ Geometry Type: raster<br><br>![image](http://www1.nyc.gov/assets/doitt/images/co
 **Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot
 **Resolution** | 1'=100''
 **Spatial Coverage** |New York City, NY
-**Temporal Coverage** |Data is based on 2014 aerial survey.
+**Temporal Coverage** | Data is based on 2014 aerial imagery. The source imagery for this dataset was captured on the following dates:<br> Manhattan - June 24, 2014<br> The Bronx, Brooklyn, Queens, Staten Island - April 1, 2014 - April 25, 2014<br>Final delivery of all imagery - April 10, 2015
 **Positional Accuracy** |The Horizontal Accuracy (XY) of all planimetric feature classes captured is such that 95% of features are within (plus/minus) 1.25 ft of the actual horizontal location.	The Vertical Accuracy (Z) of all planimetric feature classes with elevation values is such that 95% of features captured are within (plus/minus) 1.6 ft of the actual elevation.
 **Features Captured** |All major roof structures are modeled, including pitched roofs. 
 **Features Excluded** |Domes and rounded roofs are not modeled. All roof appendages, such as chimneys, parapets, spindles, and antenna are also not included. 
-**Capture and Update Notes** |Using the Open Geospatial Consortium's [CityGML](http://www.opengeospatial.org/standards/citygml) specification as the basis, the NYC 3-D Building Massing Model was developed to a hybrid specification combining elements from Level of Detail (LOD) 1 and 2. Highlights of the model include the differentiation of building components including roof, facades and ground plane. <br><br> The model was a one-time capture. If the model is useful, future updates and extensions will be considered. 
+**Capture and Update Notes** |Using the Open Geospatial Consortium's [CityGML](http://www.opengeospatial.org/standards/citygml) specification as the basis, the NYC 3-D Building Massing Model was developed to a hybrid specification combining elements from Level of Detail (LOD) 1 and 2. Approximately 100 iconic buildings provided herein were created in LOD 2 (per OGC specifications). Highlights of the model include the differentiation of building components including roof, facades and ground plane. <br><br> The model was a one-time capture. If the model is useful, future updates and extensions will be considered. 
 ## 3. Attribute Information
 ---------------------------------------------
 | Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 
 |------------ | ------------- | -------- | ----------- | ----------|
 | BIN | Building identification number. Assigned by City Planning | numeric | No
 | DOITT_ID | Unique identifier assigned by DOITT.  | numeric | No
-| SOURCE_ID |  | numeric | No
+| SOURCE_ID | Unique Feature Identification Number. | numeric | No
