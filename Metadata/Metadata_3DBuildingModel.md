@@ -6,7 +6,7 @@ Geometry Type: raster<br><br>![image](http://www1.nyc.gov/assets/doitt/images/co
 ---------------------------------------------
 |     |     |
 | --- | --- |
-**Purpose** | 3-D Building Models were developed to supplement the most recent [planimetric](https://github.com/ekamptner/nyc-planimetrics/blob/master/Capture_Rules.md) update. Examples of 3-D Building Model usage include: <br> [CESIUM (Open Source 3D rendering library)[https://cesiumjs.org/NewYork/index.html?view=-74.01881302800248%2C40.69114333714821%2C753.2406554180401%2C21.27879878293835%2C-21.343905508724625%2C0.0716951918898415]<br> [NY Times Shadow Study](http://www.nytimes.com/interactive/2016/12/21/upshot/Mapping-the-Shadows-of-New-York-City.html)
+**Purpose** | 3-D Building Models were developed to supplement the most recent [planimetric](https://github.com/ekamptner/nyc-planimetrics/blob/master/Capture_Rules.md) update. Examples of 3-D Building Model usage include: <br> [CESIUM (Open Source 3D rendering library)](https://cesiumjs.org/NewYork/index.html?view=-74.01881302800248%2C40.69114333714821%2C753.2406554180401%2C21.27879878293835%2C-21.343905508724625%2C0.0716951918898415)<br> [NY Times Shadow Study](http://www.nytimes.com/interactive/2016/12/21/upshot/Mapping-the-Shadows-of-New-York-City.html)
 **Description** |3-D Building Models representing every NYC building present in the 2014 aerial survey. 
 **Source(s)** |Department of Information Technology & Telecommunications (DOITT)
 **Publication Dates** |**Data**: 04/18/2016<br>**Last Update**: 04/18/2016<br>**Metadata**: 12/28/2016<br>**Update Frequency**: The 3-D model was a one-time capture. Updates and extensions may be considered in the future. 
