@@ -1,5 +1,5 @@
 # 3-D Building Model
-Geometry Type: various depends on format. <br><br>![image](http://www1.nyc.gov/assets/doitt/images/content/pages/3d-buildings.png)
+Geometry Type: Various. Depends on format. <br><br>![image](http://www1.nyc.gov/assets/doitt/images/content/pages/3d-buildings.png)
 
 ### Table of Contents<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**1. Identification**](#1-identification)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**2. Data Quality and Specifications**](#2-data-quality-and-specifications)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**3. Attribute Information**](#3-attribute-information)<br><br>
 ## 1. Identification
