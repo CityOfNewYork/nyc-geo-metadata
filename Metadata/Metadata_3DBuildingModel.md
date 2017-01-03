@@ -21,7 +21,7 @@ Geometry Type: raster<br><br>![image](http://www1.nyc.gov/assets/doitt/images/co
 |     |     |
 | --- | --- |
 **Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot
-**Resolution** |
+**Resolution** | 1'=100''
 **Spatial Coverage** |New York City, NY
 **Temporal Coverage** |Data is based on 2014 aerial survey.
 **Positional Accuracy** |The Horizontal Accuracy (XY) of all planimetric feature classes captured is such that 95% of features are within (plus/minus) 1.25 ft of the actual horizontal location.	The Vertical Accuracy (Z) of all planimetric feature classes with elevation values is such that 95% of features captured are within (plus/minus) 1.6 ft of the actual elevation.
