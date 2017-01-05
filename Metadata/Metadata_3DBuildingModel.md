@@ -10,8 +10,7 @@ Filename: --<br>Geometry Type: raster<br><br>![image](http://www1.nyc.gov/assets
 **Description** |3-D Building Models representing every NYC building present in the 2014 aerial survey. Models are based on a hybrid of Level of Detail (LOD) 1 (simple/prismatic buildings with flat roof detail) and LOD 2 (includes roof structure details).  Highlights of the model include the differentiation of building components including roof, facades, and ground plane. 
 **Source(s)** |Department of Information Technology & Telecommunications (DOITT)
 **Publication Dates** |**Data**: 04/18/2016<br>**Last Update**: 04/18/2016<br>**Metadata**: 12/28/2016<br>**Update Frequency**: The 3-D model was a one-time capture. Updates and extensions may be considered in the future. 
-**Available Formats** |3-D Model data is available in the following formats: <br>     [CityGML](http://maps.nyc.gov/download/3dmodel/DA_WISE_GML.zip) : 894 MB<br>     [Multipatch](http://maps.nyc.gov/download/3dmodel/DA_WISE_Multipatch.zip) : 251 MB<br>     [DGN (Microstation)]( 
-http://maps.nyc.gov/download/3dmodel/DA_Wise_DGN.zip) : 744 MB
+**Available Formats** |3-D Model data is available in the following formats: <br>     [CityGML](http://maps.nyc.gov/download/3dmodel/DA_WISE_GML.zip) : 894 MB<br>     [Multipatch](http://maps.nyc.gov/download/3dmodel/DA_WISE_Multipatch.zip) : 251 MB<br>     [DGN (Microstation)](http://maps.nyc.gov/download/3dmodel/DA_Wise_DGN.zip) : 744 MB
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public
 **Contact Information** |**Name**: Colin Reilly, Director GIS Division, Department of Information Technology and Telecommunication (DOITT)<br>**Email**: creilly@doitt.nyc.gov
