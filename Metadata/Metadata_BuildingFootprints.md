@@ -33,7 +33,7 @@ Geometry Type: polygon<br><br>![image](https://github.com/CityOfNewYork/nyc-plan
 | Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 
 |------------ | ------------- | -------- | ----------- | ----------|
 | BBL | Borough block and lot number | text | No
-| BIN | Building identification number. Asssigned by City Planning | double | No
+| BIN | Building identification number. Assigned by City Planning | double | No
 | NAME | Building name (limited to commonly known names) | text | No
 | CONSTRUCTION_YEAR | The year construction of the building was completed. If the year of construction is an estimate, it is indicated in the "BuiltCode" field with an E code.<br>Source: Department of Finance  = Real Property Assessment Database (RPAD). | double | No
 | LAST_MODIFIED_DATE | The date the record was last modified. | date | No
