@@ -32,7 +32,7 @@ Geometry Type: point<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-me
 ---------------------------------------------
 | Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 
 |------------ | ------------- | -------- | ----------- | ----------|
-| ADDRESS_ID | Unique identifer for address | double | No
+| ADDRESS_ID | Unique identifier for address | double | No
 | BIN | Building Identification Number (BIN) associated with the address point | double | No
 | H_NO | The address number. The field supports hyphenated and range based addresses.  | text | No
 | HNO_SUFFIX | For address points representing suffixed range-type addresses, this value is the upper range for the address suffix. | text | No
