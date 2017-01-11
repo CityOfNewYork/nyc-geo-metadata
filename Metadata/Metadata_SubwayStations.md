@@ -1,14 +1,14 @@
 # Subway Stations
-Filename: DOITT_SUBWAY_STATION_01_13SEPT2010.shp<br>Geometry Type: point<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Images/SubwayStations.PNG)
+Geometry Type: point<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Images/SubwayStations.PNG)
 
 ### Table of Contents<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**1. Identification**](#1-identification)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**2. Data Quality and Specifications**](#2-data-quality-and-specifications)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**3. Attribute Information**](#3-attribute-information)<br><br>
 ## 1. Identification
 ---------------------------------------------
 |     |     |
 | --- | --- |
-**Purpose** |The subway stations layer may be used to help locate subway entrances. 
+**Purpose** |The subway stations layer may be used to help locate subway stations. 
 **Description** |Point representing approximate location of NYC Transit Subway Stations. 
-**Source(s)** |Metropolitain Transit Authority (MTA) 
+**Source(s)** |Metropolitain Transit Authority (MTA) website
 **Publication Dates** |**Data**: 09/13/2010<br>**Last Update**: 1/4/2017<br>**Metadata**: 1/5/2017<br>**Update Frequency**: As needed
 **Available Formats** |Shapefile. Additional data formats are available for download on the [NYC Open Data Portal](https://data.cityofnewyork.us/Transportation/Subway-Stations/arq3-7z49).
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
@@ -24,10 +24,10 @@ Filename: DOITT_SUBWAY_STATION_01_13SEPT2010.shp<br>Geometry Type: point<br><br>
 **Resolution** |NA
 **Spatial Coverage** |New York City, NY
 **Temporal Coverage** |Data is current as of last update date.
-**Positional Accuracy** |Position of subways are approximate.
-**Features Captured** |
-**Features Excluded** |Proposed or features that are under construction are not included in the dataset. 
-**Capture and Update Notes** |Subway stations are optimized for cartography and based on information from MTA's website. 
+**Positional Accuracy** |Position of stations are optimized for cartography and therefore are approximate. 
+**Features Captured** |Includes all current subway stations as provided by the MTA. 
+**Features Excluded** |Proposed or under construction features are not included in the dataset. 
+**Capture and Update Notes** |Subway features are based on data provided by the MTA. Updates are made as new subway lines, entrances, or stations are opened. 
 ## 3. Attribute Information
 ---------------------------------------------
 | Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 

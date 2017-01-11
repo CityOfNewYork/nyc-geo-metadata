@@ -1,11 +1,12 @@
 # Zip Code Boundaries
-Filename: ZIP_CODE_040114<br>Geometry Type: polygon<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Images/ZipCodeBoundaries.PNG)
+Geometry Type: polygon<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Images/ZipCodeBoundaries.PNG)
 
 ### Table of Contents<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**1. Identification**](#1-identification)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**2. Data Quality and Specifications**](#2-data-quality-and-specifications)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**3. Attribute Information**](#3-attribute-information)<br><br>
 ## 1. Identification
 ---------------------------------------------
 |     |     |
 | --- | --- |
+**Purpose** |
 **Description** |Geographic approximation of USPS zip code boundaries. 
 **Source(s)** |Department of Information Technology & Telecommunications (DOITT)
 **Publication Dates** |**Data**: 04/08/14<br>**Last Update**: 09/08/14<br>**Metadata**: 12/22/2016<br>**Update Frequency**: As needed
