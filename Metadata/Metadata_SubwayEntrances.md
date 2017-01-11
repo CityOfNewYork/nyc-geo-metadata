@@ -8,7 +8,7 @@ Geometry Type: point<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-me
 | --- | --- |
 **Purpose** |The subway entrances layer may be used to help locate subway entrances. 
 **Description** |Point representing approximate location of NYC Transit Subway Entrances. 
-**Source(s)** |Metropolitain Transit Authority (MTA) website
+**Source(s)** |Metropolitan Transit Authority (MTA) website
 **Publication Dates** |**Data**: 09/13/2010<br>**Last Update**: 1/4/2017<br>**Metadata**: 1/5/2017<br>**Update Frequency**: As needed
 **Available Formats** |Shapefile. Additional data formats are available for download on the [NYC Open Data Portal](https://data.cityofnewyork.us/Transportation/Subway-Entrances/drex-xx56).
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
