@@ -8,7 +8,7 @@ Geometry Type: polyline<br><br>![image](https://github.com/CityOfNewYork/nyc-geo
 | --- | --- |
 **Purpose** |The subway line layer may be used to assist with routing. 
 **Description** |Line representing NYC Transit Subway Lines. Lines are optimized for cartographic representation in web applications. 
-**Source(s)** |Metropolitain Transit Authority (MTA) website
+**Source(s)** |Metropolitan Transit Authority (MTA) website
 **Publication Dates** |**Data**: 09/13/2010<br>**Last Update**: 1/5/2017<br>**Metadata**: 1/5/2017<br>**Update Frequency**: As needed
 **Available Formats** |Shapefile. Additional data formats are available for download on the [NYC Open Data Portal](https://data.cityofnewyork.us/Transportation/Subway-Lines/3qz8-muuu).
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
