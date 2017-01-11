@@ -25,7 +25,7 @@ Geometry Type: polygon<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-
 **Spatial Coverage** |New York City, NY
 **Temporal Coverage** |Data is current as of last update date.
 **Positional Accuracy** |NA
-**Features Captured** |Includes only current BIDs. Each BID is made up of individual builidng and city block polygons that make up the district. 
+**Features Captured** |Includes only current BIDs. Each BID is made up of individual building and city block polygons that make up the district. 
 **Features Excluded** |
 **Capture and Update Notes** |
 ## 3. Attribute Information
