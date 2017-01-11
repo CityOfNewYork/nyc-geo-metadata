@@ -32,7 +32,7 @@ Geometry Type: polyline<br><br>![image](https://github.com/CityOfNewYork/nyc-geo
 ---------------------------------------------
 | Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 
 |------------ | ------------- | -------- | ----------- | ----------|
-| PHYSICALID | A unqiude ID assigned to intersection to intersection stretches of a street.  | double | No
+| PHYSICALID | A unique ID assigned to intersection to intersection stretches of a street.  | double | No
 | L_LOW_HN | Low value for the address range on the left side of the street segment, relative to the digitized direction of the segment. | text | No
 | L_HIGH_HN | High value for the address range on the left side of the street segment, relative to the digitized direction of the segment. | text | No
 | R_LOW_HN | Low value for the address range on the right side of the street segment, relative to the digitized direction of the segment. | text | No
