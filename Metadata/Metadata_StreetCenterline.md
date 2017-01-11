@@ -7,7 +7,7 @@ Geometry Type: polyline<br><br>![image](https://github.com/CityOfNewYork/nyc-geo
 |     |     |
 | --- | --- |
 **Purpose** |The Centerline file has been maintained as a major component of the Department of City Planning's Geosupport System and has been updated to meet the needs of the public safety agencies (NYPD & FDNY) for dispatch.
-**Description** |Street Centerline is a single line representation of New York City streets representing each separate carriageway (e.g., two lines represent the divided roadway of Park Avenue South). The ceterlines contain address ranges, traffic directions, road and segment types. Street Centerline is part of the Citywide Street Centerline (CSCL)  database that supports multiple agencies, including the emergency 911 dispatching systems. 
+**Description** |Street Centerline is a single line representation of New York City streets representing each separate carriageway (e.g., two lines represent the divided roadway of Park Avenue South). The centerlines contain address ranges, traffic directions, road and segment types. Street Centerline is part of the Citywide Street Centerline (CSCL)  database that supports multiple agencies, including the emergency 911 dispatching systems. 
 **Source(s)** |Department of City Planning, Linear Integrated Ordered Network (LION)
 **Publication Dates** |**Data**: 4/19/2014<br>**Last Update**: Weekly<br>**Metadata**: 12/22/2016<br>**Update Frequency**: Agency data is updated daily by Centerline Management Group (CMG). Public releases of this data are made weekly. 
 **Available Formats** |Shapefile. Additional data formats are available for download on the [NYC Open Data Portal](https://data.cityofnewyork.us/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b).
