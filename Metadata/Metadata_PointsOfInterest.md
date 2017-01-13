@@ -35,7 +35,7 @@ Place
 |------------ | ------------- | -------- | ----------- | ----------|
 | SEGMENTID | Point is assigned the closest roadbed SegmentID. | double | 
 | COMPLEXID | Point is assigned a ComplexID if it is a part of a Complex. | double | 
-| SAFTYPE | Point is assigned a SAFTYPE if it is a part of a Complex<br>A = Alt Address - SAF record same as LION record<br>B = Alt Address - SAF record and LION record differ<br>C = Ruby Street on Brooklyn-Queens border<br>E = Neighborhood name<br>I = Named Intersection<br>N = NAP assigned to a Stand-alone feature<br>O = Out-of-Sequence Address or Opposite Parity Address<br>P = Addressable place name<br>S = Suffixed house numbers at an intersection<br>V = Vanity address<br>M = Multiple<br>G = Complex NAP<br>X = Constituent NAP<br>D = Duplicate or overlapping address ranges (real DAPS)<br>F = Duplicate or overlapping address ranges (Pseudo DAPS) | text | 
+| SAFTYPE | Point is assigned a SAFTYPE if it is a part of a Complex<br>N = NAP assigned to a Stand-alone feature<br>G = Complex NAP<br>X = Constituent NAP | text | 
 | SOS | Indicates which side of the street the CommonPlace is on. | text | 
 | PLACEID | The unique identifier for each CommonPlace point. Links to the point to the FeatureName table. | double | 
 | FACI_DOM | Facility Domain: <br>1 = Residential<br>2 = Education Facility<br>3 = Cultural Facility<br>4 = Recreational Facility<br>5 = Social Services<br>6 = Transportation Facility<br>7 = Commercial<br>8 = Government Facility (non public safety)<br>9 = Religious Institution<br>10 = Health Services<br>11 = Public Safety<br>12 = Water<br>13 = Miscellaneous | text | 
