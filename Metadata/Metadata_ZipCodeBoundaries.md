@@ -35,7 +35,6 @@ Geometry Type: polygon<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-
 | ZIPCODE | Five-digit postal zip code. | text | No
 | BLDGZIP | Binary field (0,1) indicating whether the zip is unique to a building. 0 = NO, 1 = YES | text | No
 | PO_NAME | Postal city of zip code | text | No
-| POPULATION | Estimate population per zip code | double | No
 | AREA | Area of zip code boundary in square feet | double | No
 | STATE | State of zip code boundary | text | No
 | COUNTY | County of zip code boundary | text | No
