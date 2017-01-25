@@ -25,5 +25,5 @@ Geometry Type: raster<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-m
 
 ## 3. Orthoimagery
 | Year | Resolution | Coverage | Dates of Capture | Product Details | Color Infrared | 
-| -- | -- | -- | -- | -- | -- |
+|--|--|--|--|--|--| 
 |1996|1'|New York City|April: 1" = 800', entire city <br> June: 1"=1000', Manhattan|||
