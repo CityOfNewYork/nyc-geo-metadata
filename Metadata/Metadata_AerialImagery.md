@@ -25,6 +25,5 @@ Geometry Type: raster<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-m
 
 ## 3. Orthoimagery
 ----------------------------------------------
-|**Year**|**Resolution**|**Coverage**|**Dates of Capture**|**Product Details**|**Color Infrared**| 
+|**Year**|**Resolution**|**Coverage**|**Dates of Capture**|**Product Details**|**Color Infrared**|
 | -- | -- | -- | -- | -- | -- | 
-
