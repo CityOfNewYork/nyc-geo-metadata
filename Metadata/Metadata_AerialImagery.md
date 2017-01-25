@@ -24,6 +24,15 @@ Geometry Type: raster<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-m
 **Vertical Datum** |NAVD88
 
 ## 3. Orthoimagery
-| Year | Resolution | Coverage | Dates of Capture | Product Details | Color Infrared | 
-|--|--|--|--|--|--| 
-|1996|1'|New York City|April: 1" = 800', entire city <br> June: 1"=1000', Manhattan| | |
+----------------------------------------------
+ | Year | Resolution | Coverage | Dates of Capture | Product Details | Color Infrared | 
+| -- | -- | -- | -- | -- | -- |
+|1996|1'|New York City|April: 1" = 800', entire city <br> June: 1"=1000', Manhattan|||
+|2001|6''|Partial (Manhattan, Staten Island)|April 14: 1”=800’ – used for plan/topo update in Manhattan and Staten Island<br>July 3, & July 21:  1”=1000'– used for Manhattan orthos|||
+|2002|6''|Partial (Bronx, Brooklyn, Queens)|April 4: 1"=800'  – used for plan/topo update for Bronx/Brooklyn/Queens|||
+|2004|6''|New York City|April 20: Staten Island<br>April 29: Manhattan (2/3)<br>April 30: Manhattan (1/3)<br>April 24:Bronx, Brooklyn, Queens (2/3)<br>April 25:Bronx, Brooklyn, Queens (2/3)<br>May 4:Bronx, Brooklyn, Queens – re-flight of rejected flight strips|||
+|2006|6''|New York City|April: Bronx, Brooklyn, Queens, Staten Island <br> June: Manhattan|||
+|2008|6''|New York City|March 10 - May 14: Bronx, Brooklyn, Queens, Staten Island <br>June: Manhattan|||
+|2010|6''|New York City|April 1 - April 10: Bronx, Brooklyn, Queens, Staten Island <br>June 15: Manhattan|||
+|2010|6''|New York City|March 30 - April 6: Bronx, Brooklyn, Queens, Staten Island <br>June 15 -16 and June 20: Manhattan|Selective true orthoimagery. Manhattan full true orthoimagery;  Bronx, Brooklyn, Queens, Staten Island true orthos for buildings greater than five stories.|||
+|2014|6''|New York City|April 1 - April 3: Bronx, Brooklyn, Queens, Staten Island <br>April 25: Water <br>June 1: Manhattan|Full true orthoimagery||
