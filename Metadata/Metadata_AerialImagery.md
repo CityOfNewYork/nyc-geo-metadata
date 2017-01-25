@@ -1,7 +1,7 @@
 # Aerial Imagery
 Geometry Type: raster<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Images/AerialImagery.PNG)
 
-### Table of Contents<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**1. Identification**](#1-identification)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**2. Data Quality and Specifications**](#2-data-quality-and-specifications)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**3. Orthoimagery**](#3-orthoimagery)<br><br>
+### Table of Contents<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**1. Identification**](#1-identification)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**2. Data Quality and Specifications**](#2-data-quality-and-specifications)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**3. Orthophotography**](#3-orthophotography)<br><br>
 ## 1. Identification
 ---------------------------------------------
 |     |     |
@@ -23,7 +23,7 @@ Geometry Type: raster<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-m
 **Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot
 **Vertical Datum** |NAVD88
 
-## 3. Orthoimagery
+## 3. Orthophotography
 ----------------------------------------------
 |**Year**|**Resolution**|**Coverage**|**Dates of Capture**|**Product Details**|**Color Infrared**|
 | --- | --- | --- | --- | --- | --- | 
