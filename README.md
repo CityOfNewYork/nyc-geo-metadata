@@ -1,4 +1,4 @@
-# NYC GIS Metadata
+# NYC Geospatial Metadata
 -------------
 
 This document lists metadata sources for data updated and maintained by the NYC Department of Information Technology and Telecommunications (DOITT).
