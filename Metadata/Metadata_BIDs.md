@@ -13,7 +13,6 @@ Geometry Type: polygon<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-
 **Available Formats** |Shapefile. Additional data formats are available for download on the [NYC Open Data Portal](https://data.cityofnewyork.us/Business/Business-Improvement-Districts/ejxk-d93y<br>http://www.nyc.gov/html/sbs/html/neighborhood_development/bid_directory.shtml).
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public
-**Contact Information** |**Name**: Colin Reilly, Director GIS Division, Department of Information Technology and Telecommunication (DOITT)<br>**Email**: creilly@doitt.nyc.gov
 **Links** |https://data.cityofnewyork.us/Business/Business-Improvement-Districts/ejxk-d93y<br>http://www.nyc.gov/html/sbs/html/neighborhood_development/bid_directory.shtml
 **Tags** |business improvement districts, BIDs, doitt, gis
 ## 2. Data Quality and Specifications

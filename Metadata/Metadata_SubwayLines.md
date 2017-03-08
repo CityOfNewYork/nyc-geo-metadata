@@ -13,7 +13,6 @@ Geometry Type: polyline<br><br>![image](https://github.com/CityOfNewYork/nyc-geo
 **Available Formats** |Shapefile. Additional data formats are available for download on the [NYC Open Data Portal](https://data.cityofnewyork.us/Transportation/Subway-Lines/3qz8-muuu).
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public
-**Contact Information** |**Name**: Colin Reilly, Director GIS Division, Department of Information Technology and Telecommunication (DOITT)<br>**Email**: creilly@doitt.nyc.gov
 **Links** |https://data.cityofnewyork.us/Transportation/Subway-Lines/3qz8-muuu
 **Tags** |mta, metropolitan transportation authority, jobs and economic mobility, location, map, cartography, basemap, transit, transportation, train, subway, travel, entrance, station
 ## 2. Data Quality and Specifications

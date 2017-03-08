@@ -13,7 +13,6 @@ Geometry Type: polygon<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-
 **Available Formats** |Shapefile. Additional data formats are available for download on the [NYC Open Data Portal](https://data.cityofnewyork.us/Business/Zip-Code-Boundaries/i8iw-xf4u).
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public
-**Contact Information** |**Name**: Colin Reilly, Director GIS Division, Department of Information Technology and Telecommunication (DOITT)<br>**Email**: creilly@doitt.nyc.gov
 **Links** |https://data.cityofnewyork.us/Business/Zip-Code-Boundaries/i8iw-xf4u
 **Tags** |zip, postal code, zip code boundaries, zip code, area, doitt, doitt gis
 ## 2. Data Quality and Specifications
