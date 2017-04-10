@@ -9,10 +9,11 @@ Geometry Type: raster<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-m
 **Purpose** |Historical imagery was aquired from a variety of sources. Since 1996, NYC DoITT has captured orthophotography. Starting in 2004, aerial imagery has been captured on a 2 year cycle. These imagery provide: a basis for the planimetric updates; a visual record of the City at specific intervals; a visual base for capturing and recording additional spatial data; and allow for a visual analysis of the City.
 **Description** |Raster file of vertical aerial imagery covering New York City. Imagery is captured every 2 years during spring/summer months and corrected through computer processes to remove distortions caused by elevation changes and camera angles.
 **Source(s)** |[New York State Statewide Digital Orthoimagery Program](http://gis.ny.gov/gateway/orthoprogram/ortho_options.htm)
-**Publication Dates** |**Data**: <br>**Last Update**: 2016<br>**Metadata**: 1/17/2017<br>**Update Frequency**: Aerial imagery has been captured every 2 years since 2004. 
+**Publication Dates** |**Data**: See Data Specifications for specific capture information<br>**Last Update**: 2016<br>**Metadata**: 1/17/2017<br>**Update Frequency**: Aerial imagery has been captured every 2 years since 2004. 
 **Available Formats** |Raster
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public
+**Contact Information** |**Name**: <br>**Email**: 
 **Links** |Coming soon
 **Tags** |imagery, doitt, gis, ortho, aerial, doitt gis
 ## 2. Data Quality and Specifications
@@ -35,4 +36,4 @@ Geometry Type: raster<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-m
 |2010|6''|New York City|April 1 - April 10: Bronx, Brooklyn, Queens, Staten Island <br>June 15: Manhattan|Selective true orthoimagery. Manhattan full true orthoimagery;  Bronx, Brooklyn, Queens, Staten Island true orthos for buildings greater than five stories.|Yes
 |2012|6''|New York City|March 30 - April 6: Bronx, Brooklyn, Queens, Staten Island <br>June 15 -16 and June 20: Manhattan|Selective true orthoimagery. Manhattan full true orthoimagery;  Bronx, Brooklyn, Queens, Staten Island true orthos for buildings greater than five stories.|Yes
 |2014|6''|New York City|April 1 - April 3: Bronx, Brooklyn, Queens, Staten Island <br>April 25: Water <br>June 1: Manhattan|Full true orthoimagery|Yes
-|2016|6''|New York City||Full true orthoimagery|Yes
+|2016|6''|New York City|March 26 - April 5: Bronx, Brookyln, Manhattan, Queens, Staten Island|Full true orthoimagery|Yes
