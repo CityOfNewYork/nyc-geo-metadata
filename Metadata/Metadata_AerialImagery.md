@@ -13,7 +13,7 @@ Geometry Type: raster<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-m
 **Available Formats** |Raster
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public
-**Links** |Coming soon
+**Links** |[Then & Now Application](https://maps.nyc.gov/then&now/)<br>[Tile Map Service](https://maps.nyc.gov/tiles/)
 **Tags** |imagery, doitt, gis, ortho, aerial, doitt gis
 ## 2. Data Quality and Specifications
 ---------------------------------------------
