@@ -19,11 +19,11 @@ Geometry Type: polyline<br><br>![image](https://github.com/CityOfNewYork/nyc-geo
 ---------------------------------------------
 |     |     |
 | --- | --- |
-**Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot
-**Resolution** |ASPRS CLASS 1.5 for 1"=100' scale maps
+**Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot; Vertical Datum NAVD 1988
+**Resolution** |
 **Spatial Coverage** |New York City, NY
 **Temporal Coverage** |Data is current as of last update date.
-**Positional Accuracy** |
+**Positional Accuracy** |ASPRS CLASS 1.5 for 1"=100' scale maps; ASPRS vertical CLASS 2 for 1"=100' scale maps.
 **Features Captured** |
 **Features Excluded** |
 **Capture and Update Notes** |Contours are updated as part of the planimetric update. 
