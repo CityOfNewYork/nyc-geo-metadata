@@ -9,7 +9,7 @@ Geometry Type: polygon<br><br>![image](https://github.com/CityOfNewYork/nyc-plan
 **Purpose** |This feature class is part of the planimetrics database used by the NYC DOITT GIS group to maintain and distribute an accurate 'basemap' for NYC. The basemap provides the foundation upon virtually all other geospatial data with New York. Digital planimetrics are derived using the imagery products delivered with the 2014 New York Statewide Flyover (see Summary for specific flight dates), which includes raw imagery collected to support the generation of 0.5 Ft Ground Sample Distance (GSD) natural color imagery. 
 **Description** |Building footprints represent the perimeter outline of each building. Divisions between adjoining buildings are determined by tax lot divisions. 
 **Source(s)** |Current Imagery
-**Publication Dates** |**Data**: 05/03/16<br>**Last Update**: Monthly<br>**Metadata**: 12/22/2016<br>**Update Frequency**: Agency data is updated daily by Centerline Management Group (CMG). Public releases of this data are made monthly. 
+**Publication Dates** |**Data**: 05/03/16<br>**Last Update**: 03/15/2017<br>**Metadata**: 12/22/2016<br>**Update Frequency**: Agency data is updated daily by Centerline Management Group (CMG). Public releases of this data are made monthly. 
 **Available Formats** |File Geodatabase Feature Class as part of the Planimetrics geodatabase and individual shapefile on the [NYC Open Data Portal](https://data.cityofnewyork.us/Housing-Development/Building-Footprints/nqwf-w8eh)
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public
@@ -34,13 +34,10 @@ Geometry Type: polygon<br><br>![image](https://github.com/CityOfNewYork/nyc-plan
 | BBL | Borough block and lot number | text | No
 | BIN | Building identification number. Assigned by City Planning | double | No
 | NAME | Building name (limited to commonly known names) | text | No
-| CONSTRUCTION_YEAR | The year construction of the building was completed. If the year of construction is an estimate, it is indicated in the "BuiltCode" field with an E code.<br>Source: Department of Finance  = Real Property Assessment Database (RPAD). | double | No
-| LAST_MODIFIED_DATE | The date the record was last modified. | date | No
-| LAST_STATUS_TYPE | Last change made to footprint. | text | No
+| LSTMODDATE | Feature last modified date | date | No
+| LSTSTATTYPE | Feature last status type (Demolition, Alteration, Geometry, Initialization, Correction, Marked for Construction, Marked For Demolition, Constructed) | text | No
+| CNSTRCT_YR | The year construction of the building was completed. If the year of construction is an estimate, it is indicated in the "BuiltCode" field with an E code.<br>Source: Department of Finance  = Real Property Assessment Database (RPAD). | double | No
 | DOITT_ID | Unique identifier assigned by DOITT.  | double | No
 | HEIGHTROOF | Building Height is calculated as the difference from the building elevation from the Elevation point feature class and the elevation in the interpolated TIN model. This value then is the height of the roof above the ground elevation, NOT its height above sea level. | double | No
 | FEAT_CODE | Type of Building. List of values:<br>2100 = Building<br>5100 = Building Under Construction<br>5110 = Garage<br>2110 = Skybridge | long | No
-| SUB_CODE | Sub feature code<br>210000 = Building<br>510000 = Building Under Construction<br>511000 = Garage<br>211000 = Skybridge | double | No
-| GROUND_ELEVATION | Lowest Elevation at the building ground level. Calculated from LiDAR or photogrammetrically. | double | No
-| NUM_FLOORS | Number of full and partial stories, starting from the ground floor. If a lot has more than one building, the number of stories in the primary building on the tax lot is applied to all buildings on the lot. Source: Department of Finance  = Real Property Assessment Database (RPAD). | double | No
-| BUILT_CODE | A code indicating whether the year the building was built (CONSTRUCTION_YEAR) was an estimate.<br>E = Estimate<br>Blank = Year Built is not an Estimate.<br>Source: Department of Finance  = Real Property Assessment Database (RPAD). | text | No
+| GROUNDELEV | Lowest Elevation at the building ground level. Calculated from LiDAR or photogrammetrically. | double | No
