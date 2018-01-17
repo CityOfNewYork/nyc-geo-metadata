@@ -35,7 +35,7 @@ Geometry Type: SDE Feature Class<br><br>![image](https://github.com/CityOfNewYor
 | BORO | This is a one digit numeric field that identifies the borough in which the associated feature exists.  Boro values range from one (1) to five (5) and are validated against the D_BORO domain. | Number | 
 | BLOCK | Block is a five digit numeric field that identifies the block on which the associated feature exists. | Number | 
 | LOT | Lot is a four digit numeric field that identifies a unique lot within a tax block.  Although DOF has a set of defined limits for different types of lots, the fact that there are exceptions to these rules makes it impossible to use a domain for validity checking of the lot numbers. | Number | 
-| BBL | BBL is a concatenation of Boro-Block-Lot and is stored with every instance of those three fields.  Although the BBL value can always be determined dynamically, this field is maintained in order to simplify indexing, searching and the use of the files by other, as yet undetermined, applications. | Number | 
+| BBL | BBL is a concatenation of Boro-Block-Lot and is stored with every instance of those three fields.  Although the BBL value can always be determined dynamically, this field is maintained in order to simplify indexing, searching and the use of the files by other, as yet undetermined, applications. | String | 
 | CONDO_FLAG | The lot defines a condominium complex | String | 
 | COMMUNITY_ |  |  | 
 | REGULAR_LO | This field is obtained from the RPAD file and identifies those lots that are rectangular. |  | 
