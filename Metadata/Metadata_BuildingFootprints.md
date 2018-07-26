@@ -10,7 +10,7 @@ Geometry Type: polygon<br><br>![image](https://github.com/CityOfNewYork/nyc-plan
 **Description** |Building footprints represent the perimeter outline of each building. Divisions between adjoining buildings are determined by tax lot divisions. 
 **Source(s)** |Current Imagery
 **Publication Dates** |**Data**: 05/03/16<br>**Last Update**: 03/15/2017<br>**Metadata**: 12/22/2016<br>**Update Frequency**: Agency data is updated daily by Centerline Management Group (CMG). Public releases of this data are made monthly. 
-**Available Formats** |File Geodatabase Feature Class as part of the Planimetrics geodatabase and individual shapefile on the [NYC Open Data Portal](https://data.cityofnewyork.us/Housing-Development/Building-Footprints/nqwf-w8eh)
+**Available Formats** |Shapefile on the [NYC Open Data Portal](https://data.cityofnewyork.us/Housing-Development/Building-Footprints/nqwf-w8eh)
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public
 **Links** |https://data.cityofnewyork.us/Housing-Development/Building-Footprints/nqwf-w8eh
