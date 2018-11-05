@@ -1,7 +1,7 @@
 # LiDAR
-Geometry Type: Point Cloud (LAZ), Raster (TIFF)<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Images/LiDAR.PNG)
+Geometry Type: Point Cloud (LAZ), Raster (TIFF)<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Images/DEM.PNG)
 
-### Table of Contents<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**1. Identification**](#1-identification)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**2. Data Quality and Specifications**](#2-data-quality-and-specifications)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**3. Attribute Information**](#3-attribute-information)<br><br>
+### Table of Contents<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**1. Identification**](#1-identification)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**2. Data Quality and Specifications**](#2-data-quality-and-specifications)<br><br>
 ## 1. Identification
 ---------------------------------------------
 |     |     |
@@ -22,18 +22,10 @@ Geometry Type: Point Cloud (LAZ), Raster (TIFF)<br><br>![image](https://github.c
 | --- | --- |
 **Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot
 **Vertical Datum** |NAVD88 Geoid 12B
-
- | Year | Resolution | Coverage | Dates of Capture | Product Details | Color Infrared | 
-| -- | -- | -- | -- | -- | -- |
-|1924|Unknown|New York City|Unknown|Acquired from the Department of City Planning. Manually georeferenced using visible locations between the 1951 images and current orthophotography.|No
-|1951|Unknown|New York City|Unknown|Acquired from the Department of Records Municipal Archives. Manually georeferenced using visible locations between the 1951 images and current orthophotography.|No
-|1996|1'|New York City|April: 1" = 800', entire city <br> June: 1"=1000', Manhattan||No
-|2001|6''|Partial (Manhattan, Staten Island)|April 14: 1”=800’ – used for plan/topo update in Manhattan and Staten Island<br>July 3, & July 21:  1”=1000'– used for Manhattan orthos||No
-|2002|6''|Partial (Bronx, Brooklyn, Queens)|April 4: 1"=800'  – used for plan/topo update for Bronx/Brooklyn/Queens||No
-|2004|6''|New York City|April 19-20: Staten Island<br>April 29: Manhattan (2/3)<br>April 30: Manhattan (1/3)<br>April 24: Bronx, Brooklyn, Queens (2/3)<br>April 25: Bronx, Brooklyn, Queens (2/3)<br>May 4: Bronx, Brooklyn, Queens – re-flight of rejected flight strips|Selective true orthoimagery. Manhattan full true orthoimagery;  Bronx, Brooklyn, Queens, Staten Island true orthos for buildings greater than six stories.|No
-|2006|6''|New York City|April: Bronx, Brooklyn, Queens, Staten Island <br> June: Manhattan|Selective true orthoimagery. Manhattan full true orthoimagery;  Bronx, Brooklyn, Queens, Staten Island true orthos for buildings greater than six stories.|No
-|2008|6''|New York City|March 10 - May 14: Bronx, Brooklyn, Queens, Staten Island <br>June: Manhattan|Selective true orthoimagery. Manhattan full true orthoimagery;  Bronx, Brooklyn, Queens, Staten Island true orthos for buildings greater than five stories.|Yes
-|2010|6''|New York City|April 1 - April 10: Bronx, Brooklyn, Queens, Staten Island <br>June 15: Manhattan|Selective true orthoimagery. Manhattan full true orthoimagery;  Bronx, Brooklyn, Queens, Staten Island true orthos for buildings greater than five stories.|Yes
-|2012|6''|New York City|March 30 - April 6: Bronx, Brooklyn, Queens, Staten Island <br>June 15 -16 and June 20: Manhattan|Selective true orthoimagery. Manhattan full true orthoimagery;  Bronx, Brooklyn, Queens, Staten Island true orthos for buildings greater than five stories.|Yes
-|2014|6''|New York City|April 1 - April 3: Bronx, Brooklyn, Queens, Staten Island <br>April 25: Water <br>June 1: Manhattan|Full true orthoimagery|Yes
-|2016|6''|New York City|March 26 - April 5: Bronx, Brookyln, Manhattan, Queens, Staten Island|Full true orthoimagery|Yes
+| Year | Resolution | Sensor | Derived Products | Details | Accuracy Summary | More Information | 
+|------------ | ------------- | -------- | ----------- | ---------- | ----------- | ----------|
+2010|1 foot	|Topographic: 4/14/2010 - 5/1/2010|	Topographic: Leica ALS-50	|Classified Point Clouds (LAS 1.2)<br>Hydroflattened DEM <br> 7 - Class Land Cover	|The 2010 LiDAR  includes topographic LiDAR capture for New York City. |	The average vertical accuracy (RMSE) for this dataset was 0.245 ft (0.0748). Non-vegetated Vertical Accuracy (NVA) for this dataset is 0.312 ft (0.095 m).	|[Hydroflattened DEM](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Metadata/Metadata_2010_DEM.md)
+2017|	1 foot	|Topographic: 5/3/2017 - 5/17/2017 (1am - 6am) <br> Bathymetric: 7/4/2017 - 7/26/2017 (1am - 6am)|	Topographic: Leica ALS80 <br> Bathymetric: Riegl VQ-880-G	|Classified Point Cloud (LAS 1.4)<br>Base Bare Earth DEM<br> Hydroflattened DEM<br> Hydroenforced (Fill) DEM<br>Hydroenforced (Unfill) DEM<br>Highest Hit Model DSM<br>Intensity Imagery<br>8-Class Land Cover<br>Tree Canopy Change (2010-2017)<br>Shoreline	|The 2017 LiDAR  includes topographic and bathymetric LiDAR capture for New York City. 	|The Non-vegetated Vertical Accuracy (NVA) of this dataset, tested at 95% confidence level is 0.242 ft (0.074 m). <br>
+The Vegetated Vertical Accuracy (VVA) of this dataset, evaluated at the 95th percentile is 0.517 ft (0.158 m). <br>
+Vegetated Vertical Accuracy was assessed using 18 VVA check points. These check points were not used in the calibration or post processing of the LiDAR point cloud data.
+Vertical accuracy was also assessed using ground control points that were used in the calibration and post processing of the LiDAR point cloud as they still serve as a good indication of the overall accuracy of the LiDAR dataset. The Root Mean Square Error (RMSE) of the vertical accuracy of the LiDAR dataset as compared to ground control points is 0.128 ft (0.039 m). Please see the LiDAR data report for a discussion of the statistics related to this dataset. |[Base Bare Earth DEM](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Metadata/Metadata_BaseBareEarthDigitalElevationModel.md)<br> [Hydroflattened DEM](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Metadata/Metadata_HydroflattenedDigitalElevationModel.md)<br> [Hydroenforced (Fill) DEM](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Metadata/Metadata_HydroEnforcedElevationModelFilled.md)<br>[Hydroenforced (Unfill) DEM](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Metadata/Metadata_HydroEnforcedElevationModelUnfilled.md)<br>[Highest Hit Model DSM](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Metadata/Metadata_HighestHitDigitalSurfaceModel.md)<br>[Intensity Imagery](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Metadata/Metadata_IntensityImagery.md)<br>[8-Class Land Cover](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Metadata/Metadata_LandCover.md)<br>[Tree Canopy Change (2010-2017)](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Metadata/Metadata_TreeCanopyChange.md)
