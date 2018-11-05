@@ -1,7 +1,7 @@
 # 2010 Digital Elevation Model
 Geometry Type: raster<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Images/DEM.PNG)
 
-### Table of Contents<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**1. Identification**](#1-identification)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**2. Data Quality and Specifications**](#2-data-quality-and-specifications)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**3. Attribute Information**](#3-attribute-information)<br><br>
+### Table of Contents<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**1. Identification**](#1-identification)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**2. Data Quality and Specifications**](#2-data-quality-and-specifications)<br><br>
 ## 1. Identification
 ---------------------------------------------
 |     |     |
@@ -27,7 +27,4 @@ Geometry Type: raster<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-m
 **Features Captured** |NA
 **Features Excluded** |NA
 **Capture and Update Notes** |
-## 3. Attribute Information
----------------------------------------------
-| Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 
-|------------ | ------------- | -------- | ----------- | ----------|
+
