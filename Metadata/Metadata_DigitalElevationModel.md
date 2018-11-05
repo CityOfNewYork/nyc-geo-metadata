@@ -27,7 +27,4 @@ Geometry Type: raster<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-m
 **Features Captured** |NA
 **Features Excluded** |NA
 **Capture and Update Notes** |Vertical datum NAVD1988
-## 3. Attribute Information
----------------------------------------------
-| Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 
-|------------ | ------------- | -------- | ----------- | ----------|
+
