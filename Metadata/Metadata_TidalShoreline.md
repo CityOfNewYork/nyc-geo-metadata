@@ -11,7 +11,7 @@ Geometry Type: Shapefile (Polyline Z)<br><br>![image](https://github.com/CityOfN
 **Source(s)** |City of New York, Quantum Spatial Inc.
 **Publication Dates** |**Data**: 10/2018<br>**Last Update**: 10/2018<br>**Metadata**: 11/20/2018<br>**Update Frequency**: As needed
 **Available Formats** |Shapefile
-**Use Limitations** |Not all areas of the city were captured during low tide. Areas such as along the Hudson and East Rivers that are lined with seawwalls and riprap were not captured at low tide. The attribute "Type" provides details on how each segment of the shoreline was captured. Because not areas of the shoreline were captured at the same tidal levels, the shoreline is not continous. 
+**Use Limitations** |Not all areas of the city were captured during low tide. Areas such as along the Hudson and East Rivers that are lined with seawwalls and riprap were not captured at low tide. The attribute "Type" provides details on how each segment of the shoreline was captured. Because not areas of the shoreline were captured at the same tidal levels, the shoreline is not continuous. 
 **Access Rights** |Public
 **Links** |Coming Soon
 **Tags** |shoreline, water's edge, new york city, tidal coordination
