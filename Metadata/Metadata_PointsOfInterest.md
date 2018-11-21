@@ -14,8 +14,7 @@ Geometry Type: point<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-me
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public
 **Links** |https://data.cityofnewyork.us/City-Government/Points-Of-Interest/rxuy-2muj
-**Tags** |Manhattan, Brooklyn, Staten Island, New York City, Bronx, Common Place Name, complex, Queens, Common
-Place
+**Tags** |Manhattan, Brooklyn, Staten Island, New York City, Bronx, Common Place Name, complex, Queens, Common Place
 ## 2. Data Quality and Specifications
 ---------------------------------------------
 |     |     |
@@ -24,14 +23,11 @@ Place
 **Resolution** |NA
 **Spatial Coverage** |New York City, NY and areas of Nassau County, Westchester, and New Jersey. 
 **Temporal Coverage** |Data is current as of last update date.
-**Positional Accuracy** |
-**Features Captured** |
-**Features Excluded** |
-**Capture and Update Notes** |
+**Usage Notes** | To query a specific point of interest, use both the FACILITY_T and FACI_DOM fields. For example, to find all police precincts -- FACILITY_T = 11 AND FACI_DOM = 1
 ## 3. Attribute Information
 ---------------------------------------------
-| Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 
-|------------ | ------------- | -------- | ----------- | ----------|
+| Attribute | Description | Field Type | 
+|------------ | ------------- | -------- | 
 | SEGMENTID | Point is assigned the closest roadbed SegmentID. | double | 
 | COMPLEXID | Point is assigned a ComplexID if it is a part of a Complex. | double | 
 | SAFTYPE | Point is assigned a SAFTYPE if it is a part of a Complex<br>N = NAP assigned to a Stand-alone feature<br>G = Complex NAP<br>X = Constituent NAP | text | 
