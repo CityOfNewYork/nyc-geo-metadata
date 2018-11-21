@@ -9,7 +9,7 @@ Geometry Type: point<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-me
 **Purpose** |Point of Interest (CommonPlace) is a point feature representation of points of interest throughout New York City. The primary intended purpose of CommonPlace is to help aid dispatch efforts to these points of interest throughout New York City.
 **Description** |Point of Interest (aka Common Place) are point representations of locations that can be referred to by name and may or may not have an address. The data is a compilation of a variety of agency data and is a component of the CSCL database.
 **Source(s)** |Department of Information Technology & Telecommunications (DOITT)
-**Publication Dates** |**Data**: 8/30/2016<br>**Last Update**: Weekly<br>**Metadata**: 12/22/2016<br>**Update Frequency**: Agency data is updated daily by Centerline Management Group (CMG). Public releases of this data are made weekly. 
+**Publication Dates** |**Data**: 8/30/2016<br>**Last Update**: Weekly<br>**Metadata**: 11/21/2018<br>**Update Frequency**: Agency data is updated daily by Centerline Management Group (CMG). Public releases of this data are made weekly. 
 **Available Formats** |Shapefile. Additional data formats are available for download on the [NYC Open Data Portal](https://data.cityofnewyork.us/City-Government/Points-Of-Interest/rxuy-2muj).
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public
