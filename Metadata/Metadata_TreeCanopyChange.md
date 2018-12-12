@@ -13,7 +13,7 @@ Geometry Type: Shapefile<br><br>![image](https://github.com/CityOfNewYork/nyc-ge
 **Available Formats** |Vector
 **Use Limitations** | NA
 **Access Rights** |Public
-**Links** |Coming Soon
+**Links** |[NYC Open Data](https://data.cityofnewyork.us/dataset/Tree-Canopy-Change-2010-2017-/by9k-vhck)
 **Tags** |Urban, New York, 2017, 2010, land cover, tree canopy, tree change change, New York City, UTC
 ## 2. Data Quality and Specifications
 ---------------------------------------------
