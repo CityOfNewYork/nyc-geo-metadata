@@ -13,7 +13,7 @@ Geometry Type: Raster<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-m
 **Available Formats** |Raster
 **Use Limitations** |
 **Access Rights** |Public
-**Links** |Coming Soon
+**Links** |[NYC Open Data](https://data.cityofnewyork.us/Environment/Land-Cover-Raster-Data-2017-6in-Resolution/he6d-2qns)
 **Tags** |Urban, New York, 2017, 2016, land cover, tree canopy, New York City, UTC
 ## 2. Data Quality and Specifications
 ---------------------------------------------
