@@ -11,7 +11,6 @@ Geometry Type: Point (LAS 1.4)<br><br>![image](https://github.com/CityOfNewYork/
 **Source(s)** |City of New York, Quantum Spatial Inc.
 **Publication Dates** |**Data**: <br>**Last Update**: 10/2018<br>**Metadata**: 11/20/2018<br>**Update Frequency**: As needed
 **Available Formats** |LAS 1.4
-**Use Limitations** |
 **Access Rights** |Public
 **Links** |[Topobathymetric Point Cloud](https://orthos.dhses.ny.gov/?Extent=-9603624.133747088,4774299.7366908705,-7659066.134172721,5795498.434580554&Layers=07_meter_dem_index_usgs,1_meter_dem_index_fema,1_meter_dem_index_usgs,1_meter_dem_index_tidal_water,1_meter_dem_index_hydro_flattened,1_meter_dem_index_usda_utm18n,1_meter_dem_index_usda_utm17n,1_meter_dem_index_nys,2_meter_dem_index_ne_lidar,2_meter_dem_index_nys,2_meter_dem_index_fema,2_meter_dem_index_monroe_county,2_meter_dem_index_tompkins_county,2_meter_dem_index_erie_county&layerGroups=DEMIndexes,Orthoimagery&rightMenu=0)
 **Tags** |classified point cloud, lidar
@@ -20,14 +19,10 @@ Geometry Type: Point (LAS 1.4)<br><br>![image](https://github.com/CityOfNewYork/
 |     |     |
 | --- | --- |
 **Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot
-**Resolution** |Data was collected with QL1 specifications (8 pulses/m2). Actual first return densities for this dataset are: <br>
-Topographic (NIR): 10.75 pts/m2<br>
-Bathymetric (Green): 15.24 pts/m2
+**Resolution** |Data was collected with QL1 specifications (8 pulses/m2). Actual first return densities for this dataset are: <br>Topographic (NIR): 10.75 pts/m2<br>Bathymetric (Green): 15.24 pts/m2
 **Spatial Coverage** |New York City, plus an additional 100 m buffer around the city
-**Temporal Coverage** |Topographic: 05/03/2017 - 05/17/2017 
-Bathymetric: 07/04/2017 - 07/26/2017
+**Temporal Coverage** |Topographic: 05/03/2017 - 05/17/2017<br>Bathymetric: 07/04/2017 - 07/26/2017
 **Positional Accuracy** |**Topographic**<br>Non-Vegetated Vertical Accuracy (95% confidence level): 0.242 ft (0.074 m)<br>Vegetated Vertical Accuracy (95th percentile): 0.517 ft (0.158 m)<br>Relative Vertical Accuracy: 0.085 ft (0.026 m)<br><br>**Bathymetric**<br>Non-Vegetated Vertical Accuracy (95% confidence level): 0.208 ft (0.064 m)
-
 **Features Captured** |The topobathymetric point cloud was classified as follows: <br><br>
  1 - Default/Unclassified<br>
  1 WO - Default/Unclassified Withheld Overlap<br>
@@ -40,5 +35,4 @@ Bathymetric: 07/04/2017 - 07/26/2017
  40 - Bathymetric Bottom<br>
  41 - Water Surface<br>
  45 - Water Column
-**Features Excluded** |
 **Capture and Update Notes** |For more information on data acquisition, processing, and accuracy assessments of the 2017 LiDAR data, see the [Topobathymetric LiDAR Technical Data Report](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Supplemental/New_York_City_2017_Topobathymetric_LiDAR_Report.pdf)
