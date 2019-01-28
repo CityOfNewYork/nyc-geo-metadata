@@ -22,8 +22,7 @@ Geometry Type: Raster (TIF)<br><br>![image](https://github.com/CityOfNewYork/nyc
 **Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot
 **Resolution** |1 foot
 **Spatial Coverage** |New York City, NY
-**Temporal Coverage** |Topographic: 05/03/2017 - 05/17/2017 
-Bathymetric: 07/04/2017 - 07/26/2017
+**Temporal Coverage** |Topographic: 05/03/2017 - 05/17/2017<br>Bathymetric: 07/04/2017 - 07/26/2017
 **Positional Accuracy** |
 **Features Captured** |
 **Features Excluded** |
