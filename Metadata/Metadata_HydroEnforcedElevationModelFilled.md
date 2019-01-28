@@ -22,9 +22,5 @@ Geometry Type: Raster (TIF)<br><br>![image](https://github.com/CityOfNewYork/nyc
 **Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot
 **Resolution** |1 foot
 **Spatial Coverage** |New York City, NY
-**Temporal Coverage** |Topographic: 05/03/2017 - 05/17/2017 
-Bathymetric: 07/04/2017 - 07/26/2017
-**Positional Accuracy** |
-**Features Captured** |
-**Features Excluded** |
+**Temporal Coverage** |Topographic: 05/03/2017 - 05/17/2017<br>Bathymetric: 07/04/2017 - 07/26/2017
 **Capture and Update Notes** |In some areas of heavy vegetation or forest cover, there may be relatively few ground points in the LiDAR data. TINing the points produces large triangles and hence the elevations may be less accurate within such areas. Due to some very large buildings within the city, there are very large triangles/interpolation throughout. Mosaicking lines and "cross hairs" may be seen in the middle of some interpolation. This is normal and will not affect the quality of the data. Wooden boardwalks and concrete boardwalks which are known to be on pylons and where separation is clearly visible, were removed from the bare earth models. In some areas of the dataset, the DEM goes from being hydroflattened to being bathymetric bottom data. This happens where the "Waters_Edge_for_Data_Splicing" shape cuts through a coastline or long stream/river. For ponds and lakes that cross this boundary, the data has been hydroflattened within the shape while bathymetric data may still exists within the LiDAR point cloud.
