@@ -25,15 +25,3 @@ Geometry Type: Shapefile<br><br>![image](https://github.com/CityOfNewYork/nyc-ge
 **Temporal Coverage** |05/03/2017 - 05/17/2017 
 **Positional Accuracy** |The 2017 land-cover dataset was subjected to a thorough manual quality control (QC) that focused on correction of non-systematic errors that could not addressed by additional model refinement. A per-pixel accuracy assessment based on 8,493 random points indicated an overall accuracy of 98%.  User's and producer's accuracies for the Tree Canopy class both exceeded 99%.  The tree-canopy change dataset was also subjected to a compehensive manual review that corrected erroneous gains and losses.
 **Features Captured** |Object based image analysis (OBIA) using a rule-based expert system.  This OBIA automated mapping of tree canopy that had changed during the period 2010-2017, incorporating the 2017 land-cover map for New York City, the 2010 land-cover map, and the LiDAR-derived normalized digital surface model (nDSM) for each time step. <br> <br> New York City Land Cover 2017.  8-class comprehensive land cover map for New York City developed as part of updated Urban Tree Canopy (UTC) assessment for the year 2017.  The Tree Canopy class from this layer was compared to similar tree-canopy data from 2010  Source:  NYC DoITT
-
-
-
-
-
-
-**Features Excluded** |
-**Capture and Update Notes** |
-## 3. Attribute Information
----------------------------------------------
-| Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 
-|------------ | ------------- | -------- | ----------- | ----------|
