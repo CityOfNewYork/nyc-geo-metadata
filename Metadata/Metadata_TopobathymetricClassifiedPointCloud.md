@@ -23,16 +23,5 @@ Geometry Type: Point (LAS 1.4)<br><br>![image](https://github.com/CityOfNewYork/
 **Spatial Coverage** |New York City, plus an additional 100 m buffer around the city
 **Temporal Coverage** |Topographic: 05/03/2017 - 05/17/2017<br>Bathymetric: 07/04/2017 - 07/26/2017
 **Positional Accuracy** |**Topographic**<br>Non-Vegetated Vertical Accuracy (95% confidence level): 0.242 ft (0.074 m)<br>Vegetated Vertical Accuracy (95th percentile): 0.517 ft (0.158 m)<br>Relative Vertical Accuracy: 0.085 ft (0.026 m)<br><br>**Bathymetric**<br>Non-Vegetated Vertical Accuracy (95% confidence level): 0.208 ft (0.064 m)
-**Features Captured** |The topobathymetric point cloud was classified as follows: <br><br>
- 1 - Default/Unclassified<br>
- 1 WO - Default/Unclassified Withheld Overlap<br>
- 2 - Ground<br>
- 7 W - Noise Withheld<br>
- 9 - Water<br>
- 10 - Ignored Ground (Water's Edge)<br>
- 17 - Bridge<br>
- 25 - Subway Stairs<br>
- 40 - Bathymetric Bottom<br>
- 41 - Water Surface<br>
- 45 - Water Column
+**Features Captured** |The topobathymetric point cloud was classified as follows: <br><br> 1 - Default/Unclassified<br> 1 WO - Default/Unclassified Withheld Overlap<br> 2 - Ground<br> 7 W - Noise Withheld<br> 9 - Water<br> 10 - Ignored Ground (Water's Edge)<br> 17 - Bridge<br> 25 - Subway Stairs<br> 40 - Bathymetric Bottom<br> 41 - Water Surface<br> 45 - Water Column
 **Capture and Update Notes** |For more information on data acquisition, processing, and accuracy assessments of the 2017 LiDAR data, see the [Topobathymetric LiDAR Technical Data Report](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Supplemental/New_York_City_2017_Topobathymetric_LiDAR_Report.pdf)
