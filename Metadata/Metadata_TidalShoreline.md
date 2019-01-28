@@ -11,9 +11,7 @@ Geometry Type: Shapefile (Polyline Z)<br><br>![image](https://github.com/CityOfN
 **Source(s)** |City of New York, Quantum Spatial Inc.
 **Publication Dates** |**Data**: 10/2018<br>**Last Update**: 10/2018<br>**Metadata**: 11/20/2018<br>**Update Frequency**: As needed
 **Available Formats** |Shapefile
-**Use Limitations** |Not all areas of the city were captured during low tide. Areas such as along the Hudson and East Rivers that are lined with seawwalls and riprap were not captured at low tide. The attribute "Type" provides details on how each segment of the shoreline was captured. 
-
-Because not areas of the shoreline were captured at the same tidal levels, the shoreline is not continous. 
+**Use Limitations** |Not all areas of the city were captured during low tide. Areas such as along the Hudson and East Rivers that are lined with seawwalls and riprap were not captured at low tide. The attribute "Type" provides details on how each segment of the shoreline was captured. Because not areas of the shoreline were captured at the same tidal levels, the shoreline is not continous. 
 **Access Rights** |Public
 **Links** |[Tidally Coordinated Shoreline](https://data.cityofnewyork.us/Environment/Tidally-Coordinated-Shoreline/pawq-tjb4)
 **Tags** |shoreline, water's edge, new york city, tidal coordination
@@ -24,12 +22,9 @@ Because not areas of the shoreline were captured at the same tidal levels, the s
 **Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot
 **Resolution** |
 **Spatial Coverage** |New York City, NY
-**Temporal Coverage** |Topographic: 05/03/2017 - 05/17/2017 
-Bathymetric: 07/04/2017 - 07/26/2017
-**Positional Accuracy** |
-**Features Captured** |
+**Temporal Coverage** |Topographic: 05/03/2017 - 05/17/2017<br>Bathymetric: 07/04/2017 - 07/26/2017
 **Features Excluded** |Flights flown over NIR LiDAR shoreline areas that are largely made up of sea walls and riprap were not flown during low tide.
-**Capture and Update Notes** |
+
 ## 3. Attribute Information
 ---------------------------------------------
 | Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 
