@@ -31,19 +31,20 @@ Geometry Type: SDE Table<br><br>
 ---------------------------------------------
 | Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 
 |------------ | ------------- | -------- | ----------- | ----------|
-| OID | Internal feature number. | OID | 
-| DONATING_B | This is a one digiti number field that identifies the borough in which the associated feature (donor lot) exists. Boro values range from one (1) to five (5) and are validated against the D_BORO domain. | String | 
-| DONATING_1 | Donating block is a five digit numberic field that identifies the blokc on which the associated feature (donor lot) exists. | Long Integer | 
+| OBJECTID | Internal feature number. | OID | 
+| DONATING_B | This is a one digit number field that identifies the borough in which the associated feature (donor lot) exists. Boro values range from one (1) to five (5) and are validated against the D_BORO domain. | String | 
+| DONATING00 | Donating block is a five digit numberic field that identifies the blokc on which the associated feature (donor lot) exists. | Long Integer | 
 | DONATING_L | Four digit numeric filed that identifies a unique donating lot within a tax block. | Short Int | 
-| DONATING_2 | Donating BBL is a concatenation of Boro-Block-Lot and is stored with every instance of those threee fields. Although the BBL value can always be determined dynamically, this field is maintained in order to simplify indexing, searching, and the use of the files by other, as yet undetermined applications.  | String | 
+| DONATING01 | Donating BBL is a concatenation of Boro-Block-Lot and is stored with every instance of those threee fields. Although the BBL value can always be determined dynamically, this field is maintained in order to simplify indexing, searching, and the use of the files by other, as yet undetermined applications.  | String | 
 | AIR_RIGHTS | Air Rights BBL is a concatenation of Boro-Block-Lot for the Air lot. Air rights lot numbers must be between 9000 and 9989. | String | 
-| AIR_RIGH_1 |  | Long Int | 
+| AIR_RIGH00 |  | Long Int | 
 | USED_BY_DO |  | Short Integer | 
 | CREATED_BY | A field that can be used to identify the operator who created the specific feature. | String | 
 | CREATED_DA | The date the record was created | Date | 
 | LAST_MODIF | A field that can be used to identify the operator who last modified the specific feature. | String | 
-| LAST_MOD_1 | The date the feature or any attribute associated with it was changed. | Date | 
+| LAST_MOD00 | The date the feature or any attribute associated with it was changed. | Date | 
 | AV_CHANGE |  | Short Integer | 
 | BW_CHANGE |  | Short Integer | 
 | EFFECTIVE_ |  | String | 
-| AIR_RIGH_2 |  |  | 
+| AIR_RIGH01 |  |  | 
+| GLOBALID |  | String | 

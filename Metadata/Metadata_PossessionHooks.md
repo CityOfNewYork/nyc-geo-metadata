@@ -31,11 +31,12 @@ Geometry Type: SDE Feature Class<br><br>![image](https://github.com/CityOfNewYor
 ---------------------------------------------
 | Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 
 |------------ | ------------- | -------- | ----------- | ----------|
+| OBJECTID | Internal feature number. | OID |
 | HOOK_TYPE | Short integer defining hook types | Short Integer | 
 | ROTATION | ESRI generated field denoting the display angle of the posession hook. | Double | 
 | CREATED_BY | A field that can be used to identify the operatior who created the specific feature. | String | 
-| SHAPE | Feature geometry. | Shapefile | 
-| FID | Internal feature number. | OID | 
 | CREATED_DA | The date the feature was created | Date | 
 | LAST_MODIF | A field that can be used to identify the operator who last modified the feature | String | 
-| LAST_MOD_1 | The date the feature or any attribute value associated with it was changed. | Date | 
+| LAST_MOD00 | The date the feature or any attribute value associated with it was changed. | Date | 
+| GLOBALID | | String |
+| SHAPE | Feature geometry. | Shapefile |  

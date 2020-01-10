@@ -31,19 +31,20 @@ Geometry Type: SDE Table<br><br>
 ---------------------------------------------
 | Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 
 |------------ | ------------- | -------- | ----------- | ----------|
-| OID | Internal feature number. | OID | 
+| OBJECTID | Internal feature number. | OID | 
 | CONDO_BORO | Borough in which the condominium resides. | String | 
 | CONDO_KEY | This field is a concatenation of the Condo_Boro and Condo_number fields. | Long Integer | 
 | CONDO_NAME | This field represents the name of the condominium. | String | 
 | CONDO_BASE | This field is the BBL for the base lot on which the condo is built. BBL is a concatenation of Borough Block and Lot numbers.  | String | 
 | CONDO_BILL | This field is the concatenation of the billing lot's (series 7501, 7502, 7503, etc.) borough, block, and lot. Each record can only have a single Billing lot | String | 
-| CONDO_BA_1 |  |  | 
+| CONDO_BA_00 |  |  | 
 | AIR_RIGHTS | This flag is used to identify condominiums which are built on air rights lots. | Short Integer | 
 | BILLING_LO | The flag field is populated during the conversion process to indicate that the billing lot number for this condominium was not found in the COGIS file. | Short Integer | 
-| CREATED_BY | a fiedl that can be used to identify the operatior who created that specific feature | String | 
+| CREATED_BY | A field that can be used to identify the operatior who created that specific feature | String | 
 | CREATED_DA | The date the record was created | Date | 
 | LAST_MODIF | A field that can be used to identify the operator that last modified the field` | String | 
-| LAST_MOD_1 | The date the record was last modified | Date | 
+| LAST_MOD00 | The date the record was last modified | Date | 
 | AV_CHANGE |  |  | 
 | BW_CHANGE |  |  | 
+| GLOBALID |  | String | 
 | CONDO_NUMB | Five digit unique identifier for each condominium | Short Integer | 

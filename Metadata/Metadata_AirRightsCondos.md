@@ -31,10 +31,11 @@ Geometry Type: SDE Table<br><br>
 ---------------------------------------------
 | Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 
 |------------ | ------------- | -------- | ----------- | ----------|
-| OID | Internal feature number. | OID | 
+| OBJECTID | Internal feature number. | OID | 
 | CONDO_KEY | This field is a concatenation of the Condo_boro and Condo_Number fields. | Long Int | 
-| CONDO_BASE | This field is the BBL for the base ot on which the condo is built. BBL is a concatenation of Boro-Block-Lot. | String | 
-| CONDO_BA_1 |  | String | 
+| CONDO_BASE | This field is the BBL for the base lot on which the condo is built. BBL is a concatenation of Boro-Block-Lot. | String | 
+| CONDO_BA00 |  | String | 
 | AIR_RIGHTS | This field is the BBL for the air lot on which the condo is built. BBL is a concatenation of Boro-Block-Lot | String | 
 | AV_CHANGE |  |  | 
 | BW_CHANGE |  |  | 
+| GLOBALID |  | String | 

@@ -31,35 +31,36 @@ Geometry Type: SDE Feature Class<br><br>![image](https://github.com/CityOfNewYor
 ---------------------------------------------
 | Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 
 |------------ | ------------- | -------- | ----------- | ----------|
-| FID | Internal feature number. | OID | 
+| OBJECTID | Internal feature number. | OID | 
 | BORO | This is a one digit numeric field that identifies the borough in which the associated feature exists.  Boro values range from one (1) to five (5) and are validated against the D_BORO domain. | Number | 
 | BLOCK | Block is a five digit numeric field that identifies the block on which the associated feature exists. | Number | 
 | LOT | Lot is a four digit numeric field that identifies a unique lot within a tax block.  Although DOF has a set of defined limits for different types of lots, the fact that there are exceptions to these rules makes it impossible to use a domain for validity checking of the lot numbers. | Number | 
 | BBL | BBL is a concatenation of Boro-Block-Lot and is stored with every instance of those three fields.  Although the BBL value can always be determined dynamically, this field is maintained in order to simplify indexing, searching and the use of the files by other, as yet undetermined, applications. | String | 
-| CONDO_FLAG | The lot defines a condominium complex | String | 
 | COMMUNITY_ |  |  | 
 | REGULAR_LO | This field is obtained from the RPAD file and identifies those lots that are rectangular. |  | 
 | NUMBER_LOT |  |  | 
+| CONDO_FLAG | The lot defines a condominium complex | String | 
 | REUC_FLAG | An REUC easement exists on part or all of this lot. | Text | 
-| LOT_NOTE |  |  | 
 | AIR_RIGHTS | An air rights easement exists on this lot. | text | 
 | SUBTERRANE | A subterranean easement exists on part or all of this lot. | String | 
 | EASEMENT_F | A land easement exists on part or all of this lot | String | 
 | SECTION_NU | NYC Tax Section for the specified lot | Number | 
 | VOLUME_NUM | Volume number of the book in which this tax lot can be found. | Number | 
 | PAGE_NUMBE | Page number on which this tax lot can be found. | Number | 
-| CREATED_BY | A field that can be used to identify the operator who created the specific feature. | String | 
+| LOT_NOTE |  |  | 
 | NYCMAP_BLD | This field is used to identify those lots where a building footprint associated with that lot extends beyond the lot boundary. |  | 
 | MISSING_RP | This field is used to identify physical lot polygons found in COGIS that were not matched to a record in the ORE file of RPAD. |  | 
 | CONVERSION |  |  | 
 | VALUE_REFL | This flag identifies those lots whose assessed value has been transferred to another lot. | Y/N | 
-| AV_CHANGE |  |  | 
+| CREATED_BY | A field that can be used to identify the operator who created the specific feature. | String | 
 | CREATED_DA | The date the record was created | String | 
 | LAST_MODIF | A field that can be used to identify the operator who last modified the specific feature. | String | 
-| LAST_MOD_1 | The date the feature or any attribute value associated with it was changed. | Date | 
+| LAST_MOD00 | The date the feature or any attribute value associated with it was changed. | Date | 
+| AV_CHANGE |  |  | 
 | BW_CHANGE |  |  | 
-| SHAPE | This field is used to store the geometry or shape of the features |  | 
 | EFFECTIVE_ |  |  | 
 | BILL_BBL_F | This field is used to identify the source of the Billing BBL Lot Number. | String | 
-| SHAPE_Leng | This is the system derived length of the feature (where applicable) | Number | 
-| SHAPE_Area | This is the system derived area of the feature (where applicable) | Number | 
+| GLOBALID |  | String | 
+| SHAPE | This field is used to store the geometry or shape of the features |  | 
+| SHAPE_LEN | This is the system derived length of the feature (where applicable) | Number | 
+| SHAPE_AREA | This is the system derived area of the feature (where applicable) | Number | 
