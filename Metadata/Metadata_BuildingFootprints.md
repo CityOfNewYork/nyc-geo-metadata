@@ -19,7 +19,7 @@ Geometry Type: polygon<br><br>![image](https://github.com/CityOfNewYork/nyc-plan
 ---------------------------------------------
 |     |     |
 | --- | --- |
-**Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot
+**Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot; Vertical Datum NAVD 1988
 **Resolution** |NA
 **Spatial Coverage** |New York City, NY
 **Temporal Coverage** |For this dataset, the source imagery was captured on the following dates:<br>Manhattan - June 24, 2014<br>The Bronx, Brooklyn, Queens and Staten Island  - April 1st through April 25th, 2014<br>Final delivery of all imagery - April 10, 2015<br>Using this orthoimagery, the planimetric base layers were updated citywide starting in March 2015 and were completed in February 2016.
@@ -29,7 +29,6 @@ Geometry Type: polygon<br><br>![image](https://github.com/CityOfNewYork/nyc-plan
 **Capture and Update Notes** |Guidelines for Photogrammetric Update: Use parcel data and BIN as guidance for collection.  Where the parcel data indicates that a building should be two or more geometries AND there is NO physical indication, split the building using the parcel lines.   Where the parcel data indicates that a building should be two or more geometries AND there is a physical indication, split the building using the physical indications.  In cases where geometry previously existed in the legacy data, populate all resulting geometries with the original BIN (BINs will be duplicated in these cases).<br>Use Parcel layer to place garages within parcel or at parcel boundary  check for special cases where parcel boundary clearly crosses garage.  In these cases, either split the garage using physical features, or use the property line where there is no distinguishing physical feature. <br><br> For more information on capture and update of the Building Footprints dataset, see [Capture Rules](https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md) <br><br> Guidelines for Manual Update: Features captured by manual update are digitized from the most recent aerial imagery available. In cases where no imagery is available, features are digitized using plan diagrams available from Dept. of Buildings. In cases where there is no imagery or plan source available, a triangle is added and FEAT_CODE is set to Placeholder. Ground elevations are taken from neighboring buildings or from nearby planimetric spot elevation point features. Roof heights are taken from Dept. of Buildings plan diagrams if available or measured from controlled terrestrial image sources. If no source is available, roof height is left zero or NULL. 
 ## 3. Attribute Information
 ---------------------------------------------
-
 | Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 
 |------------ | ------------- | -------- | ----------- | ----------|
 | BASE_BBL | Borough, block, and lot number for the tax lot that the footprint is physically located within. | text | No
