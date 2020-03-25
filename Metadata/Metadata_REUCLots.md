@@ -31,17 +31,18 @@ Geometry Type: SDE Table<br><br>
 ---------------------------------------------
 | Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 
 |------------ | ------------- | -------- | ----------- | ----------|
-| OID | Internal feature number. | Object ID | 
+| OBJECTID | Internal feature number. | Object ID | 
 | APPURTENAN | This is a one digit numeric field that identifies the borough to which the attribute is appurtenant.  Boro values range from one (1) to five (5) | String | 
-| APPURTEN_1 | Block is a five digit numeric field that identifies the block to which the attribute is appurtenant. | Long Integer | 
-| APPURTEN_2 | Lot is a four digit numberic field that identifies a unique lot within a tax block to which the attribute is appurtenant. | Short Integer | 
-| APPURTEN_3 | BBL is a cocatenation of Boro-Block-Lot and is stored with every instance of those three fields. Although the BBL value can always be determined dynamically, this field is maintained in order to simplify indexing.  | String | 
+| APPURTEN00 | Block is a five digit numeric field that identifies the block to which the attribute is appurtenant. | Long Integer | 
+| APPURTEN01 | Lot is a four digit numberic field that identifies a unique lot within a tax block to which the attribute is appurtenant. | Short Integer | 
+| APPURTEN02 | BBL is a cocatenation of Boro-Block-Lot and is stored with every instance of those three fields. Although the BBL value can always be determined dynamically, this field is maintained in order to simplify indexing.  | String | 
 | REUC_NUMBE |  |  | 
 | DELETED_FL |  |  | 
 | CREATED_BY | A field that can be used to identify the operator who created the specific attribute | String | 
 | CREATED_DA | The date the record was recorded. | Date | 
 | LAST_MODIF | A field that can be used to identify the operator who last modified the specific attribute | String | 
-| LAST_MOD_1 | The date the attribute was changed | Date | 
+| LAST_MOD00 | The date the attribute was changed | Date | 
 | AV_CHANGE |  |  | 
 | BW_CHANGE |  |  | 
 | EFFECTIVE_ |  |  | 
+| GLOBALID | | String |

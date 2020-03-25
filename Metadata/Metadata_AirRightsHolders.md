@@ -31,13 +31,14 @@ Geometry Type: SDE Table<br><br>
 ---------------------------------------------
 | Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 
 |------------ | ------------- | -------- | ----------- | ----------|
-| OID | Internal feature number. | OID | 
+| OBJECTID | Internal feature number. | OID | 
 | AIR_RIGHTS | Air Rights BBL is a concatenation of Boro-Block-Lot for the given feature. | String | 
 | HOLDING_BB | Holding BBL is a concatenation of Boro-Block-Lot for the given feature. This field relates to a BBL in the Tax_Lot_Polygon feature. | String | 
-| AIR_RIGH_1 |  | Long Int | 
+| AIR_RIGH00 |  | Long Int | 
 | CREATED_BY | A field that can be used to identify the operator who created the specific feature. | String | 
 | CREATED_DA | The date the feature was created | Date | 
 | LAST_MODIF | This field can be used to identify the operator who last modified the specific feature. | String | 
-| LAST_MOD_1 | The date the feature or any attribute value associated with it was changed. | Date | 
+| LAST_MOD00 | The date the feature or any attribute value associated with it was changed. | Date | 
 | AV_CHANGE |  |  | 
 | BW_CHANGE |  |  | 
+| GLOBALID |  | String | 

@@ -31,16 +31,17 @@ Geometry Type: SDE Table<br><br>
 ---------------------------------------------
 | Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 
 |------------ | ------------- | -------- | ----------- | ----------|
-| OID | Internal feature number. | OID | 
+| OBJECTID | Internal feature number. | OID | 
 | APPURTENAN | This is a one digit numeric field that identifies the borough in which the associated feature is appurtenant to.  Boro values range from one (1) to five (5)  | String | 
-| APPURTEN_1 | Block is a five digit numeric field that identifies the block on which the associated feature is appurtenant to.  | Long Integer | 
-| APPURTEN_2 | Lot is a four digit numeric field that identifies a unique lot within a tax block that the attribute is appurtenant to.  | Short Integer | 
-| APPURTEN_3 | BBL is a concatenation of Boro-Block-Lot and is stored with every instance of those three fields.  Although the BBL value can always be determined dynamically, this field is maintained in order to simplify indexing, searching and the use of the files by other, as yet undetermined, applications. | String | 
+| APPURTEN00 | Block is a five digit numeric field that identifies the block on which the associated feature is appurtenant to.  | Long Integer | 
+| APPURTEN01 | Lot is a four digit numeric field that identifies a unique lot within a tax block that the attribute is appurtenant to.  | Short Integer | 
+| APPURTEN02 | BBL is a concatenation of Boro-Block-Lot and is stored with every instance of those three fields.  Although the BBL value can always be determined dynamically, this field is maintained in order to simplify indexing, searching and the use of the files by other, as yet undetermined, applications. | String | 
 | SUBTERRANE | Lot is a four digit numeric field that identifies a unique lot within a tax block that the attribute is appurtenant to. Subterranean rights lot numbers must be between 8000 and 8999. | Long Integer | 
 | CREATED_BY | A field that can be used to identify the operator who created the specific attribute. | String | 
 | CREATED_DA | The date the record was created | Date | 
 | LAST_MODIF | A field that can be used to identify the operator who last modified the attribute. | String  | 
-| LAST_MOD_1 | The date the feature of any attribute value associated with it was changed.  | Date | 
+| LAST_MOD00 | The date the feature of any attribute value associated with it was changed.  | Date | 
 | AV_CHANGE |  | Short Integer | 
 | BW_CHANGE |  | Short Integer | 
 | EFFECTIVE_ |  | String | 
+| GLOBALID | | String |

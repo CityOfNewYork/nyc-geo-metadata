@@ -31,7 +31,8 @@ Geometry Type: SDE Feature Class<br><br>![image](https://github.com/CityOfNewYor
 ---------------------------------------------
 | Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 
 |------------ | ------------- | -------- | ----------- | ----------|
-| FID | Internal feature number. | Internal Feature Number | 
+| OBJECTID | Internal feature number. | OID |  
 | MISC_TEXT | The actual text entry which is placed on the map. | String | 
 | ROTATION | Rotation angle at which text is placed on the map. | Double | 
+| GLOBALID | | String |
 | SHAPE | Feature geometry. | Geometry | 

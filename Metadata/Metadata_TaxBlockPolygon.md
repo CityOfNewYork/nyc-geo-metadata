@@ -31,17 +31,18 @@ Geometry Type: SDE Feature Class<br><br>![image](https://github.com/CityOfNewYor
 ---------------------------------------------
 | Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 
 |------------ | ------------- | -------- | ----------- | ----------|
-| FID | Internal feature number. | OID | 
-| BORO | This is a one digit numeric filed that identifies the borough in which the associated feature exists. Boro values range from one (1) to five (5) and are validated against the D_BORO domain. | String | 
-| BLOCK | Block is a five digit numeric field that identifies the blokc on which the asociated feature exists.  | Long Integer | 
-| CREATED_BY | A field that can be used to identify the operator who created the specific feature. | String | 
-| EOP_OVERLA | Based on the block configuration and the priorities of the conversion rules, this tax block could not fit within the NYCMap polygon that defines the edge of pavement. | Short Integer | 
+| OBJECTID | Internal feature number. | OID | 
+| BORO | This is a one digit numeric field that identifies the borough in which the associated feature exists. Boro values range from one (1) to five (5) and are validated against the D_BORO domain. | String | 
+| BLOCK | Block is a five digit numeric field that identifies the block on which the associated feature exists.  | Long Integer | 
+| EOP_OVERLA | Based on the block configuration and the priorities of the conversion rules, this tax block could not fit within the NYCMap polygon that defines the edge of pavement. | Short Integer |
 | JAGGED_ST_ | Based on the block configuration and the priorities of the conversion rules, this tax block could not be aligned within the NYCMap polygon that defines the edge of pavement in such a way as to produce a straight row of tax blocks on the street. | Short Integer | 
-| SHAPE | Feature geometry. | Shape | 
+| CREATED_BY | A field that can be used to identify the operator who created the specific feature. | String | 
 | CREATED_DA | The date the record was created | Date | 
-| LAST_MODIF | A field that can be used to identify the operatior who last modified the specific feature | String | 
-| LAST_MOD_1 | The date the feature of any attribute value associated with it was changed | Date | 
+| MOD_BY | A field that can be used to identify the operatior who last modified the specific feature | String | 
+| MOD_DATE | The date the feature of any attribute value associated with it was changed | Date | 
 | SECTION_NU | NYC Tax Section for the specified block | Short Integer | 
 | VOLUME_NUM | Volume number of the book in which this tax lot can be found. | Short Integer | 
-| SHAPE_Area | Area of feature in internal units squared. |  | 
-| Shape_Len | This is the system derived length of the feature (where applicable) | Double | 
+| GLOBALID | | String |
+| SHAPE_AREA | Area of feature in internal units squared. |  | 
+| SHAPE_LEN | This is the system derived length of the feature (where applicable) | Double | 
+| SHAPE | Feature geometry. | Shape | 

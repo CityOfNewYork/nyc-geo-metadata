@@ -31,24 +31,25 @@ Geometry Type: SDE Table<br><br>
 ---------------------------------------------
 | Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 
 |------------ | ------------- | -------- | ----------- | ----------|
-| OID | Internal feature number. | Object ID | 
-| CONDO_BORO | This is a one digit numberic field that identifies the borough in which the associated feature exists. Boro values range from one (1) to five (5) and are vbalidated against the D_BORO domain.  | String | 
+| OBJECTID | Internal feature number. | Object ID | 
+| CONDO_BORO | This is a one digit numeric field that identifies the borough in which the associated feature exists. Boro values range from one (1) to five (5) and are validated against the D_BORO domain.  | String | 
 | CONDO_NUMB | A unique identifier for each condominium assigned at the time the condominium is created. Separated by Boro.  | Short Integer | 
 | CONDO_KEY | A concatenation of the Condo Boro and Condo Number Fields  | Long Integer | 
-| CONDO_BASE | The cocatenation of the borough block and lot of the parent lot for the condominium. | String | 
-| CONDO_BA_1 | A cocatenation of the Borough Block and Billing lot that the condo is built on. In the case of a condo on multiple parent lots, one billing lot can represent multiple base lots.  | String | 
-| CONDO_BA_2 | A concatenation of the Condo_Boro, Condo_Number and the Condo_Base_BBL fields. | String | 
-| CONDO_BA_3 |  |  | 
-| CONDO_BA_4 |  |  | 
+| CONDO_BASE | The concatenation of the borough block and lot of the parent lot for the condominium. | String | 
+| CONDO_BA00 | A concatenation of the Borough Block and Billing lot that the condo is built on. In the case of a condo on multiple parent lots, one billing lot can represent multiple base lots.  | String | 
+| CONDO_BA01 | A concatenation of the Condo_Boro, Condo_Number and the Condo_Base_BBL fields. | String | 
+| CONDO_BA02 |  |  | 
+| CONDO_BA03 |  |  | 
 | UNIT_BORO | This is a one digit numeric field that identifies the borough in which the associated feature exists. Boro values range from one (1) to five (5) and are validated against the D_BORO domain. | String | 
 | UNIT_BLOCK | This is a 5 digit numeric field that identifies the block on which the associated feature exists. | String | 
-| UNIT_LOT | Lot is a 4 digit numberic field that identifies a unique lot within a tax block.  | String | 
+| UNIT_LOT | Lot is a 4 digit numeric field that identifies a unique lot within a tax block.  | String | 
 | UNIT_BBL | BBL is a concatenation of Borough Block Lot and is stored with every instance of those three fields.  | String | 
 | CREATED_BY | A field that can be used to identify the operator who created the feature. | String | 
 | CREATED_DA | The date the feature was created | Date | 
 | LAST_MODIF | A field that can be used to identify the operator who last modified the specific feature. | String | 
-| LAST_MOD_1 | The date the feature or any attribute value associated with it was changed. | Date | 
+| LAST_MOD00 | The date the feature or any attribute value associated with it was changed. | Date | 
 | AV_CHANGE |  | Short Integer | 
 | BW_CHANGE |  | Short Integer | 
 | EFFECTIVE_ | Effective tax year for the associated feature.  | String | 
 | UNIT_DESIG | The official unit designation for the associated feature | String | 
+| GLOBALID | | String |

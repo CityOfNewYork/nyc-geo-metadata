@@ -31,17 +31,18 @@ Geometry Type: SDE Feature Class<br><br>![image](https://github.com/CityOfNewYor
 ---------------------------------------------
 | Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 
 |------------ | ------------- | -------- | ----------- | ----------|
+| OBJECTID | Internal feature number. | OID | 
+| BOUNDARY_T | Integer value that indicates the subtype of boundary line. Default = 6. Legend: <br>3 - Pierhead and Bulkhead<br>8 - High Water Line<br>4 - REUC<br>5 - Riparian<br>6 - Unclassified<br>7 - Street Widening<br>2 - Pierhead<br>9 - Low Water Line<br>0 - Bulkhead<br>1 - Easement<br>11 - Pier<br>12 - Slope Line<br>13 - Deeded Rights | Short Integer | 
 | TYPE | This field is used to store the domain values associated with the sub-types.  Currently only the subtype of "Easement" has a domain associated with it. | Short Integer | 
 | ID_NUMBER | Various ID numbers, including REUC Idents. | String | 
+| DESCRIPTIO | Verbal description of BOUNDARY_TYPE field. | String |
 | LENGTH | Feature length | Double | 
 | MODIFIER | Domain: D_BOOLEAN_SYMBOL_VALUE | Short Integer | 
 | CREATED_BY | A field that can be used to identify the operator that created the feature. | String | 
-| SHAPE | Feature geometry. | Geometry | 
-| FID | Internal feature number. | FID | 
-| BOUNDARY_T | Integer value that indicates the subtype of boundary line. Default = 6. Legend: <br>3 - Pierhead and Bulkhead<br>8 - High Water Line<br>4 - REUC<br>5 - Riparian<br>6 - Unclassified<br>7 - Street Widening<br>2 - Pierhead<br>9 - Low Water Line<br>0 - Bulkhead<br>1 - Easement<br>11 - Pier<br>12 - Slope Line<br>13 - Deeded Rights | Short Integer | 
-| DESCRIPTIO | Verbal description of BOUNDARY_TYPE field. | String | 
 | CREATED_DA | The date the feature was created. | Date | 
 | LAST_MODIF | This field can be used to indicate the operator who last modified the feature | String | 
-| LAST_MOD_1 | The date the feature was last modified | Date | 
+| LAST_MOD00 | The date the feature was last modified | Date | 
 | EFFECTIVE_ | Effective Tax Year | String | 
+| GLOBALID |  | String | 
+| SHAPE | Feature geometry. | Geometry | 
 | SHAPE_Leng | Esri Automated shape length field | Double | 

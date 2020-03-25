@@ -31,11 +31,12 @@ Geometry Type: SDE Feature Class<br><br>![image](https://github.com/CityOfNewYor
 ---------------------------------------------
 | Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 
 |------------ | ------------- | -------- | ----------- | ----------|
+| OBJECTID | Internal feature number. | OID | 
+| LOT_FACE_P | Indicates the type of possession hook, where 0= regular and 1= underwater. | Short Integer |
 | ROTATION | Rotation for placement of posession hooks | Double | 
 | CREATED_BY | A field that can be used to identify the operator who created the specific feature. | String | 
-| FID | Internal feature number. | Object ID | 
-| SHAPE | Feature geometry. | Geometry | 
-| LOT_FACE_P | Indicates the type of possession hook, where 0= regular and 1= underwater. | Short Integer | 
-| CREATED_DA | The date the record was created. | Date | 
+| CREATED_DA | The date the record was created | String | 
 | LAST_MODIF | A field that can be used to identify the operator who last modified the feature. | String | 
-| LAST_MOD_1 | The date the feature or any attribute value associated with it was changed. | Date | 
+| LAST_MOD00 | The date the feature or any attribute value associated with it was changed. | Date | 
+| GLOBALID | | String |
+| SHAPE | Feature geometry. | Geometry | 

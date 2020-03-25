@@ -31,22 +31,23 @@ Geometry Type: SDE Feature Class<br><br>![image](https://github.com/CityOfNewYor
 ---------------------------------------------
 | Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 
 |------------ | ------------- | -------- | ----------- | ----------|
+| OBJECTID | Internal feature number. | Numeric | 
+| TAX_LOT_FA | This field identifies the type of each lot face line.  Lot faces are either "underwater" which as the name implies, are under water or they are "regular" meaning that they are standard lot faces existing on the land surface. | Short Integer |
 | BORO | This is a one digit numeric field that identifies the borough in which the associated feature exists.  Boro values range from one (1) to five (5) and are validated against the D_BORO domain. | String | 
 | BLOCK | Block is a five digit numeric field that identifies the block on which the associated feature exists. | Long Integer | 
-| FID | Internal feature number. | Numeric | 
 | LOT | Lot is a four digit numeric field that identifies a unique lot within a tax block.  Although DOF has a set of defined limits for different types of lots, the fact that there are exceptions to these rules makes it impossible to use a domain for validity checking of the lot numbers. | Short Integer | 
-| TAX_LOT_FA | This field identifies the type of each lot face line.  Lot faces are either "underwater" which as the name implies, are under water or they are "regular" meaning that they are standard lot faces existing on the land surface. | Short Integer | 
 | BBL | BBL is a concatenation of Boro-Block-Lot and is stored with every instance of those three fields.  Although the BBL value can always be determined dynamically, this field is maintained in order to simplify indexing, searching and the use of the files by other, as yet undetermined, applications. | String | 
+| LOT_FACE_L | Length of the lot face as obtained from the original COGIS file and subsequently updated. | Double |
 | SOURCE | The Source field is populated during the conversion process and indicates where the value of "Lot_Face_Length" was obtained.  The codes used are obtained from the "D_LOT_FACE_LENGTH_SOURCE" domain | Short Integer | 
+| BLOCK_FACE | This field is obtained from the original COGIS file and identifies those lot face segments that also form part of the block face polygon. | Short Integer |
+| LOT_FACE00 | This field is set during the pre-conversion and/or the conversion process to identify lot face segments that do not conform to the required conversion rules. | Short Integer |
 | CREATED_BY | A field that can be used to identify the operator who created the specific feature. | String | 
+| CREATED_DA | The date the record was created | string |
+| LAST_MODIF | A field that can be used to identify the operator who last modified the specific feature. | String |
+| LAST_MOD00 | The date the feature or any attribute value associated with it was changed. | String |
 | AV_CHANGE |  |  | 
-| LOT_FACE_L | Length of the lot face as obtained from the original COGIS file and subsequently updated. | Double | 
 | BW_CHANGE |  |  | 
-| BLOCK_FACE | This field is obtained from the original COGIS file and identifies those lot face segments that also form part of the block face polygon. | Short Integer | 
-| LOT_FACE_1 | This field is set during the pre-conversion and/or the conversion process to identify lot face segments that do not conform to the required conversion rules. | Short Integer | 
-| SHAPE | Feature geometry. | Geometry | 
-| CREATED_DA | The date the record was created | string | 
-| LAST_MODIF | A field that can be used to identify the operator who last modified the specific feature. | String | 
-| LAST_MOD_1 | The date the feature or any attribute value associated with it was changed. | String | 
 | APPROX_LEN | Boolean field that indicates if the length is approximate (+/-) | Short Integer | 
-| SHAPE_Leng |  | Double | 
+| GLOBALID | | String |
+| SHAPE | Feature geometry. | Geometry |  
+| SHAPE_LEN |  | Double | 
