@@ -37,3 +37,5 @@ Geometry Type: raster<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-m
 |2014|6''|New York City|April 1 - April 3: Bronx, Brooklyn, Queens, Staten Island <br>April 25: Water <br>June 1: Manhattan|Full true orthoimagery|Yes
 |2016|6''|New York City|March 26 - April 5: Bronx, Brookyln, Manhattan, Queens, Staten Island|Full true orthoimagery|Yes
 |2018|6''|New York City|April 14 - May 2: Bronx, Brooklyn, Manhattan, Queens, Staten Island|Full true orthoimagery|Yes
+|2020|6''|New York City|March 21 - April 11: Bronx, Brooklyn, Manhattan, Queens, Staten Island|Full true orthoimagery|Yes
+|2022|6''|New York City|March 16 - March 30: Bronx, Brooklyn, Manhattan, Queens, Staten Island|Full true orthoimagery|Yes
