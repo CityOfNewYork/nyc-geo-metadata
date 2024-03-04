@@ -1,5 +1,5 @@
 # Topobathymetric Classified Point Cloud
-Geometry Type: Point (LAS 1.4)<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Images/TopobathymetricClassifiedPointCloud.png)
+Geometry Type: Point (LAS 1.4)<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/main/Images/TopobathymetricClassifiedPointCloud.png)
 
 ### Table of Contents<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**1. Identification**](#1-identification)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**2. Data Quality and Specifications**](#2-data-quality-and-specifications)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**3. Attribute Information**](#3-attribute-information)<br><br>
 ## 1. Identification
