@@ -1,5 +1,5 @@
 # Zip Code Boundaries
-Geometry Type: polygon<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Images/ZipCodeBoundaries.PNG)
+Geometry Type: polygon<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/main/Images/ZipCodeBoundaries.PNG)
 
 ### Table of Contents<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**1. Identification**](#1-identification)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**2. Data Quality and Specifications**](#2-data-quality-and-specifications)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**3. Attribute Information**](#3-attribute-information)<br><br>
 ## 1. Identification

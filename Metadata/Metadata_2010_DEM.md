@@ -1,5 +1,5 @@
 # 2010 Digital Elevation Model
-Geometry Type: raster<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Images/DEM.PNG)
+Geometry Type: raster<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/main/Images/DEM.PNG)
 
 ### Table of Contents<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**1. Identification**](#1-identification)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**2. Data Quality and Specifications**](#2-data-quality-and-specifications)<br><br>
 ## 1. Identification
