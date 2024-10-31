@@ -13,9 +13,9 @@ Geometry Type: Point Cloud (LAZ), Raster (TIFF)<br><br>![image](https://github.c
 **Available Formats** |Point Cloud (LAS), Raster (GeoTIFF)
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html). Access and use of this data set require the approval of the City of New York Department of Environmental Protection. The City of New York and the University of Vermont make no representations of any kind, including but not limited to the warranties of merchantability or fitness for a particular use, nor are any such warranties to be implied with respect to the data.
 **Access Rights** |Public
-**Contact Information** |**Name**: DoITT GIS Unit<br>**Email**: gis-mgt@doitt.nyc.gov
+**Contact Information** |**Name**: OTI GIS Unit<br>**Email**: gis-mgt@oti.nyc.gov
 **Links** |Topobathymetric Point Cloud available via [New York State GIS Clearinghouse](https://orthos.dhses.ny.gov/?Extent=-9603624.133747088,4774299.7366908705,-7659066.134172721,5795498.434580554&Layers=07_meter_dem_index_usgs,1_meter_dem_index_fema,1_meter_dem_index_usgs,1_meter_dem_index_tidal_water,1_meter_dem_index_hydro_flattened,1_meter_dem_index_usda_utm18n,1_meter_dem_index_usda_utm17n,1_meter_dem_index_nys,2_meter_dem_index_ne_lidar,2_meter_dem_index_nys,2_meter_dem_index_fema,2_meter_dem_index_monroe_county,2_meter_dem_index_tompkins_county,2_meter_dem_index_erie_county&layerGroups=DEMIndexes,Orthoimagery&rightMenu=0)<br>Digital Elevation and Surface Models available via [New York State GIS Clearinghouse](http://gis.ny.gov/elevation/NYC-topobathymetric-DEM.htm)<br>[Land Cover](https://data.cityofnewyork.us/Environment/Land-Cover-Raster-Data-2017-6in-Resolution/he6d-2qns)<br>[Tree Canopy Change](https://data.cityofnewyork.us/Environment/Tree-Canopy-Change-2010-2017-/by9k-vhck)<br>[Tidally Coordinated Shoreline](https://data.cityofnewyork.us/Environment/Tidally-Coordinated-Shoreline/pawq-tjb4)<br>Intensity Imagery (coming soon)
-**Tags** |lidar, point cloud, dem, digital elevation model, foot, elevation, gis, doitt
+**Tags** |lidar, point cloud, dem, digital elevation model, foot, elevation, gis, oti, doitt
 ## 2. Data Quality and Specifications
 ---------------------------------------------
 |     |     |

@@ -14,7 +14,7 @@ Geometry Type: polygon<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public
 **Links** |https://data.cityofnewyork.us/Business/Business-Improvement-Districts/ejxk-d93y<br>http://www.nyc.gov/html/sbs/html/neighborhood_development/bid_directory.shtml
-**Tags** |business improvement districts, BIDs, doitt, gis
+**Tags** |business improvement districts, BIDs, oti, doitt, gis
 ## 2. Data Quality and Specifications
 ---------------------------------------------
 |     |     |

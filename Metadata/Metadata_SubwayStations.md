@@ -14,7 +14,7 @@ Geometry Type: point<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-me
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public
 **Links** |https://data.cityofnewyork.us/Transportation/Subway-Stations/arq3-7z49
-**Tags** |doittgis, doitt gis, location, map, cartography, basemap, transit, transportation, train, subway, travel, entrance, station, transfer
+**Tags** |oti, doitt, gis, location, map, cartography, basemap, transit, transportation, train, subway, travel, entrance, station, transfer
 ## 2. Data Quality and Specifications
 ---------------------------------------------
 |     |     |

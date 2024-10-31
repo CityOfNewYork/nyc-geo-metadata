@@ -8,7 +8,7 @@ Geometry Type: point<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-me
 | --- | --- |
 **Purpose** |Point of Interest (CommonPlace) is a point feature representation of points of interest throughout New York City. The primary intended purpose of CommonPlace is to help aid dispatch efforts to these points of interest throughout New York City.
 **Description** |Point of Interest (aka Common Place) are point representations of locations that can be referred to by name and may or may not have an address. The data is a compilation of a variety of agency data and is a component of the CSCL database.
-**Source(s)** |Department of Information Technology & Telecommunications (DOITT)
+**Source(s)** |Office of Technology and Innovation (OTI)
 **Publication Dates** |**Data**: 8/30/2016<br>**Last Update**: Weekly<br>**Metadata**: 11/21/2018<br>**Update Frequency**: Agency data is updated daily by Centerline Management Group (CMG). Public releases of this data are made weekly. 
 **Available Formats** |Shapefile. Additional data formats are available for download on the [NYC Open Data Portal](https://data.cityofnewyork.us/City-Government/Points-Of-Interest/rxuy-2muj).
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
@@ -39,7 +39,7 @@ Geometry Type: point<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-me
 | CREATED | Date feature was created | date | 
 | MODIFIED | Date feature was modified | date | 
 | FACILITY_T | This is a SubType field organizing the CommonPlace points into categories and sets up the domain values for the FACILITY_DOMAINS field.<br>1 = Residential<br>2 = Education Facility<br>3 = Cultural Facility<br>4 = Recreational Facility<br>5 = Social Services<br>6 = Transportation Facility<br>7 = Commercial<br>8 = Government Facility (non public safety)<br>9 = Religious Institution<br>10 = Health Services<br>11 = Public Safety<br>12 = Water<br>13 = Miscellaneous | integer | 
-| SOURCE | Agency that defined the CommonPlace location.<br>DoITT = Department of Information Technology and Telecommunications<br>EMS = Fire Department Emergency Services (EMS)<br>FDNY = Fire Department (Fire)<br>DOB = Department of Buildings<br>DOF = Department of Finance<br>DOT = Department of Transportation<br>DCP = Department of City Planning<br>OEM = Office of Emergency Management<br>311 = 3-1-1<br>NYPD = Police Department<br>OTHER = Other<br>DPR = Department of Parks and Recreation<br>NOAA = National Oceanic and Atmospheric Administration<br>NYCHA = New York City Housing Authority<br>OSM = Open Street Map<br>DOE = NYC Dept. of Education | text | 
+| SOURCE | Agency that defined the CommonPlace location.<br>DoITT = Department of Information Technology and Telecommunications (now OTI)<br>EMS = Fire Department Emergency Services (EMS)<br>FDNY = Fire Department (Fire)<br>DOB = Department of Buildings<br>DOF = Department of Finance<br>DOT = Department of Transportation<br>DCP = Department of City Planning<br>OEM = Office of Emergency Management<br>311 = 3-1-1<br>NYPD = Police Department<br>OTHER = Other<br>DPR = Department of Parks and Recreation<br>NOAA = National Oceanic and Atmospheric Administration<br>NYCHA = New York City Housing Authority<br>OSM = Open Street Map<br>DOE = NYC Dept. of Education | text | 
 | B7SC | The Street Code assigned to a CommonPlace . | text | 
 | PRI_ADD | The Addresspoint ID if the CommonPlace is related to any Addresspoint | double | 
 | NAME | The name of the CommonPlace. Most name come from Feature name table. | text | 
