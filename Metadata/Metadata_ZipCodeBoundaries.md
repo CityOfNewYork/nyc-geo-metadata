@@ -8,13 +8,13 @@ Geometry Type: polygon<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-
 | --- | --- |
 **Purpose** |
 **Description** |Geographic approximation of USPS zip code boundaries. 
-**Source(s)** |Department of Information Technology & Telecommunications (DOITT)
+**Source(s)** |Office of Technology and Innovation (OTI)
 **Publication Dates** |**Data**: 04/08/14<br>**Last Update**: 09/08/14<br>**Metadata**: 12/22/2016<br>**Update Frequency**: As needed
 **Available Formats** |Shapefile. Additional data formats are available for download on the [NYC Open Data Portal](https://data.cityofnewyork.us/Business/Zip-Code-Boundaries/i8iw-xf4u).
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public
 **Links** |https://data.cityofnewyork.us/Business/Zip-Code-Boundaries/i8iw-xf4u
-**Tags** |zip, postal code, zip code boundaries, zip code, area, doitt, doitt gis
+**Tags** |zip, postal code, zip code boundaries, zip code, area, oti, doitt, gis
 ## 2. Data Quality and Specifications
 ---------------------------------------------
 |     |     |
