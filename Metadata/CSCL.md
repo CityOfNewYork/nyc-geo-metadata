@@ -1,23 +1,21 @@
 # CSCL
 
-CRISTINA: Everything below here is copied from Buildings metadata
 
-Geometry Type: polygon<br><br>![image](https://github.com/CityOfNewYork/nyc-planimetrics/blob/main/Images/FeatureViews/Build_Foot.png)
+Geometry Type: point, line, polygon<br><br>![image](../Images/CSCL.png)
 
 ### Table of Contents<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**1. Identification**](#1-identification)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**2. Data Quality and Specifications**](#2-data-quality-and-specifications)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**3. Attribute Information**](#3-attribute-information)<br><br>
 ## 1. Identification
 ---------------------------------------------
 |     |     |
 | --- | --- |
-**Purpose** |This feature class is used by the NYC OTI GIS group to maintain and distribute an accurate 'basemap' for NYC. The basemap provides the foundation upon virtually all other geospatial data with New York.
-**Description** |Building footprints represent the full perimeter outline of each building as viewed from directly above. Additional attribute information maintained for each feature includes: Building Identification Number (BIN); Borough, Block, and Lot information(BBL); ground elevation at building base; roof height above ground elevation; construction year, and feature type.
-**Source(s)** |Annually captured aerial imagery, Research of Department of Buildings records and other NYC records, EagleView Oblique imagery, Cyclomedia panoramic photographs.
-**Publication Dates** |**Last Update**: Weekly<br>**Metadata**: 10/30/2024<br>**Update Frequency**: Features are updated daily by OTI staff and released publicly on [NYC Open Data](https://opendata.cityofnewyork.us/) and [NYCMaps](https://nycmaps-nyc.hub.arcgis.com/). 
-**Available Formats** |Individual shapefile on the [NYC Open Data Portal](https://data.cityofnewyork.us/Housing-Development/Building-Footprints/nqwf-w8eh) <br> Multiple formats from [NYCMapHub](https://nycmaps-nyc.hub.arcgis.com/datasets/nyc::building/about)
+**Purpose** |CSCL (Citywide Street Centerline) is a Geodatabase managed by the Department of City Planning (DCP) and the Office of Technology and Innovation (OTI). The CSCL database was developed subsequent to 9/11 to ensure that all the NYC public safety agencies were working with GIS data from a common source. CSCL data feeds the NYPD 911 call-takers maps as well as each of the unique dispatch systems used by NYPD, FDNY, and FDNY EMS. It also supplies city agencies and the public with an authoritative source for a variety of other GIS data. CSCL is used to produce the Dept. of City Planning’s Geosupport software, a geocoding system widely used by city agencies and the public.
+**Description** |CSCL is governed by 7 city agencies: DCP, OTI, NYPD, FDNY, OEM, DOT, and DEP. CSCL centrally maintains database of street, address, common place, and additional location data to support public safety dispatching, serving as the authoritative source for New York City’s geographic data. The data is edited on a daily basis and updates are synchronized nightly to NYPD, FDNY, DOT, DSNY, OEM and OTI-PSGIS. The CSCL database contains 72 feature classes, 38 tables and 46 relationships that are described below.
+**Publication Dates** |**Last Update**: Weekly<br>**Metadata**: 12/11/2024<br>**Update Frequency**: Features are updated daily by OTI staff and released publicly on [NYCMaps](https://nycmaps-nyc.hub.arcgis.com/). 
+**Available Formats** | (zipped) ESRI File Geodatabase 
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public
-**Links** |https://data.cityofnewyork.us/Housing-Development/Building-Footprints/nqwf-w8eh <br> https://nycmaps-nyc.hub.arcgis.com/datasets/nyc::building/about
-**Tags** |Buildings, Building footprint, BIN, Structure
+**Links** |https://nyc.maps.arcgis.com/home/item.html?id=113249f31f994dde836f3617c9bca1e3
+**Tags** |CSCL
 ## 2. Data Quality and Specifications
 ---------------------------------------------
 |     |     |
