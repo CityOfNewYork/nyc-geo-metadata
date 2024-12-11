@@ -38,12 +38,16 @@ Geometry Type: point, line, polygon<br><br>![image](../Images/CSCL.png)
 
 ## Feature Classes 
 
-* [**AA**](##aa)
-* [**BB**](##bb)
+| Feature Class | Summary | Description |
+| ---|---|---|
+|AccessPoint|To provide Emergency Services with additional information on accessing locations.|Access points are primarily along the street and represent a point of access to one or more entrances of a building (mostly schools and gated building complexes).  In some cases, they are also in the interior of a building complex, because of internal fences or gates. In other cases, an access point represents access to an alley or walkway in the rear or side of a building. Access Points were originally field collected. There is no known source available to compare the field collected data, either for spatial location or attribute accuracy.|
+|AddressPoint|Address points were developed to supplement the address information supplied by the CSCL centerline. Some computer aided dispatch systems use address points as the primary source for locating an address.|AddressPoints model actual addresses present in the field. AddressPoints are created approximately five feet inside building footprints along the correct street frontage. Address points were initially created from data in the Department of City Planning Property Address Directory (PAD) file.|
+|AdjacentBoroughBoundary| |Polygon feature class that is used in a downstream process to alter the Borough for areas where FDNY and NYPD handle 911 calls differently. e.g. FDNY handles Roosevelt Island as Manhattan and NYPD handles Roosevelt Island as Queens. Polygons are drawn ad-hoc but using CSCL.Centerline and CSCL.Borough as a reference. Data is maintained by OTI-PSGIS group.|
+|AlarmBox|FDNY Alarm Box locations.|This feature class can be used only by expressed permission from FDNY, City of New York only.|
+|AlarmBoxArea|N/A|N/A|
+|AssemblyDistrict|These districts were created by the Department of City Planning to aid city agencies in administering public services.|New York State assembly district boundaries for the City of New York. These districts were created by the Department of City Planning to aid city agencies in administering public services.|
 
-## AA
 
-## BB
 
 
 
