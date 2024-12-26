@@ -38,6 +38,29 @@ Geometry Type: point, line, polygon<br><br>![image](../Images/CSCL.png)
 ## Feature Classes 
 
 Some feature classes in the geodatabase are not described here because they are not actively maintained or used.
+| Feature Yype | Name | Description |
+| ---|---|---|
+|Points|AccessPoint|Access points are primarily along the street and represent a point of access to one or more entrances of a building.|
+||[AddressPoint]|AddressPoints are a data model that represents the actual addresses present in the field.|
+||AlarmBox|Locatiosn of FDNY Alarm Boxs.|
+||CellularCallBox|Locations of NYPD maintained call boxes.|
+||CommonPlace|CommonPlace is a point feature dataset representing locations of various points of interest within the boundaries of New York City, such as schools, churches, parks, and museums.|
+||ComplexAccessPoint|NA|
+||EntrancePoint|Entrance Point is a point representation of New York City buildings that are associated with Access Points. The entrance point must be a physical entry at street level (i.e. rooftop entry will not be considered an entrance point). An entrance point does not have a posted address number.|
+||ESINETAtomicPoint|This point feature class contains attribute data used for the creation of Provisioning, PSAP, and Emergency Service Boundaries in a downstream process. This point feature class is to be used by the Next Gen 911 system.|
+||LinkNYC|LinkNYC kiosk point feature locations in New York City.|
+||NYPDReferenceMarkers|This dataset represents the locations of New York State-maintained reference marker signs within New York City, situated along roads and highways. This data is utilized by the NYPD.|
+||RailStation|Locations of all rail stations within New York City.|
+||SubwayStation|Locations of all Subway stations within New York City.|
+||TollBooth|New York City's tollbooth locations.|
+||TrafficCamera|Locations of NYC DOT traffic cameras.|
+||TransitBooth|Location of subway system transit booths.|
+||TransitEmergencyExit|Location of MTA transit emergency exits.|
+||TransitEntrance|Transit entrance is a point feature class identifying the location of MTA and LIRR station entrances.|
+||||
+
+
+
 
 | Feature Class | Summary | Description |
 | ---|---|---|
