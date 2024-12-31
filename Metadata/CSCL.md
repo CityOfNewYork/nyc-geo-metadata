@@ -63,6 +63,52 @@ Some feature classes in the geodatabase are not described here because they are 
 ||Rail||
 ||Shoreline||
 ||VirtualCenterline||
+|**Polygon**|AtomicPolygon|Atomic polygons serve as a set of basic building blocks for generating the polygons of many of the district types represented in the CSCL database.|
+||Median|TBD|
+||AdjacentBoroughBoundary|Polygon feature class that is used in a downstream process to alter the Borough for areas where FDNY and NYPD handle 911 calls differently. Polygons are drawn ad-hoc but using Centerlines and Boroughs as a reference. Data is maintained by OTI-Public Safety GIS.|
+||AlarmBoxArea||
+||AssemblyDistrict|New York state assembly district boundaries for the City of New York. It is extracted by dissolving combined appropriate fields in atomic polygons.|
+||Borough|Borough is a polygon representation of New York City boroughs.|
+||BusinessImprovementDistrict|Dataset contains Business Improvement Districts (BIDs) Name and geographic boundaries.|
+||CDTA2020|TBD|
+||CensusBlock2000|The Census Blocks for the 2000 US Census. These boundary files are derived from the US Census Bureau's TIGER project and have been modified by dissolving combined appropriate fields in atomic polygons.|
+||CensusBlock2010|The Census Blocks for the 2010 US Census. These boundary files are derived from the US Census Bureau's TIGER project and have been modified by dissolving combined appropriate fields in atomic polygons.|
+||CensusBlock2020|The Census Blocks for the 2020 US Census. These boundary files are derived from the US Census Bureau's TIGER project and have been modified by dissolving combined appropriate fields in atomic polygons.|
+||CensusTract1990|The Census Tracts for the 1990 US Census. These boundary files are derived from the US Census Bureau's TIGER project and have been geographically modified to fit the New York City base map. Because some census tract are under water not all census tracts are contained in this file, only census tracts that are partially or totally located on land have been mapped in this file.|
+||CensusTract2000|The Census Tracts for the 2000 US Census. These boundary files are derived from the US Census Bureau's TIGER project and have been geographically modified to fit the New York City base map. Because some census tract are under water not all census tracts are contained in this file, only census tracts that are partially or totally located on land have been mapped in this file.|
+||CensusTract2010|The Census Tracts for the 2010 US Census. These boundary files are derived from the US Census Bureau's TIGER project and have been geographically modified to fit the New York City base map. Because some census tract are under water not all census tracts are contained in this file, only census tracts that are partially or totally located on land have been mapped in this file.|
+||CensusTract2020|The Census Tracts for the 2020 US Census. These boundary files are derived from the US Census Bureau's TIGER project and have been geographically modified to fit the New York City base map. Because some census tract are under water not all census tracts are contained in this file, only census tracts that are partially or totally located on land have been mapped in this file.|
+||CityCouncilDistrict|The City Council Districts are the result of the recent redistricting process, which takes place every ten years to reflect population changes reported in the 2020 Census. These geographies were redrawn by the New York City Council Redistricting Commission.|
+||CityLimit|A polygon defining the limits of New York City.|
+||CommunityDistrict|Community Districts are mandated by the city charter to review and monitor quality of life issues for New York City neighborhoods. It is extracted by dissolving combined appropriate fields in atomic polygons.|
+||Complex|Complex is a polygon representation of New York City complexes including colleges, hospitals, rail yards, parks, commercial centers, and other govermental buildings campuses.|
+||CongressionalDistrict|US House of Representatives Congressional District boundaries for the City of New York. These district boundaries represent the redistricting as of the US Census 2020.|
+||ElectionDistrict|New York City Board of Elections election districts for the City of New York. These district boundaries represent the redistricting as of the US Census 2020. It is extracted by dissolving combined appropriate fields in atomic polygons.|
+||EMSAtom|TBD|
+||EMSBattalion|TBD|
+||EMSDispatchArea|TBD|
+||EMSDivision|TBD|
+||FireBattalion|The service area boundaries for New York's fire battalions.|
+||FireCompany|The service area boundaries for New York City's fire companies.|
+||FireDivision|The service area boundaries for New York City's fire divisions.|
+||HealthArea|The boundaries for New York City's Health Areas.|
+||HealthCenterDistrict|The boundaries for New York City's Health Center Areas.|
+||HistoricDistrict|TBD|
+||HurricaneEvacuationZone|New York City's hurricane contingency plans are based on six evacuation zones. Hurricane evacuation zones are areas of the city that may be inundated by storm surge or isolated by storm surge waters. There are six zones, ranked by the risk of storm surge impact, with Zone 1 being the most likely to flood. In the event of a hurricane or tropical storm, residents in these zones may be ordered to evacuate.|
+||MunicipalCourtDistrict|The New York City Municipal Court boundaries.|
+||Neighborhood|An NYC Neighborhood, based on this, is a projection area created from census tracts within New York City's 55 PUMAs (Public Use Microdata Areas). These areas were designed for population projections from 2000 to 2030, with each having at least 15,000 people in 2000 to improve accuracy. The boundaries may not match historical neighborhoods, and the names are not definitive.|
+||NTA2020|TBD|
+||NYPDBeat|The service area boundaries for New York City's police posts.|
+||NYPDPatrolBorough|TBD|
+||NYPDPrecinct|The service area boundaries for New York City's police precincts.|
+||NYPDSector|The service area boundaries for New York City's police sectors. Created by dissolving beats.|
+||NYPDTow|The service area boundaries for New York City's tow zones. Created by combining precincts.|
+||QuarterSectionalMap||
+||SchoolDistrict|The current NYC School District boundaries. It is extracted by dissolving combined appropriate fields in atomic polygons.|
+||SectionalMap|TBD|
+||StateSenateDistrict|New York State Senate district boundaries for the City of New York.|
+||ZipCode|New York City’s ZIP Codes.|
+||UrbanRenewalArea|TBD|
 |**Tables**|FEATURENAME|The FeatureName table stores the names of common places and rail names.|
 ||STREETNAME|The StreetName table stores street names.|
 ||||
