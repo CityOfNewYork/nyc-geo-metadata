@@ -40,7 +40,8 @@ Geometry Type: point, line, polygon<br><br>![image](../Images/CSCL.png)
 Some feature classes in the geodatabase are not described here because they are not actively maintained or used.
 | Feature Yype | Name | Description |
 | ---|---|---|
-|Points|AccessPoint|Access points are primarily along the street and represent a point of access to one or more entrances of a building.|
+|**Feature Dataset**|CSCL|The CSCL feature dataset is a collection of the following features and relationship classes: Atomic Polygon, Centerline, Median, Milepost, Node, Non-Street Feature, Rail, Reference Marker, Shoreline, Subway, CenterlineHaveAddresses, CenterlineHaveMileposts, and CenterlineHaveReference Markers.|
+|**Points**|AccessPoint|Access points are primarily along the street and represent a point of access to one or more entrances of a building.|
 ||[AddressPoint](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/main/Metadata/Metadata_AddressPoint.md)|AddressPoints are a data model that represents the actual addresses present in the field.|
 ||AlarmBox|Locatiosn of FDNY Alarm Boxs.|
 ||CellularCallBox|Locations of NYPD maintained call boxes.|
@@ -57,7 +58,27 @@ Some feature classes in the geodatabase are not described here because they are 
 ||TransitBooth|Location of subway system transit booths.|
 ||TransitEmergencyExit|Location of MTA transit emergency exits.|
 ||TransitEntrance|Transit entrance is a point feature class identifying the location of MTA and LIRR station entrances.|
+|**Lines**|Centerline|Centerline is a single line representation of New York City streets containing address ranges and other information such as traffic directions, road types, segment types.|
+||NonStreetFeature||
+||Rail||
+||Shoreline||
+||VirtualCenterline||
+|**Tables**|FEATURENAME|The FeatureName table stores the names of common places and rail names.|
+||STREETNAME|The StreetName table stores street names.|
 ||||
+||||
+||||
+||||
+|**Relationship Class**|AccessPointsToEntrancePoints|This relationship class determines the relationship between Access Point and Entrance Point.|
+||||
+||||
+||||
+
+
+
+
+
+
 
 
 
