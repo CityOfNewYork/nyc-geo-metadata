@@ -190,7 +190,7 @@ Some feature classes in the geodatabase are not described here because they are 
 ||SubwaysHaveSegmentLGC||
 ||TurnRestrictionsHaveTurnRestrictionLimits||
 
-
+<!--
 | Feature Class | Summary | Description |
 | ---|---|---|
 |AccessPoint|Provides Emergency Services with additional information on accessing locations.|Access points are primarily along the street and represent a point of access to one or more entrances of a building (mostly schools and gated building complexes).  In some cases, they are also in the interior of a building complex, because of internal fences or gates. In other cases, an access point represents access to an alley or walkway on the rear or side of a building. Access Points were originally field collected. There is no known source available to compare the field collected data, either for spatial location or attribute accuracy.|
@@ -255,7 +255,7 @@ Some feature classes in the geodatabase are not described here because they are 
 | VirtualCenterline     | NYPD virtual intersections | Virtual centerline was created by importing street segments from NYPD PCAD geodatabases where the classes are equal to "VI" or "CPK". These represent centerline geometries that are unique to the police department which may include streets, water features, and other spatial features.       |
 | ZipCode               | New York City’s ZIP Codes.                                                | This feature class was originally created by the City Planning Department, and it is now updated periodically by OTI. |
 
-
+-->
 
 
 
