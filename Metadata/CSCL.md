@@ -59,10 +59,10 @@ Some feature classes in the geodatabase are not described here because they are 
 ||TransitEmergencyExit|Location of MTA transit emergency exits.|
 ||TransitEntrance|Transit entrance is a point feature class identifying the location of MTA and LIRR station entrances.|
 |**Lines**|Centerline|Centerline is a single line representation of New York City streets containing address ranges and other information such as traffic directions, road types, segment types.|
-||NonStreetFeature||
-||Rail||
-||Shoreline||
-||VirtualCenterline||
+||NonStreetFeature|NonStreetFeature is a single-line representation of non-street features. The subtypes of NonStreetFeature include:1) Census_block 2) District_Boundary 3) Election_District 4) Other 5) Physical_Non_ST_Feature 6) Pier_Outline 7) School_District.|
+||Rail|Rail is a single line representation of New York City railroads containing route and other information.|
+||Shoreline|Shoreline is a single line representation of New York City shorelines.|
+||VirtualCenterline|To represent NYPD virtual intersections.These represent centerline geometries unique to the police department, including streets, water features, and other spatial elements.|
 |**Polygon**|AtomicPolygon|Atomic polygons serve as a set of basic building blocks for generating the polygons of many of the district types represented in the CSCL database.|
 ||Median|TBD|
 ||AdjacentBoroughBoundary|Polygon feature class that is used in a downstream process to alter the Borough for areas where FDNY and NYPD handle 911 calls differently. Polygons are drawn ad-hoc but using Centerlines and Boroughs as a reference. Data is maintained by OTI-Public Safety GIS.|
