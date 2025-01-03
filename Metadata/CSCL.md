@@ -109,12 +109,43 @@ Some feature classes in the geodatabase are not described here because they are 
 ||StateSenateDistrict|New York State Senate district boundaries for the City of New York.|
 ||ZipCode|New York City’s ZIP Codes.|
 ||UrbanRenewalArea|TBD|
-|**Tables**|FEATURENAME|The FeatureName table stores the names of common places and rail names.|
+|**Tables**|ADDRESSPOINTLGCS||
+||ADMINBOUNDARIES||
+||ALTSEGMENTDATA||
+||BLOCKFACE||
+||CADSOURCEADDRESS||
+||CENTERLINEHISTORY||
+||COMPLEXINTERSECTION||
+||DELETEDSTREETCODES||
+||ELEVATION||
+||EVENTROUTE||
+||FEATURENAME|The FeatureName table stores the names of common places and rail names.|
+||LASTWORD||
+||NAMEDINTERSECTION||
+||NEIGHBORHOODPUMACODES||
+||PARADEROUTE||
+||PERMIT||
+||PHYSICALRESTRICTION||
+||ROADBEDPOINTERLIST||
+||SEDAT||
+||SEGMENT_LGC||
 ||STREETNAME|The StreetName table stores street names.|
-||||
-||||
-||||
-||||
+||SPECIALDISASTER||
+||SPECIALINTERSECTIONS||
+||SPECIALSEDAT||
+||STREETNAME||
+||STREETSHAVEINTERSECTIONS||
+||STREETTYPE||
+||TRAFFICCALMINGDEVICE||
+||TRAVELRESTRICTION||
+||TRUCKROUTE||
+||TURNRESTRICTION||
+||TURNRESTRICTIONLIMITS||
+||UNIVERSALWORD||
+||VIRTUALINTERSECTION||
+||SUBADDRESS||
+||CDTAEquiv2020||
+||NTAEquiv2020||
 |**Relationship Class**|AccessPointsToEntrancePoints|This relationship class determines the relationship between Access Point and Entrance Point.|
 ||||
 ||||
