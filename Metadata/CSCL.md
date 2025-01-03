@@ -109,41 +109,40 @@ Some feature classes in the geodatabase are not described here because they are 
 ||StateSenateDistrict|New York State Senate district boundaries for the City of New York.|
 ||ZipCode|New York City’s ZIP Codes.|
 ||UrbanRenewalArea|TBD|
-|**Tables**|ADDRESSPOINTLGCS||
-||ADMINBOUNDARIES||
-||ALTSEGMENTDATA||
-||BLOCKFACE||
-||CADSOURCEADDRESS||
-||CENTERLINEHISTORY||
-||COMPLEXINTERSECTION||
+|**Tables**|ADDRESSPOINTLGCS|The AddressPointLGCs table stores additional Local Group Codes (LGCs) to provide alternative street names for address points.|
+||ADMINBOUNDARIES|A reserved placeholder for future data.|
+||ALTSEGMENTDATA|The AltSegmentData table stores "alternative" data for CSCL centerline, rail, and shoreline segments.|
+||BLOCKFACE|A reserved placeholder for future data.|
+||CADSOURCEADDRESS|The CADSOURCEADDRESS file contains source records from EMSCAD, Starfire, SPRINT, and PCAD. It was created to store complete source records from public safety geofiles, specifically for commonplace records.|
+||CENTERLINEHISTORY|This table records all edits made to centerline segments.|
+||COMPLEXINTERSECTION|Complex intersections represent locations where roadbeds intersect with undivided streets or other roadbeds.|
 ||DELETEDSTREETCODES||
-||ELEVATION||
-||EVENTROUTE||
-||FEATURENAME|The FeatureName table stores the names of common places and rail names.|
+||ELEVATION|A reserved placeholder for future data.|
+||EVENTROUTE|A reserved placeholder for future data.|
+||FEATURENAME|The FeatureName table stores the names of common places and rail/subway features. It is used to associate one or more names with a CSCL common place point, complex, rail, or subway feature.|
 ||LASTWORD||
-||NAMEDINTERSECTION||
-||NEIGHBORHOODPUMACODES||
-||PARADEROUTE||
-||PERMIT||
-||PHYSICALRESTRICTION||
-||ROADBEDPOINTERLIST||
-||SEDAT||
-||SEGMENT_LGC||
-||STREETNAME|The StreetName table stores street names.|
-||SPECIALDISASTER||
-||SPECIALINTERSECTIONS||
-||SPECIALSEDAT||
-||STREETNAME||
+||NAMEDINTERSECTION|The named intersection table associates nodes (intersections) that have names in the City.|
+||NEIGHBORHOODPUMACODES|Table that relates DCP neighborhoods to New York City's 55 Public Use Microdata Areas (PUMAs).|
+||PARADEROUTE|A reserved placeholder for future data.|
+||PERMIT|A reserved placeholder for future data.|
+||PHYSICALRESTRICTION|A reserved placeholder for future data.|
+||ROADBEDPOINTERLIST|The Roadbed Pointer List (RPL) is a table that relates generic segments to roadbed segments in the CSCL centerline.|
+||SEDAT|The Split Election District Address Table (SEDAT) stores the address range data associated with segments split by Election Districts.|
+||SEGMENT_LGC|The Segment_LGC table serves as the entry point for identifying the valid name(s) for a particular street segment. It stores the relationship between a centerline, rail, or shoreline segment and its 
+||SPECIALDISASTER|A reserved placeholder for future data.|
+||SPECIALINTERSECTIONS|The special intersection table store information relating to ambiguous intersections.|
+||SPECIALSEDAT|The Special Split Election District Address Table (SEDAT) stores the address range data associated with segments split by Election Districts. The address information is associated with Special Address File records.|
+||STREETNAME|The StreetName table stores street names. The street name is parsed into seven component parts according to National Emergency Number Association (NENA) standards.|
 ||STREETSHAVEINTERSECTIONS||
-||STREETTYPE||
+||STREETTYPE|The streettype table stores the various City agency values for street types (e.g. Avenue, Boulevard) and their abbreviations.|
 ||TRAFFICCALMINGDEVICE||
 ||TRAVELRESTRICTION||
-||TRUCKROUTE||
-||TURNRESTRICTION||
-||TURNRESTRICTIONLIMITS||
+||TRUCKROUTE|A reserved placeholder for future data.|
+||TURNRESTRICTION|A reserved placeholder for future data.|
+||TURNRESTRICTIONLIMITS|A reserved placeholder for future data.|
 ||UNIVERSALWORD||
 ||VIRTUALINTERSECTION||
-||SUBADDRESS||
+||SUBADDRESS|A subaddress is a component of an address that further specifies a location within a larger building or complex. Subaddress records for New York City are added to the Citywide Street Centerline Geodatabase to support emergency response and post-emergency canvassing operations.|
 ||CDTAEquiv2020||
 ||NTAEquiv2020||
 |**Relationship Class**|AccessPointToAddressPoint|Attributed - This relationship class determines the relationship between Access Point and AddressPoint.|
