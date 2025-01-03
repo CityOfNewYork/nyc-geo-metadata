@@ -146,18 +146,49 @@ Some feature classes in the geodatabase are not described here because they are 
 ||SUBADDRESS||
 ||CDTAEquiv2020||
 ||NTAEquiv2020||
-|**Relationship Class**|AccessPointsToEntrancePoints|This relationship class determines the relationship between Access Point and Entrance Point.|
-||||
-||||
-||||
-
-
-
-
-
-
-
-
+|**Relationship Class**|AccessPointToAddressPoint|Attributed - This relationship class determines the relationship between Access Point and AddressPoint.|
+||AccessPointsToEntrancePoints|Attributed|
+||AddressPointHaveEntrancePoint||
+||AddressPointsHaveLGCs||
+||CenterlinesHaveAltSegmentData||
+||CenterlinesHaveCommonPlaces||
+||CenterlinesHaveRestrictions||
+||CenterlinesHaveSegmentLGC||
+||CenterlinesHaveTrafficCameras||
+||CenterlinesHaveTransitEmergencyExits||
+||CenterlinesHaveTravelRestrictions||
+||CenterlinesToSEDAT||
+||CenterlinesToStreetsHaveIntersections||
+||CommonPlace_Streetname||
+||CommonPlacesHaveAccessPoints|Attributed|
+||CommonPlacesHaveAddressPoints|Attributed|
+||CommonPlacesHaveFeatureNames|Attributed|
+||ComplexIntersectionsHaveNodes||
+||ComplexesHaveCommonPlaces||
+||ComplexesHaveComplexAccessPoints||
+||IntersectionsToBoundaries||
+||NamedIntersectionsHaveStreetNames||
+||NodesHaveNamedIntersections||
+||NodesHaveSegments||
+||NodesHaveSpecialIntersections||
+||NodesHaveVirtualIntersections||
+||NonStreetFeaturesHaveAltSegmentData
+||NonStreetFeaturesHaveSegmentLGC||
+||PostTypesHaveStreetTypes||
+||PreTypesHaveStreetTypes||
+||RailStationsHaveFeatureNames|Attributed|
+||RailsHaveSegmentLGC||
+||SegmentLGCsHaveFeatureNames||
+||SegmentLGCsHaveStreetNames||
+||ShorelinesHaveAltSegmentData||
+||ShorelinesHaveSegmentLGC||
+||SpecialSedatHaveCommonPlaces||
+||SubwayStationsHaveFeatureNames|Attributed|
+||SubwayStationsHaveStationEntrances||
+||SubwayStationsHaveTransitBooths||
+||SubwayStationsHaveTransitEmergencyExits||
+||SubwaysHaveSegmentLGC||
+||TurnRestrictionsHaveTurnRestrictionLimits||
 
 
 | Feature Class | Summary | Description |
