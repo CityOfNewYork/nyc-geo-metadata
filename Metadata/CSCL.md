@@ -38,7 +38,7 @@ Geometry Type: point, line, polygon<br><br>![image](../Images/CSCL.png)
 ## Feature Classes 
 
 Some feature classes in the geodatabase are not described here because they are not actively maintained or used.
-| Feature Yype | Name | Description |
+| Feature Type | Name | Description |
 | ---|---|---|
 |**Feature Dataset**|CSCL|The CSCL feature dataset is a collection of the following features and relationship classes: Atomic Polygon, Centerline, Median, Milepost, Node, Non-Street Feature, Rail, Reference Marker, Shoreline, Subway, CenterlineHaveAddresses, CenterlineHaveMileposts, and CenterlineHaveReference Markers.|
 |**Points**|AccessPoint|Access points are primarily along the street and represent a point of access to one or more entrances of a building.|
@@ -147,47 +147,5 @@ Some feature classes in the geodatabase are not described here because they are 
 ||SUBADDRESS|A subaddress is a component of an address that further specifies a location within a larger building or complex. Subaddress records for New York City are added to the Citywide Street Centerline Geodatabase to support emergency response and post-emergency canvassing operations.|
 ||CDTAEquiv2020||
 ||NTAEquiv2020||
-|**Relationship Class**|AccessPointToAddressPoint|This Attributed relationship class determines the relationship between Access Point and AddressPoint.|
-||AccessPointsToEntrancePoints|Attributed|
-||AddressPointHaveEntrancePoint||
-||AddressPointsHaveLGCs||
-||CenterlinesHaveAltSegmentData||
-||CenterlinesHaveCommonPlaces||
-||CenterlinesHaveRestrictions||
-||CenterlinesHaveSegmentLGC||
-||CenterlinesHaveTrafficCameras||
-||CenterlinesHaveTransitEmergencyExits||
-||CenterlinesHaveTravelRestrictions||
-||CenterlinesToSEDAT||
-||CenterlinesToStreetsHaveIntersections||
-||CommonPlace_Streetname||
-||CommonPlacesHaveAccessPoints|Attributed|
-||CommonPlacesHaveAddressPoints|Attributed|
-||CommonPlacesHaveFeatureNames|Attributed|
-||ComplexIntersectionsHaveNodes||
-||ComplexesHaveCommonPlaces||
-||ComplexesHaveComplexAccessPoints||
-||IntersectionsToBoundaries||
-||NamedIntersectionsHaveStreetNames||
-||NodesHaveNamedIntersections||
-||NodesHaveSegments||
-||NodesHaveSpecialIntersections||
-||NodesHaveVirtualIntersections||
-||NonStreetFeaturesHaveAltSegmentData
-||NonStreetFeaturesHaveSegmentLGC||
-||PostTypesHaveStreetTypes||
-||PreTypesHaveStreetTypes||
-||RailStationsHaveFeatureNames|Attributed|
-||RailsHaveSegmentLGC||
-||SegmentLGCsHaveFeatureNames||
-||SegmentLGCsHaveStreetNames||
-||ShorelinesHaveAltSegmentData||
-||ShorelinesHaveSegmentLGC||
-||SpecialSedatHaveCommonPlaces||
-||SubwayStationsHaveFeatureNames|Attributed|
-||SubwayStationsHaveStationEntrances||
-||SubwayStationsHaveTransitBooths||
-||SubwayStationsHaveTransitEmergencyExits||
-||SubwaysHaveSegmentLGC||
-||TurnRestrictionsHaveTurnRestrictionLimits||
+|**Relationship Class**|The CSCL database comprises many [ESRI Relationship classes](https://pro.arcgis.com/en/pro-app/latest/help/data/relationships/geodatabase-relationship-class-fundamentals.htm) to manage the associations between objects in one feature class or table and objects in another. It consists of the following relationship classes::|<ul><li>AccessPointsToEntrancePoints</li><li>AddressPointHaveEntrancePoint</li><li>AddressPointsHaveLGCs</li><li>CenterlinesHaveAltSegmentData</li><li>CenterlinesHaveCommonPlaces</li><li>CenterlinesHaveRestrictions</li><li>CenterlinesHaveSegmentLGC</li><li>CenterlinesHaveTrafficCameras</li><li>CenterlinesHaveTransitEmergencyExits</li><li>CenterlinesHaveTravelRestrictions</li><li>CenterlinesToSEDAT</li><li>CenterlinesToStreetsHaveIntersections</li><li>CommonPlace_Streetname</li><li>CommonPlacesHaveAccessPoints</li><li>CommonPlacesHaveAddressPoints</li><li>CommonPlacesHaveFeatureNames</li><li>ComplexIntersectionsHaveNodes</li><li>ComplexesHaveCommonPlaces</li><li>ComplexesHaveComplexAccessPoints</li><li>IntersectionsToBoundaries</li><li>NamedIntersectionsHaveStreetNames</li><li>NodesHaveNamedIntersections</li><li>NodesHaveSegments</li><li>NodesHaveSpecialIntersections</li><li>NodesHaveVirtualIntersections</li><li>NonStreetFeaturesHaveAltSegmentData</li><li>NonStreetFeaturesHaveSegmentLGC</li><li>PostTypesHaveStreetTypes</li><li>PreTypesHaveStreetTypes</li><li>RailStationsHaveFeatureNames</li><li>RailsHaveSegmentLGC</li><li>SegmentLGCsHaveFeatureNames</li><li>SegmentLGCsHaveStreetNames</li><li>ShorelinesHaveAltSegmentData</li><li>ShorelinesHaveSegmentLGC</li><li>SpecialSedatHaveCommonPlaces</li><li>SubwayStationsHaveFeatureNames</li><li>SubwayStationsHaveStationEntrances</li><li>SubwayStationsHaveTransitBooths</li><li>SubwayStationsHaveTransitEmergencyExits</li><li>SubwaysHaveSegmentLGC</li><li>TurnRestrictionsHaveTurnRestrictionLimits</li></ul> |
 
