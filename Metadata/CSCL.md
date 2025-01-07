@@ -46,7 +46,7 @@ Some feature classes in the geodatabase are not described here because they are 
 ||AlarmBox|Locatiosn of FDNY Alarm Boxs.|
 ||CellularCallBox|Locations of NYPD maintained call boxes.|
 ||CommonPlace|CommonPlace is a point feature dataset representing locations of various points of interest within the boundaries of New York City, such as schools, churches, parks, and museums.|
-||ComplexAccessPoint|NA|
+||ComplexAccessPoint|A reserved placeholder for future data.|
 ||EntrancePoint|Entrance Point is a point representation of New York City buildings that are associated with Access Points. The entrance point must be a physical entry at street level (i.e. rooftop entry will not be considered an entrance point). An entrance point does not have a posted address number.|
 ||ESINETAtomicPoint|This point feature class contains attribute data used for the creation of Provisioning, PSAP, and Emergency Service Boundaries in a downstream process. This point feature class is to be used by the Next Gen 911 system.|
 ||LinkNYC|LinkNYC kiosk point feature locations in New York City.|
@@ -64,7 +64,7 @@ Some feature classes in the geodatabase are not described here because they are 
 ||Shoreline|Shoreline is a single line representation of New York City shorelines.|
 ||VirtualCenterline|To represent NYPD virtual intersections.These represent centerline geometries unique to the police department, including streets, water features, and other spatial elements.|
 |**Polygon**|AtomicPolygon|Atomic polygons serve as a set of basic building blocks for generating the polygons of many of the district types represented in the CSCL database.|
-||Median|TBD|
+||Median|A reserved placeholder for future data.|
 ||AdjacentBoroughBoundary|Polygon feature class that is used in a downstream process to alter the Borough for areas where FDNY and NYPD handle 911 calls differently. Polygons are drawn ad-hoc but using Centerlines and Boroughs as a reference. Data is maintained by OTI-Public Safety GIS.|
 ||AlarmBoxArea||
 ||AssemblyDistrict|New York state assembly district boundaries for the City of New York. It is extracted by dissolving combined appropriate fields in atomic polygons.|
@@ -84,22 +84,22 @@ Some feature classes in the geodatabase are not described here because they are 
 ||Complex|Complex is a polygon representation of New York City complexes including colleges, hospitals, rail yards, parks, commercial centers, and other govermental buildings campuses.|
 ||CongressionalDistrict|US House of Representatives Congressional District boundaries for the City of New York. These district boundaries represent the redistricting as of the US Census 2020.|
 ||ElectionDistrict|New York City Board of Elections election districts for the City of New York. These district boundaries represent the redistricting as of the US Census 2020. It is extracted by dissolving combined appropriate fields in atomic polygons.|
-||EMSAtom|TBD|
-||EMSBattalion|TBD|
-||EMSDispatchArea|TBD|
-||EMSDivision|TBD|
+||EMSAtom|The EMS Atoms provide map area coverage used by the EMSCAD software to determine the location and corresponding EMS_Atom of EMS units based on the locations reported via on-board vehicle location (GPS) systems. They are also used in the production of Geofiles for the EMSCAD dispatching system to resolve vehicle locations obtained through GPS location reports.|
+||EMSBattalion|A reserved placeholder for future data.|
+||EMSDispatchArea|A reserved placeholder for future data.|
+||EMSDivision|A reserved placeholder for future data.|
 ||FireBattalion|The service area boundaries for New York's fire battalions.|
 ||FireCompany|The service area boundaries for New York City's fire companies.|
 ||FireDivision|The service area boundaries for New York City's fire divisions.|
 ||HealthArea|The boundaries for New York City's Health Areas.|
 ||HealthCenterDistrict|The boundaries for New York City's Health Center Areas.|
-||HistoricDistrict|TBD|
+||HistoricDistrict|The boundaries of New York City's Historic Districts are defined by the Landmarks Preservation Commission.|
 ||HurricaneEvacuationZone|New York City's hurricane contingency plans are based on six evacuation zones. Hurricane evacuation zones are areas of the city that may be inundated by storm surge or isolated by storm surge waters. There are six zones, ranked by the risk of storm surge impact, with Zone 1 being the most likely to flood. In the event of a hurricane or tropical storm, residents in these zones may be ordered to evacuate.|
 ||MunicipalCourtDistrict|The New York City Municipal Court boundaries.|
 ||Neighborhood|An NYC Neighborhood, based on this, is a projection area created from census tracts within New York City's 55 PUMAs (Public Use Microdata Areas). These areas were designed for population projections from 2000 to 2030, with each having at least 15,000 people in 2000 to improve accuracy. The boundaries may not match historical neighborhoods, and the names are not definitive.|
 ||NTA2020|TBD|
 ||NYPDBeat|The service area boundaries for New York City's police posts.|
-||NYPDPatrolBorough|TBD|
+||NYPDPatrolBorough|The boundaries of New York City's NYPD Patrol Boroughs.|
 ||NYPDPrecinct|The service area boundaries for New York City's police precincts.|
 ||NYPDSector|The service area boundaries for New York City's police sectors. Created by dissolving beats.|
 ||NYPDTow|The service area boundaries for New York City's tow zones. Created by combining precincts.|
@@ -107,8 +107,8 @@ Some feature classes in the geodatabase are not described here because they are 
 ||SchoolDistrict|The current NYC School District boundaries. It is extracted by dissolving combined appropriate fields in atomic polygons.|
 ||SectionalMap|TBD|
 ||StateSenateDistrict|New York State Senate district boundaries for the City of New York.|
-||ZipCode|New York City’s ZIP Codes.|
-||UrbanRenewalArea|TBD|
+||ZipCode|The boundaries for New York City’s ZIP Codes.|
+||UrbanRenewalArea|A reserved placeholder for future data.|
 |**Tables**|ADDRESSPOINTLGCS|The AddressPointLGCs table stores additional Local Group Codes (LGCs) to provide alternative street names for address points.|
 ||ADMINBOUNDARIES|A reserved placeholder for future data.|
 ||ALTSEGMENTDATA|The AltSegmentData table stores "alternative" data for CSCL centerline, rail, and shoreline segments.|
@@ -135,8 +135,8 @@ Some feature classes in the geodatabase are not described here because they are 
 ||STREETNAME|The StreetName table stores street names. The street name is parsed into seven component parts according to National Emergency Number Association (NENA) standards.|
 ||STREETSHAVEINTERSECTIONS||
 ||STREETTYPE|The streettype table stores the various City agency values for street types (e.g. Avenue, Boulevard) and their abbreviations.|
-||TRAFFICCALMINGDEVICE||
-||TRAVELRESTRICTION||
+||TRAFFICCALMINGDEVICE|A reserved placeholder for future data.|
+||TRAVELRESTRICTION|A reserved placeholder for future data.|
 ||TRUCKROUTE|A reserved placeholder for future data.|
 ||TURNRESTRICTION|A reserved placeholder for future data.|
 ||TURNRESTRICTIONLIMITS|A reserved placeholder for future data.|
@@ -145,7 +145,7 @@ Some feature classes in the geodatabase are not described here because they are 
 ||SUBADDRESS|A subaddress is a component of an address that further specifies a location within a larger building or complex. Subaddress records for New York City are added to the Citywide Street Centerline Geodatabase to support emergency response and post-emergency canvassing operations.|
 ||CDTAEquiv2020||
 ||NTAEquiv2020||
-|**Relationship Class**|AccessPointToAddressPoint|Attributed - This relationship class determines the relationship between Access Point and AddressPoint.|
+|**Relationship Class**|AccessPointToAddressPoint|This Attributed relationship class determines the relationship between Access Point and AddressPoint.|
 ||AccessPointsToEntrancePoints|Attributed|
 ||AddressPointHaveEntrancePoint||
 ||AddressPointsHaveLGCs||
