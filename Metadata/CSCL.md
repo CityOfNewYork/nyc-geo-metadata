@@ -67,7 +67,6 @@ Some feature classes in the geodatabase are not described here because they are 
 ||Subway|Subway is a single line representation of the New York City subway system.|
 ||VirtualCenterline|To represent NYPD virtual intersections.These represent centerline geometries unique to the police department, including streets, water features, and other spatial elements.|
 |**Polygon**|AtomicPolygon|Atomic polygons serve as a set of basic building blocks for generating the polygons of many of the district types represented in the CSCL database.|
-||Median|A reserved placeholder for future data.|
 ||AdjacentBoroughBoundary|Polygon feature class that is used in a downstream process to alter the Borough for areas where FDNY and NYPD handle 911 calls differently. Polygons are drawn ad-hoc but using Centerlines and Boroughs as a reference. Data is maintained by OTI-Public Safety GIS.|
 ||AlarmBoxArea|A reserved placeholder for future data.|
 ||AssemblyDistrict|New York State Assembly District boundaries for the City of New York. It is extracted by dissolving combined appropriate fields in atomic polygons.|
@@ -98,6 +97,7 @@ Some feature classes in the geodatabase are not described here because they are 
 ||HealthCenterDistrict|The boundaries for New York City's Health Center Areas.|
 ||HistoricDistrict|The boundaries of New York City's Historic Districts are defined by the Landmarks Preservation Commission.|
 ||HurricaneEvacuationZone|New York City's hurricane contingency plans are based on six evacuation zones. Hurricane evacuation zones are areas of the city that may be inundated by storm surge or isolated by storm surge waters. There are six zones, ranked by the risk of storm surge impact, with Zone 1 being the most likely to flood. In the event of a hurricane or tropical storm, residents in these zones may be ordered to evacuate.|
+||Median|A reserved placeholder for future data.|
 ||MunicipalCourtDistrict|The New York City Municipal Court boundaries.|
 ||Neighborhood|An NYC Neighborhood, based on this, is a projection area created from census tracts within New York City's 55 PUMAs (Public Use Microdata Areas). These areas were designed for population projections from 2000 to 2030, with each having at least 15,000 people in 2000 to improve accuracy. The boundaries may not match historical neighborhoods, and the names are not definitive.|
 ||NTA2020|This table contains Neighborhood Tabulation Areas (NTAs), which are medium-sized statistical geographies used for reporting Decennial Census and American Community Survey (ACS) data. The 2020 NTAs are created by aggregating 2020 census tracts and nest within Community District Tabulation Areas (CDTA). NTAs were delineated to balance geographic specificity with statistical reliability. As a result, each NTA contains enough population to reduce sampling error associated with the ACS, while offering a unit of analysis smaller than a Community District.|
