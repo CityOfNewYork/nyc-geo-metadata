@@ -53,7 +53,7 @@ Some feature classes in the geodatabase are not described here because they are 
 ||LinkNYC|LinkNYC kiosk point feature locations in New York City.|
 ||NYPDReferenceMarkers|This dataset represents the locations of New York State-maintained reference marker signs within New York City, situated along roads and highways. This data is utilized by the NYPD.|
 ||RailStation|Locations of all rail stations within New York City.|
-||SubwayStation|Locations of all Subway stations within New York City.|
+||SubwayStation|Locations of all Subway Stations within New York City.|
 ||TollBooth|New York City's tollbooth locations.|
 ||TrafficCamera|Locations of NYC DOT traffic cameras.|
 ||TransitBooth|Location of subway system transit booths.|
@@ -69,11 +69,11 @@ Some feature classes in the geodatabase are not described here because they are 
 |**Polygon**|AtomicPolygon|Atomic polygons serve as a set of basic building blocks for generating the polygons of many of the district types represented in the CSCL database.|
 ||Median|A reserved placeholder for future data.|
 ||AdjacentBoroughBoundary|Polygon feature class that is used in a downstream process to alter the Borough for areas where FDNY and NYPD handle 911 calls differently. Polygons are drawn ad-hoc but using Centerlines and Boroughs as a reference. Data is maintained by OTI-Public Safety GIS.|
-||AlarmBoxArea||
-||AssemblyDistrict|New York state assembly district boundaries for the City of New York. It is extracted by dissolving combined appropriate fields in atomic polygons.|
+||AlarmBoxArea|A reserved placeholder for future data.|
+||AssemblyDistrict|New York State Assembly District boundaries for the City of New York. It is extracted by dissolving combined appropriate fields in atomic polygons.|
 ||Borough|Borough is a polygon representation of New York City boroughs.|
 ||BusinessImprovementDistrict|Dataset contains Business Improvement Districts (BIDs) Name and geographic boundaries.|
-||CDTA2020|TBD|
+||CDTA2020|The CDTA2020 table is a dataset created by the Department of City Planning (DCP) to represent Community District Tabulation Areas (CDTAs), which closely approximate the 59 Community Districts of New York City. These areas are designed for reporting American Community Survey (ACS) data and are constructed by aggregating whole 2020 census tracts.|
 ||CensusBlock2000|The Census Blocks for the 2000 US Census. These boundary files are derived from the US Census Bureau's TIGER project and have been modified by dissolving combined appropriate fields in atomic polygons.|
 ||CensusBlock2010|The Census Blocks for the 2010 US Census. These boundary files are derived from the US Census Bureau's TIGER project and have been modified by dissolving combined appropriate fields in atomic polygons.|
 ||CensusBlock2020|The Census Blocks for the 2020 US Census. These boundary files are derived from the US Census Bureau's TIGER project and have been modified by dissolving combined appropriate fields in atomic polygons.|
@@ -91,7 +91,7 @@ Some feature classes in the geodatabase are not described here because they are 
 ||EMSBattalion|A reserved placeholder for future data.|
 ||EMSDispatchArea|A reserved placeholder for future data.|
 ||EMSDivision|A reserved placeholder for future data.|
-||FireBattalion|The service area boundaries for New York's fire battalions.|
+||FireBattalion|The service area boundaries for New York City's fire battalions.|
 ||FireCompany|The service area boundaries for New York City's fire companies.|
 ||FireDivision|The service area boundaries for New York City's fire divisions.|
 ||HealthArea|The boundaries for New York City's Health Areas.|
@@ -100,54 +100,54 @@ Some feature classes in the geodatabase are not described here because they are 
 ||HurricaneEvacuationZone|New York City's hurricane contingency plans are based on six evacuation zones. Hurricane evacuation zones are areas of the city that may be inundated by storm surge or isolated by storm surge waters. There are six zones, ranked by the risk of storm surge impact, with Zone 1 being the most likely to flood. In the event of a hurricane or tropical storm, residents in these zones may be ordered to evacuate.|
 ||MunicipalCourtDistrict|The New York City Municipal Court boundaries.|
 ||Neighborhood|An NYC Neighborhood, based on this, is a projection area created from census tracts within New York City's 55 PUMAs (Public Use Microdata Areas). These areas were designed for population projections from 2000 to 2030, with each having at least 15,000 people in 2000 to improve accuracy. The boundaries may not match historical neighborhoods, and the names are not definitive.|
-||NTA2020|TBD|
+||NTA2020|This table contains Neighborhood Tabulation Areas (NTAs), which are medium-sized statistical geographies used for reporting Decennial Census and American Community Survey (ACS) data. The 2020 NTAs are created by aggregating 2020 census tracts and nest within Community District Tabulation Areas (CDTA). NTAs were delineated to balance geographic specificity with statistical reliability. As a result, each NTA contains enough population to reduce sampling error associated with the ACS, while offering a unit of analysis smaller than a Community District.|
 ||NYPDBeat|The service area boundaries for New York City's police posts.|
-||NYPDPatrolBorough|The boundaries of New York City's NYPD Patrol Boroughs.|
+||NYPDPatrolBorough|The boundaries of New York City's NYPD patrol boroughs.|
 ||NYPDPrecinct|The service area boundaries for New York City's police precincts.|
 ||NYPDSector|The service area boundaries for New York City's police sectors. Created by dissolving beats.|
 ||NYPDTow|The service area boundaries for New York City's tow zones. Created by combining precincts.|
-||QuarterSectionalMap||
+||QuarterSectionalMap|This table is a quarter-section map of a sectional chart, implemented as an overlay of NYC geography and used for reference purposes.|
 ||SchoolDistrict|The current NYC School District boundaries. It is extracted by dissolving combined appropriate fields in atomic polygons.|
-||SectionalMap|TBD|
+||SectionalMap|This table is a sectional chart implemented as an overlay of NYC geography, used for reference purposes.|
 ||StateSenateDistrict|New York State Senate district boundaries for the City of New York.|
 ||ZipCode|The boundaries for New York City’s ZIP Codes.|
 ||UrbanRenewalArea|A reserved placeholder for future data.|
-|**Tables**|ADDRESSPOINTLGCS|The AddressPointLGCs table stores additional Local Group Codes (LGCs) to provide alternative street names for address points.|
+|**Tables**|ADDRESSPOINTLGCS|The Address Point LGCs table stores additional Local Group Codes (LGCs) to provide alternative street names for address points.|
 ||ADMINBOUNDARIES|A reserved placeholder for future data.|
 ||ALTSEGMENTDATA|The AltSegmentData table stores "alternative" data for CSCL centerline, rail, and shoreline segments.|
 ||BLOCKFACE|A reserved placeholder for future data.|
-||CADSOURCEADDRESS|The CADSOURCEADDRESS file contains source records from EMSCAD, Starfire, SPRINT, and PCAD. It was created to store complete source records from public safety geofiles, specifically for commonplace records.|
+||CADSOURCEADDRESS|The Cadsourceaddress file contains source records from EMSCAD, Starfire, SPRINT, and PCAD. It was created to store complete source records from public safety geofiles, specifically for commonplace records.|
 ||CENTERLINEHISTORY|This table records all edits made to centerline segments.|
 ||COMPLEXINTERSECTION|Complex intersections represent locations where roadbeds intersect with undivided streets or other roadbeds.|
-||DELETEDSTREETCODES||
+||DELETEDSTREETCODES|A table for the archive of deleted street codes.|
 ||ELEVATION|A reserved placeholder for future data.|
 ||EVENTROUTE|A reserved placeholder for future data.|
 ||FEATURENAME|The FeatureName table stores the names of common places and rail/subway features. It is used to associate one or more names with a CSCL common place point, complex, rail, or subway feature.|
-||LASTWORD||
-||NAMEDINTERSECTION|The named intersection table associates nodes (intersections) that have names in the City.|
+||LASTWORD|The Lastword table contains valid abbreviations that can appear in the last position of a string for Geosupport purposes.|
+||NAMEDINTERSECTION|The Named intersection table associates nodes (intersections) that have names in New York City.|
 ||NEIGHBORHOODPUMACODES|Table that relates DCP neighborhoods to New York City's 55 Public Use Microdata Areas (PUMAs).|
 ||PARADEROUTE|A reserved placeholder for future data.|
 ||PERMIT|A reserved placeholder for future data.|
 ||PHYSICALRESTRICTION|A reserved placeholder for future data.|
 ||ROADBEDPOINTERLIST|The Roadbed Pointer List (RPL) is a table that relates generic segments to roadbed segments in the CSCL centerline.|
 ||SEDAT|The Split Election District Address Table (SEDAT) stores the address range data associated with segments split by Election Districts.|
-||SEGMENT_LGC|The Segment_LGC table serves as the entry point for identifying the valid name(s) for a particular street segment. It stores the relationship between a centerline, rail, or shoreline segment and its 
+||SEGMENT_LGC|The Segment_LGC table serves as the entry point for identifying the valid name(s) for a particular street segment. It stores the relationship between a centerline, rail, or shoreline segment and its local group codes.| 
 ||SPECIALDISASTER|A reserved placeholder for future data.|
-||SPECIALINTERSECTIONS|The special intersection table store information relating to ambiguous intersections.|
+||SPECIALINTERSECTIONS|The special intersection table stores information related to ambiguous intersections.|
 ||SPECIALSEDAT|The Special Split Election District Address Table (SEDAT) stores the address range data associated with segments split by Election Districts. The address information is associated with Special Address File records.|
 ||STREETNAME|The StreetName table stores street names. The street name is parsed into seven component parts according to National Emergency Number Association (NENA) standards.|
-||STREETSHAVEINTERSECTIONS||
-||STREETTYPE|The streettype table stores the various City agency values for street types (e.g. Avenue, Boulevard) and their abbreviations.|
+||STREETSHAVEINTERSECTIONS|The purpose of this table is to associate features in the linear feature classes with associated intersections (nodes.) |
+||STREETTYPE|The Streettype table stores the various City agency values for street types (e.g. Avenue, Boulevard) and their abbreviations.|
 ||TRAFFICCALMINGDEVICE|A reserved placeholder for future data.|
 ||TRAVELRESTRICTION|A reserved placeholder for future data.|
 ||TRUCKROUTE|A reserved placeholder for future data.|
 ||TURNRESTRICTION|A reserved placeholder for future data.|
 ||TURNRESTRICTIONLIMITS|A reserved placeholder for future data.|
-||UNIVERSALWORD||
-||VIRTUALINTERSECTION||
-||SUBADDRESS|A subaddress is a component of an address that further specifies a location within a larger building or complex. Subaddress records for New York City are added to the Citywide Street Centerline Geodatabase to support emergency response and post-emergency canvassing operations.|
-||CDTAEquiv2020||
-||NTAEquiv2020||
-|**Relationship Class**|The CSCL database comprises many [ESRI Relationship classes](https://pro.arcgis.com/en/pro-app/latest/help/data/relationships/geodatabase-relationship-class-fundamentals.htm) and [Attributed Relationship classes](https://pro.arcgis.com/en/pro-app/latest/help/data/relationships/understanding-attributed-relationship-classes.htm#:~:text=An%20attributed%20relationship%20class%20in,the%20relationships%20between%20related%20objects.) to manage the associations between objects in one feature class or table and objects in another. It consists of the following relationship classes::|<ul><li>AccessPointsToEntrancePoints(Attributed)</li><li>AccessPointToAddressPoint(Attributed)</li><li>AddressPointHaveEntrancePoint</li><li>AddressPointsHaveLGCs</li><li>CenterlinesHaveAltSegmentData</li><li>CenterlinesHaveCommonPlaces</li><li>CenterlinesHaveRestrictions</li><li>CenterlinesHaveSegmentLGC</li><li>CenterlinesHaveTrafficCameras</li><li>CenterlinesHaveTransitEmergencyExits</li><li>CenterlinesHaveTravelRestrictions</li><li>CenterlinesToSEDAT</li><li>CenterlinesToStreetsHaveIntersections</li><li>CommonPlace_Streetname</li><li>CommonPlacesHaveAccessPoints(Attributed)</li><li>CommonPlacesHaveAddressPoints(Attributed)</li><li>CommonPlacesHaveFeatureNames(Attributed)</li><li>ComplexIntersectionsHaveNodes</li><li>ComplexesHaveCommonPlaces</li><li>ComplexesHaveComplexAccessPoints</li><li>IntersectionsToBoundaries</li><li>NamedIntersectionsHaveStreetNames</li><li>NodesHaveNamedIntersections</li><li>NodesHaveSegments</li><li>NodesHaveSpecialIntersections</li><li>NodesHaveVirtualIntersections</li><li>NonStreetFeaturesHaveAltSegmentData</li><li>NonStreetFeaturesHaveSegmentLGC</li><li>PostTypesHaveStreetTypes</li><li>PreTypesHaveStreetTypes</li><li>RailStationsHaveFeatureNames(Attributed)</li><li>RailsHaveSegmentLGC</li><li>SegmentLGCsHaveFeatureNames</li><li>SegmentLGCsHaveStreetNames</li><li>ShorelinesHaveAltSegmentData</li><li>ShorelinesHaveSegmentLGC</li><li>SpecialSedatHaveCommonPlaces</li><li>SubwayStationsHaveFeatureNames(Attributed)</li><li>SubwayStationsHaveStationEntrances</li><li>SubwayStationsHaveTransitBooths</li><li>SubwayStationsHaveTransitEmergencyExits</li><li>SubwaysHaveSegmentLGC</li><li>TurnRestrictionsHaveTurnRestrictionLimits</li></ul> |
+||UNIVERSALWORD|The Universalword table contains valid abbreviations that can appear in any position of a string, except the last position, for Geosupport purposes.|
+||VIRTUALINTERSECTION|The Virtual Intersections table stores intersections that are not considered "real" but may still be referenced for location purposes.|
+||SUBADDRESS|A subaddress is a component of an address that further specifies a location within a larger building or complex. Subaddress records for New York City are added to the Citywide Street Centerline Geodatabase to support emergency response and post-emergency canvassing operations.However, this table is not currently being actively maintained.|
+||CDTAEquiv2020|This table stores the equivalency between Community District Tabulation Areas (CDTAs) Codes and CDTA Names.|
+||NTAEquiv2020|This table stores the equivalency between Neighborhood Tabulation Area (NTA) Codes and NTA Names.|
+|**Relationship Class**|The CSCL database comprises many [ESRI Relationship classes](https://pro.arcgis.com/en/pro-app/latest/help/data/relationships/geodatabase-relationship-class-fundamentals.htm) and [Attributed Relationship classes](https://pro.arcgis.com/en/pro-app/latest/help/data/relationships/understanding-attributed-relationship-classes.htm#:~:text=An%20attributed%20relationship%20class%20in,the%20relationships%20between%20related%20objects.) to manage the associations between objects in one feature class or table and objects in another. It consists of the following relationship classes:|<ul><li>AccessPointsToEntrancePoints(Attributed)</li><li>AccessPointToAddressPoint(Attributed)</li><li>AddressPointHaveEntrancePoint</li><li>AddressPointsHaveLGCs</li><li>CenterlinesHaveAltSegmentData</li><li>CenterlinesHaveCommonPlaces</li><li>CenterlinesHaveRestrictions</li><li>CenterlinesHaveSegmentLGC</li><li>CenterlinesHaveTrafficCameras</li><li>CenterlinesHaveTransitEmergencyExits</li><li>CenterlinesHaveTravelRestrictions</li><li>CenterlinesToSEDAT</li><li>CenterlinesToStreetsHaveIntersections</li><li>CommonPlace_Streetname</li><li>CommonPlacesHaveAccessPoints(Attributed)</li><li>CommonPlacesHaveAddressPoints(Attributed)</li><li>CommonPlacesHaveFeatureNames(Attributed)</li><li>ComplexIntersectionsHaveNodes</li><li>ComplexesHaveCommonPlaces</li><li>ComplexesHaveComplexAccessPoints</li><li>IntersectionsToBoundaries</li><li>NamedIntersectionsHaveStreetNames</li><li>NodesHaveNamedIntersections</li><li>NodesHaveSegments</li><li>NodesHaveSpecialIntersections</li><li>NodesHaveVirtualIntersections</li><li>NonStreetFeaturesHaveAltSegmentData</li><li>NonStreetFeaturesHaveSegmentLGC</li><li>PostTypesHaveStreetTypes</li><li>PreTypesHaveStreetTypes</li><li>RailStationsHaveFeatureNames(Attributed)</li><li>RailsHaveSegmentLGC</li><li>SegmentLGCsHaveFeatureNames</li><li>SegmentLGCsHaveStreetNames</li><li>ShorelinesHaveAltSegmentData</li><li>ShorelinesHaveSegmentLGC</li><li>SpecialSedatHaveCommonPlaces</li><li>SubwayStationsHaveFeatureNames(Attributed)</li><li>SubwayStationsHaveStationEntrances</li><li>SubwayStationsHaveTransitBooths</li><li>SubwayStationsHaveTransitEmergencyExits</li><li>SubwaysHaveSegmentLGC</li><li>TurnRestrictionsHaveTurnRestrictionLimits</li></ul> |
 
 
