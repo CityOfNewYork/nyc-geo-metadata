@@ -44,7 +44,7 @@ Some feature classes in the geodatabase are not described here because they are 
 |**Feature Dataset**|CSCL|The CSCL feature dataset is a collection of the following features and relationship classes: Atomic Polygon, Centerline, Median, Milepost, Node, Non-Street Feature, Rail, Reference Marker, Shoreline, Subway, CenterlineHaveAddresses, CenterlineHaveMileposts, and CenterlineHaveReference Markers.|
 |**Points**|AccessPoint|Access points are primarily along the street and represent a point of access to one or more entrances of a building.|
 ||AddressPoint|AddressPoints are a data model that represents the actual addresses present in the field.|
-||AlarmBox|Locatiosn of FDNY Alarm Boxs.|
+||AlarmBox|Locations of FDNY Alarm Boxes.|
 ||CellularCallBox|Locations of NYPD maintained call boxes.|
 ||CommonPlace|CommonPlace is a point feature dataset representing locations of various points of interest within the boundaries of New York City, such as schools, churches, parks, and museums.|
 ||ComplexAccessPoint|A reserved placeholder for future data.|
