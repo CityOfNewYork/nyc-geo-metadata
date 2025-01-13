@@ -15,3 +15,14 @@ Geometry Type: polygon<br><br>![image](../Images/building-historic.png)
 **Access Rights** |Public
 **Links** |https://data.cityofnewyork.us/Housing-Development/Building-Footprint-Historical/ipkp-snf6/about_data<br> https://nycmaps-nyc.hub.arcgis.com/datasets/nyc::building-historic/about
 **Tags** |Buildings, Building footprint, BIN, Structure
+## 2. Data Quality and Specifications
+---------------------------------------------
+|     |     |
+| --- | --- |
+**Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot ([epsg:2263](https://spatialreference.org/ref/epsg/2263/)); Vertical Datum NAVD 1988
+**Resolution** |NA
+**Spatial Coverage** |New York City, NY
+**Positional Accuracy** |Estimated positional accuracy for photogrammetrically updated features (those with GEOM_SOURCE = Photogrammetric) is +/- 2 feet and meets ASPRS Class 1 horizontal mapping standards and ASPRS vertical Class 2 accuracy specifications.  The mapping standards deal with Root Mean Square (RMS) calculations that states if a random number of clearly identifiable surveyed ground control points throughout the project were compared to the mapped features, the RMS of the points would not exceed 2'. In layman's terms,  95% of the data is accurate to +/- 2'.<br>Features with GEOM_SOURCE = Other (Manual) are captured by heads-up digitizing using the most current orthophotography available. These will be somewhat less accurate than the photogrammetrically updated features. 
+**Features Captured** |All buildings >400 sq. feet and taller than 12 feet.  We also include other buildings with Building Identification Numbers (BINs) maintained by city agencies. 
+**Features Excluded** |Interior divisions.<br>Temporary trailers or tents.  <br>Movable jet bridges for access to aircraft.<br>Awnings, scaffolds, or sidewalk sheds.<br>Small tool or storage sheds in backyards which have no visible car access. 
+**Capture and Update Notes** |We move building footprints to building_historic when they are demolished or significantly altered. See [building footprints](.Metadata/Metadata_BuildingFootprints.md) for original capture and update notes.
