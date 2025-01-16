@@ -13,7 +13,7 @@ Geometry Type: point, line, polygon<br><br>![image](../Images/CSCL.png)
 
 |     |     |
 | --- | --- |
-**Purpose** |The Published Citywide Street Centerline (CSCL) is a comprehensive and authoritative spatial database for the City of New York. It contains the published version of geographic features and data. CSCL is used by many city agencies including Public Safety call centers, the Department of City Planning's Geosupport, and FDNY EMS dispatch systems. The CSCL database is accessible to the public and will support the Next Generation 911 system.
+**Purpose** |The Published Citywide Street Centerline (CSCL) is a comprehensive and authoritative spatial database for the City of New York. It contains a simplified version of the CSCL database and is intended for general-purpose use. CSCL is used by many city agencies including Public Safety call centers, the Department of City Planning's Geosupport, and FDNY EMS dispatch systems. The CSCL database is accessible to the public and will support the Next Generation 911 system.
 **Description** |This published CSCL database is an [ESRI file geodatabase](https://en.wikipedia.org/wiki/Geodatabase_(Esri)) and includes a feature dataset, 40 feature classes, 3 tables, and 2 relationship classes. The source data for the published CSCL database is updated daily by the NYC Office of Technology and Innovation (OTI) and the Department of City Planning (DCP) and is governed by 8 city agencies.
 **Publication Dates** |**Last Update**: Weekly<br>**Metadata**: 01/16/2025<br>**Update Frequency**: Features are updated daily by staff and released publicly on [NYCMaps](https://nycmaps-nyc.hub.arcgis.com/). 
 **Available Formats** | (zipped) ESRI File Geodatabase 
@@ -39,8 +39,8 @@ Geometry Type: point, line, polygon<br><br>![image](../Images/CSCL.png)
 | Feature Type | Name | Description |
 | ---|---|---|
 |**Feature Dataset**|CSCL|The CSCL feature dataset is a collection of the following features and relationship classes: Centerline, Milepost, Node, NonStreetFeature, Rail, ReferenceMarker, Shoreline, Subway, CenterlineHaveAddresses, CenterlineHaveNames.|
-|**Points**|AddressPoint|See [Address Point Metadata](./Metadata_AddressPoint.md)|
-| |CommonPlace|See [Points of Interest Metadata](./Metadata_PointsOfInterest.md)|
+|**Points**|[AddressPoint](./Metadata_AddressPoint.md)|AddressPoints are a data model that represents the actual addresses present in the field. |
+| |[CommonPlace](./Metadata_PointsOfInterest.md)|CommonPlace is a point feature dataset representing locations of various points of interest within the boundaries of New York City, such as schools, churches, parks, and museums.|
 | |FerryLanding| |
 | |MilePost|The Mileposts feature class represents small signs placed along limited-access arterials, such as highways, bridges, and tunnels. These signs indicate the exact distance from a designated reference point, typically the starting point of the arterial.|
 | |NamedIntersection|The named intersection table associates nodes (intersections) that have names in New York City.|
@@ -49,7 +49,7 @@ Geometry Type: point, line, polygon<br><br>![image](../Images/CSCL.png)
 | |ReferenceMarker||
 | |SubwayStation|Locations of all Subway Stations within New York City. |
 | |TollBooth|New York City's tollbooth locations. |
-|**Lines**|Centerline|See [Street Centerline Metadata](./Metadata_StreetCenterline.md)|
+|**Lines**|[Centerline](./Metadata_StreetCenterline.md)|Centerline is a single line representation of New York City streets containing address ranges and other information such as traffic directions, road types, segment types.|
 | |NonStreetFeature|NonStreetFeature is a single-line representation of non-street features. The subtypes of NonStreetFeature include:1) Census_block 2) District_Boundary 3) Election_District 4) Other 5) Physical_Non_ST_Feature 6) Pier_Outline 7) School_District. |
 | |Rail|Rail is a single line representation of New York City railroads containing route and other information. |
 | |Shoreline|Shoreline is a single line representation of New York City shorelines. |
