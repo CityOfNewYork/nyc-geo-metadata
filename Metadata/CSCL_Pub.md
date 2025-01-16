@@ -42,9 +42,9 @@ Geometry Type: point, line, polygon<br><br>![image](../Images/CSCL.png)
 |**Points**|AddressPoint|See [Address Point Metadata](./Metadata_AddressPoint.md)|
 | |CommonPlace|See [Points of Interest Metadata](./Metadata_PointsOfInterest.md)|
 | |FerryLanding| |
-| |MilePost| |
+| |MilePost|The Mileposts feature class represents small signs placed along limited-access arterials, such as highways, bridges, and tunnels. These signs indicate the exact distance from a designated reference point, typically the starting point of the arterial.|
 | |NamedIntersection|The named intersection table associates nodes (intersections) that have names in New York City.|
-| |Node| |
+| |Node|The Node feature class represents the points where multiple linear features in CSCL intersect (a topological junction). It is used to assign values to intersections and to create other CSCL feature classes, such as Virtual Intersections.|
 | |RailStation|Locations of all rail stations within New York City.|
 | |ReferenceMarker||
 | |SubwayStation|Locations of all Subway Stations within New York City. |
