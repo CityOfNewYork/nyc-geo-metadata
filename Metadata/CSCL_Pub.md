@@ -41,12 +41,12 @@ Geometry Type: point, line, polygon<br><br>![image](../Images/CSCL.png)
 |**Feature Dataset**|CSCL|The CSCL feature dataset is a collection of the following features and relationship classes: Centerline, Milepost, Node, NonStreetFeature, Rail, ReferenceMarker, Shoreline, Subway, CenterlineHaveAddresses, CenterlineHaveNames.|
 |**Points**|[AddressPoint](./Metadata_AddressPoint.md)|AddressPoints are a data model that represents the actual addresses present in the field. |
 | |[CommonPlace](./Metadata_PointsOfInterest.md)|CommonPlace is a point feature dataset representing locations of various points of interest within the boundaries of New York City, such as schools, churches, parks, and museums.|
-| |FerryLanding| |
+| |FerryLanding|The FerryLanding feature class represents publicly accessible points where passenger-carrying ships dock to load and unload passengers based on a published schedule. |
 | |MilePost|The Mileposts feature class represents small signs placed along limited-access arterials, such as highways, bridges, and tunnels. These signs indicate the exact distance from a designated reference point, typically the starting point of the arterial.|
 | |NamedIntersection|The named intersection table associates nodes (intersections) that have names in New York City.|
 | |Node|The Node feature class represents the points where multiple linear features in CSCL intersect (a topological junction). It is used to assign values to intersections and to create other CSCL feature classes, such as Virtual Intersections.|
 | |RailStation|Locations of all rail stations within New York City.|
-| |ReferenceMarker||
+| |ReferenceMarker|The ReferenceMarkers feature class represents state-maintained reference markers in New York City. These markers are small signs placed systematically at intervals of one-tenth of a mile along state-maintained roads and highways.|
 | |SubwayStation|Locations of all Subway Stations within New York City. |
 | |TollBooth|New York City's tollbooth locations. |
 |**Lines**|[Centerline](./Metadata_StreetCenterline.md)|Centerline is a single line representation of New York City streets containing address ranges and other information such as traffic directions, road types, segment types.|
