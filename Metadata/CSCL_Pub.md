@@ -46,17 +46,17 @@ Geometry Type: point, line, polygon<br><br>![image](../Images/CSCL.png)
 | |NamedIntersection|The named intersection table associates nodes (intersections) that have names in New York City.|
 | |Node| |
 | |RailStation|Locations of all rail stations within New York City.|
-| |ReferenceMarker|This dataset represents the locations of New York State-maintained reference marker signs within New York City, situated along roads and highways. This data is utilized by the NYPD. |
-| |SubwayStation|See [Subway Stations Metadata](./Metadata_SubwayStations.md) |
+| |ReferenceMarker||
+| |SubwayStation|Locations of all Subway Stations within New York City. |
 | |TollBooth|New York City's tollbooth locations. |
 |**Lines**|Centerline|See [Street Centerline Metadata](./Metadata_StreetCenterline.md)|
 | |NonStreetFeature|NonStreetFeature is a single-line representation of non-street features. The subtypes of NonStreetFeature include:1) Census_block 2) District_Boundary 3) Election_District 4) Other 5) Physical_Non_ST_Feature 6) Pier_Outline 7) School_District. |
 | |Rail|Rail is a single line representation of New York City railroads containing route and other information. |
 | |Shoreline|Shoreline is a single line representation of New York City shorelines. |
-| |Subway|See [Subway Line Metadata](./Metadata_SubwayLines.md) |
+| |Subway|Subway is a single line representation of the New York City subway system. |
 |**Polygon**|AssemblyDistrict|New York State Assembly District boundaries for the City of New York. It is extracted by dissolving combined appropriate fields in atomic polygons.|
 | |Borough|Borough is a polygon representation of New York City boroughs. |
-| |BusinessImprovementDistrict|See [Business Improvement District Metadata](./Metadata_BIDs.md) |
+| |BusinessImprovementDistrict|Dataset contains Business Improvement Districts (BIDs) Name and geographic boundaries. |
 | |CensusBlock2000|The Census Blocks for the 2000 US Census. These boundary files are derived from the US Census Bureau's TIGER project and have been modified by dissolving combined appropriate fields in atomic polygons. |
 | |CensusBlock2010|The Census Blocks for the 2010 US Census. These boundary files are derived from the US Census Bureau's TIGER project and have been modified by dissolving combined appropriate fields in atomic polygons. |
 | |CensusBlock2020|The Census Blocks for the 2020 US Census. These boundary files are derived from the US Census Bureau's TIGER project and have been modified by dissolving combined appropriate fields in atomic polygons. |
@@ -78,7 +78,7 @@ Geometry Type: point, line, polygon<br><br>![image](../Images/CSCL.png)
 | |NYPDPrecinct|The service area boundaries for New York City's police precincts. |
 | |SchoolDistrict|The current NYC School District boundaries. It is extracted by dissolving combined appropriate fields in atomic polygons. |
 | |StateSenateDistrict|New York State Senate district boundaries for the City of New York. |
-| |ZipCode|See [ZIP Code Metadata](./Metadata_ZipCodeBoundaries.md)|
+| |ZipCode|The boundaries for New York City’s ZIP Codes.|
 |**Tables**|ALTSEGMENTDATA|The AltSegmentData table stores "alternative" data for CSCL centerline, rail, and shoreline segments. |
 | | FEATURENAME |The FeatureName table stores the names of common places and rail/subway features. It is used to associate one or more names with a CSCL common place point, complex, rail, or subway feature. |
 | | StreetName |The StreetName table stores street names. The street name is parsed into seven component parts according to National Emergency Number Association (NENA) standards. |
