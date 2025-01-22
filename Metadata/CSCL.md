@@ -50,9 +50,12 @@ Some feature classes in the geodatabase are not described here because they are 
 ||ComplexAccessPoint|A reserved placeholder for future data.|
 ||EntrancePoint|Entrance Point is a point representation of New York City buildings that are associated with Access Points. The entrance point must be a physical entry at street level (i.e. rooftop entry will not be considered an entrance point). An entrance point does not have a posted address number.|
 ||ESINETAtomicPoint|This point feature class contains attribute data used for the creation of Provisioning, PSAP, and Emergency Service Boundaries in a downstream process. This point feature class is to be used by the Next Gen 911 system.|
+||FerryLanding|The FerryLanding feature class represents publicly accessible points where passenger-carrying ships dock to load and unload passengers based on a published schedule.|
 ||LinkNYC|LinkNYC kiosk point feature locations in New York City.|
+||MilePost|The milepost feature class represents small signs placed along limited-access arterials, such as highways, bridges, and tunnels. These signs indicate the exact distance from a designated reference point, typically the starting point of the arterial.|
 ||NYPDReferenceMarkers|This dataset represents the locations of New York State-maintained reference marker signs within New York City, situated along roads and highways. This data is utilized by the NYPD.|
 ||RailStation|Locations of all rail stations within New York City.|
+||ReferenceMarker|The ReferenceMarkers feature class represents state-maintained reference markers in NYC. These markers are small signs placed systematically at intervals of one-tenth of a mile along state-maintained roads and highways.|
 ||SubwayStation|Locations of all Subway Stations within New York City.|
 ||TollBooth|New York City's tollbooth locations.|
 ||TrafficCamera|Locations of NYC DOT traffic cameras.|
