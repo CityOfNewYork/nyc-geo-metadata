@@ -10,10 +10,10 @@ Geometry Type: polyline<br><br>![image](https://github.com/CityOfNewYork/nyc-geo
 **Description** |Street Centerline is a single line representation of New York City streets representing each separate carriageway (e.g., two lines represent the divided roadway of Park Avenue South). The centerlines contain address ranges, traffic directions, road and segment types. Street Centerline is part of the Citywide Street Centerline (CSCL)  database that supports multiple agencies, including the emergency 911 dispatching systems. 
 **Source(s)** |Department of City Planning, Linear Integrated Ordered Network (LION)
 **Publication Dates** |**Data**: 4/19/2014<br>**Last Update**: Weekly<br>**Metadata**: 12/22/2016<br>**Update Frequency**: Agency data is updated daily by Centerline Management Group (CMG). Public releases of this data are made weekly. 
-**Available Formats** |Shapefile. Additional data formats are available for download on the [NYC Open Data Portal](https://data.cityofnewyork.us/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b).
+**Available Formats** |Multiple formats. See links below.
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public
-**Links** |https://data.cityofnewyork.us/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b
+**Links** |[Public](https://nycmaps-nyc.hub.arcgis.com/maps/82854419a16044aaa75a038b3706235b/about) <br> [REST service](https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/Centerline_view/FeatureServer) <br> [City employees](https://nyc.maps.arcgis.com/home/item.html?id=82854419a16044aaa75a038b3706235b) <br>
 **Tags** |New York, Manhattan, Staten Island, LION, Bronx, Transportation, Queens, centerline, Brooklyn, Highway, CSCL, Streets, Roads
 ## 2. Data Quality and Specifications
 ---------------------------------------------

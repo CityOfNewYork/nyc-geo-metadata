@@ -10,10 +10,10 @@ Geometry Type: polygon<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-
 **Description** |Polygons representing the extent of Business Improvement Districts (BIDs). A BID is a public/private partnership in which property and business owners elect to make a collective contribution to the maintenance, development, and promotion of their commercial district. 
 **Source(s)** |Small Business Services
 **Publication Dates** |**Data**: 11/18/14<br>**Last Update**: 08/27/16<br>**Metadata**: 12/22/2016<br>**Update Frequency**: As needed
-**Available Formats** |Shapefile. Additional data formats are available for download on the [NYC Open Data Portal](https://data.cityofnewyork.us/Business/Business-Improvement-Districts/ejxk-d93y<br>http://www.nyc.gov/html/sbs/html/neighborhood_development/bid_directory.shtml).
+**Available Formats** |Multiple formats. See links below.
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public
-**Links** |https://data.cityofnewyork.us/Business/Business-Improvement-Districts/ejxk-d93y<br>http://www.nyc.gov/html/sbs/html/neighborhood_development/bid_directory.shtml
+**Links** |[Public](https://nycmaps-nyc.hub.arcgis.com/datasets/nyc::business-improvement-district/about) <br> [REST service](https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BusinessImprovementDistrict_view/FeatureServer) <br> [City Employees](https://nyc.maps.arcgis.com/home/item.html?id=423ffb8f85e643e98c386601189523cb) <br>
 **Tags** |business improvement districts, BIDs, oti, doitt, gis
 ## 2. Data Quality and Specifications
 ---------------------------------------------
