@@ -10,10 +10,10 @@ Geometry Type: polygon<br><br>![image](https://github.com/CityOfNewYork/nyc-plan
 **Description** |Building footprints represent the full perimeter outline of each building as viewed from directly above. Additional attribute information maintained for each feature includes: Building Identification Number (BIN); Borough, Block, and Lot information(BBL); ground elevation at building base; roof height above ground elevation; construction year, and feature type.
 **Source(s)** |Annually captured aerial imagery, Research of Department of Buildings records and other NYC records, EagleView Oblique imagery, Cyclomedia panoramic photographs.
 **Publication Dates** |**Last Update**: Weekly<br>**Metadata**: 10/30/2024<br>**Update Frequency**: Features are updated daily by OTI staff and released publicly on [NYC Open Data](https://opendata.cityofnewyork.us/) and [NYCMaps](https://nycmaps-nyc.hub.arcgis.com/). 
-**Available Formats** |Individual shapefile on the [NYC Open Data Portal](https://data.cityofnewyork.us/Housing-Development/Building-Footprints/nqwf-w8eh) <br> Multiple formats from [NYCMapHub](https://nycmaps-nyc.hub.arcgis.com/datasets/nyc::building/about)
+**Available Formats** | Multiple formats. See links below.
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public
-**Links** |https://data.cityofnewyork.us/Housing-Development/Building-Footprints/nqwf-w8eh <br> https://nycmaps-nyc.hub.arcgis.com/datasets/nyc::building/about
+**Links** | [Public](https://nycmaps-nyc.hub.arcgis.com/datasets/nyc::building/about) <br> [REST service](https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_view/FeatureServer) <br> [City Employees](https://nyc.maps.arcgis.com/home/item.html?id=870bf69e8a8044aea4488e564c0b4010) <br>
 **Tags** |Buildings, Building footprint, BIN, Structure
 ## 2. Data Quality and Specifications
 ---------------------------------------------
