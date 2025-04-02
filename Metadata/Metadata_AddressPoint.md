@@ -10,10 +10,10 @@ Geometry Type: point<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-me
 **Description** |Address points are part of the Citywide Street Centerline (CSCL) database. The data represent visually identifiable and Borough President assigned addresses within NYC.  Placement of the address points are approximately five feet within the respective building footprint along  street front the address is assigned. 
 **Source(s)** |Department of City Planning Property Address Directory (PAD), OTI
 **Publication Dates** |**Data**: 4/27/2015<br>**Last Update**: Weekly<br>**Metadata**: 12/22/2016<br>**Update Frequency**: Agency data is updated daily by Centerline Management Group (CMG). Public releases of this data are made weekly. 
-**Available Formats** |Shapefile. Additional data formats are available for download on the [NYC Open Data Portal](https://data.cityofnewyork.us/City-Government/NYC-Address-Points/g6pj-hd8k).
+**Available Formats** |Multiple formats. See links below.
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public
-**Links** |https://data.cityofnewyork.us/City-Government/NYC-Address-Points/g6pj-hd8k
+**Links** |[Public](https://nycmaps-nyc.hub.arcgis.com/datasets/nyc::address-point/about) <br> [REST service](https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/AddressPoint_view/FeatureServer) <br> [City employees](https://nyc.maps.arcgis.com/home/item.html?id=06cff8e8c25547b0afec0170dff26c30) <br>
 **Tags** |address, BIN, New York City, NYC, Brooklyn, Bronx, Manhattan, Queens, Staten Island, gis, oti, doitt
 ## 2. Data Quality and Specifications
 ---------------------------------------------
