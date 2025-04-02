@@ -10,10 +10,10 @@ Geometry Type: point<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-me
 **Description** |Point of Interest (aka Common Place) are point representations of locations that can be referred to by name and may or may not have an address. The data is a compilation of a variety of agency data and is a component of the CSCL database.
 **Source(s)** |Office of Technology and Innovation (OTI)
 **Publication Dates** |**Data**: 8/30/2016<br>**Last Update**: Weekly<br>**Metadata**: 11/21/2018<br>**Update Frequency**: Agency data is updated daily by Centerline Management Group (CMG). Public releases of this data are made weekly. 
-**Available Formats** |Shapefile. Additional data formats are available for download on the [NYC Open Data Portal](https://data.cityofnewyork.us/City-Government/Points-Of-Interest/rxuy-2muj).
+**Available Formats** |Multiple formats. See links below.
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public
-**Links** |https://data.cityofnewyork.us/City-Government/Points-Of-Interest/rxuy-2muj
+**Links** |[Public](https://nycmaps-nyc.hub.arcgis.com/maps/5ae6c324eb09493596aee04af3025179/about) <br> [REST service](https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/CommonPlace_view/FeatureServer) <br> [City employees](https://nyc.maps.arcgis.com/home/item.html?id=5ae6c324eb09493596aee04af3025179) <br>
 **Tags** |Manhattan, Brooklyn, Staten Island, New York City, Bronx, Common Place Name, complex, Queens, Common Place
 ## 2. Data Quality and Specifications
 ---------------------------------------------
