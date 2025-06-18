@@ -40,4 +40,4 @@ Geometry Type: raster<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-m
 |2018|6''|New York City|April 14 - May 2: Bronx, Brooklyn, Manhattan, Queens, Staten Island|Full true orthoimagery|Yes
 |2020|6''|New York City|March 21 - April 11: Bronx, Brooklyn, Manhattan, Queens, Staten Island|Full true orthoimagery|Yes
 |2022|6''|New York City|March 16 - March 30: Bronx, Brooklyn, Manhattan, Queens, Staten Island|Full true orthoimagery|Yes
-|2024|6''|New York City|MON DD - MON DD: Bronx, Brooklyn, Manhattan, Queens, Staten Island|Full true orthoimagery|Yes
+|2024|6''|New York City|March 14 - March 24: Bronx, Brooklyn, Manhattan, Queens, Staten Island|Full true orthoimagery|Yes
