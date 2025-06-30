@@ -13,7 +13,7 @@ Geometry Type: Raster (TIF)<br><br>![image](https://github.com/CityOfNewYork/nyc
 **Available Formats** |Topographic Mosaic<br>Topographic Tiled<br>Bathymetric Mosaic<br>Bathymetric Tiled<br>Topobathymetric Mosaic<br>Topobathymetric Tiled
 **Use Limitations** |
 **Access Rights** |Public
-**Links** |Digital Elevation and Surface Models available via [New York State GIS Clearinghouse](https://gis.ny.gov/lidar)
+**Links** |[Digital Elevation and Surface Models](https://data.cityofnewyork.us/City-Government/Topobathymetric-LiDAR-Data-2017-/7sc8-jtbz/about_data)
 **Tags** |LiDAR, Light Detection and Ranging, elevation data, topography, bare earth, hydro-flattened, hydro-enforced, breaklines, DEM, digital elevation model, New York City, New York, NYC, Manhattan, Brooklyn, Queens, The Bronx, Staten Island
 ## 2. Data Quality and Specifications
 ---------------------------------------------

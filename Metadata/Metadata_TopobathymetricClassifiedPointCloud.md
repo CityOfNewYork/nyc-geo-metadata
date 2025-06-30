@@ -12,7 +12,7 @@ Geometry Type: Point (LAS 1.4)<br><br>![image](https://github.com/CityOfNewYork/
 **Publication Dates** |**Data**: <br>**Last Update**: 10/2018<br>**Metadata**: 11/20/2018<br>**Update Frequency**: As needed
 **Available Formats** |LAS 1.4
 **Access Rights** |Public
-**Links** |[Topobathymetric Point Cloud](https://orthos.dhses.ny.gov/?Extent=-9603624.133747088,4774299.7366908705,-7659066.134172721,5795498.434580554&Layers=07_meter_dem_index_usgs,1_meter_dem_index_fema,1_meter_dem_index_usgs,1_meter_dem_index_tidal_water,1_meter_dem_index_hydro_flattened,1_meter_dem_index_usda_utm18n,1_meter_dem_index_usda_utm17n,1_meter_dem_index_nys,2_meter_dem_index_ne_lidar,2_meter_dem_index_nys,2_meter_dem_index_fema,2_meter_dem_index_monroe_county,2_meter_dem_index_tompkins_county,2_meter_dem_index_erie_county&layerGroups=DEMIndexes,Orthoimagery&rightMenu=0)
+**Links** |[Topobathymetric Point Cloud](https://data.cityofnewyork.us/City-Government/Topobathymetric-LiDAR-Data-2017-/7sc8-jtbz/about_data)
 **Tags** |classified point cloud, lidar
 ## 2. Data Quality and Specifications
 ---------------------------------------------
