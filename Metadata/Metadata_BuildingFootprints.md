@@ -6,15 +6,16 @@ Geometry Type: polygon<br><br>![image](https://github.com/CityOfNewYork/nyc-plan
 ---------------------------------------------
 |     |     |
 | --- | --- |
-**Purpose** |This feature class is used by the NYC OTI GIS group to maintain and distribute an accurate 'basemap' for NYC. The basemap provides the foundation upon virtually all other geospatial data with New York.
-**Description** |Building footprints represent the full perimeter outline of each building as viewed from directly above. Additional attribute information maintained for each feature includes: Building Identification Number (BIN); Borough, Block, and Lot information(BBL); ground elevation at building base; roof height above ground elevation; construction year, and feature type.
+**Purpose** |This feature class is used by the NYC OTI GIS group to maintain and distribute an accurate 'basemap' for NYC. The basemap provides the foundation upon which virtually all other geospatial data within New York City government is registered.
+**Description** |Building footprints represent the full perimeter outline of each building as viewed from directly above. Additional attribute information maintained for each feature includes: Building Identification Number (BIN); Borough, Block, and Lot information(BBL); ground elevation at building base; roof height above ground elevation; construction year, and feature type. 
 **Source(s)** |Annually captured aerial imagery, Research of Department of Buildings records and other NYC records, EagleView Oblique imagery, Cyclomedia panoramic photographs.
-**Publication Dates** |**Last Update**: Weekly<br>**Metadata**: 10/30/2024<br>**Update Frequency**: Features are updated daily by OTI staff and released publicly on [NYC Open Data](https://opendata.cityofnewyork.us/) and [NYCMaps](https://nycmaps-nyc.hub.arcgis.com/). 
-**Available Formats** | Multiple formats. See links below.
+**Publication Dates** |**Last Update**: Weekly<br>**Metadata**: 10/09/2025<br>**Update Frequency**: Features are updated daily by OTI staff and released publicly on [NYC Open Data](https://opendata.cityofnewyork.us/) and [NYCMaps](https://nycmaps-nyc.hub.arcgis.com/). 
+**Available Formats** | Multiple formats. See links below. Separately NYC OTI GIS publishes buildings as point locations.
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public
-**Links** | [Public](https://nycmaps-nyc.hub.arcgis.com/datasets/nyc::building/about) <br> [REST service](https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_view/FeatureServer) <br> [City Employees](https://nyc.maps.arcgis.com/home/item.html?id=870bf69e8a8044aea4488e564c0b4010) <br>
-**Tags** |Buildings, Building footprint, BIN, Structure
+**Links: Building** | [Public](https://nycmaps-nyc.hub.arcgis.com/datasets/nyc::building/about) <br> [REST service](https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_view/FeatureServer) <br> [City Employees](https://nyc.maps.arcgis.com/home/item.html?id=870bf69e8a8044aea4488e564c0b4010) <br>
+**Links: Building Centroid Points** | [Public](https://nycmaps-nyc.hub.arcgis.com/datasets/nyc::building-points/about) <br> [REST service](https://services6.arcgis.com/yG5s3afENB5iO9fj/ArcGIS/rest/services/BUILDING_P_view/FeatureServer) <br> [City Employees](https://nyc.maps.arcgis.com/home/item.html?id=76774418a79e4d1cb14f932355f9f051) <br>
+**Tags** |Buildings, Building footprint, BIN, Structure, Building_p
 ## 2. Data Quality and Specifications
 ---------------------------------------------
 |     |     |
@@ -44,6 +45,9 @@ Geometry Type: polygon<br><br>![image](https://github.com/CityOfNewYork/nyc-plan
 | LAST_STATUS_TYPE | LSTSTATTYPE | Feature last status type (Demolition, Alteration, Geometry, Initialization, Correction, Marked for Construction, Marked For Demolition, Constructed) | text | |
 | MAPPLUTO_BBL | MPLUTO_BBL | Borough, block, and lot number to be used for joining the building footprints data to DCP's MapPLUTO data, which aggregates data for condominium buildings using DOF's billing BBL. For non-condominium buildings the billing BBL is the same as the BASE_BBL. For condominium buildings the billing BBL may be the same for multiple buildings on different physical tax lots if they are part of the same billing unit for Department of Finance purposes. | text | Field type is text but only numbers are allowed |
 | NAME | NAME | Building name (limited to commonly known names). This field has not been actively maintained since the original creation of this dataset. | text | |
+| SHAPE | SHAPE | Building outline as a single outer polygon ring collected in [New York Long Island State Plane](https://spatialreference.org/ref/epsg/2263/) and published in [Web Mercator](https://spatialreference.org/ref/epsg/3857/). Building points are at the centroid or closest internal point of the polygon.  | varies | |
+
+
 
 
 
