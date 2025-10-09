@@ -6,7 +6,7 @@ Geometry Type: polygon<br><br>![image](https://github.com/CityOfNewYork/nyc-plan
 ---------------------------------------------
 |     |     |
 | --- | --- |
-**Purpose** |This feature class is used by the NYC OTI GIS group to maintain and distribute an accurate 'basemap' for NYC. The basemap provides the foundation upon virtually all other geospatial data with New York.
+**Purpose** |This feature class is used by the NYC OTI GIS group to maintain and distribute an accurate 'basemap' for NYC. The basemap provides the foundation upon which virtually all other geospatial data within New York City government is registered.
 **Description** |Building footprints represent the full perimeter outline of each building as viewed from directly above. Additional attribute information maintained for each feature includes: Building Identification Number (BIN); Borough, Block, and Lot information(BBL); ground elevation at building base; roof height above ground elevation; construction year, and feature type. 
 **Source(s)** |Annually captured aerial imagery, Research of Department of Buildings records and other NYC records, EagleView Oblique imagery, Cyclomedia panoramic photographs.
 **Publication Dates** |**Last Update**: Weekly<br>**Metadata**: 10/09/2025<br>**Update Frequency**: Features are updated daily by OTI staff and released publicly on [NYC Open Data](https://opendata.cityofnewyork.us/) and [NYCMaps](https://nycmaps-nyc.hub.arcgis.com/). 
@@ -46,6 +46,7 @@ Geometry Type: polygon<br><br>![image](https://github.com/CityOfNewYork/nyc-plan
 | MAPPLUTO_BBL | MPLUTO_BBL | Borough, block, and lot number to be used for joining the building footprints data to DCP's MapPLUTO data, which aggregates data for condominium buildings using DOF's billing BBL. For non-condominium buildings the billing BBL is the same as the BASE_BBL. For condominium buildings the billing BBL may be the same for multiple buildings on different physical tax lots if they are part of the same billing unit for Department of Finance purposes. | text | Field type is text but only numbers are allowed |
 | NAME | NAME | Building name (limited to commonly known names). This field has not been actively maintained since the original creation of this dataset. | text | |
 | SHAPE | SHAPE | Building outline as a single outer polygon ring collected in [New York Long Island State Plane](https://spatialreference.org/ref/epsg/2263/) and published in [Web Mercator](https://spatialreference.org/ref/epsg/3857/). Building points are at the centroid or closest internal point of the polygon.  | varies | |
+
 
 
 
