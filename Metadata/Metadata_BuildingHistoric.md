@@ -6,15 +6,16 @@ Geometry Type: polygon<br><br>![image](../Images/building-historic.png)
 ---------------------------------------------
 |     |     |
 | --- | --- |
-**Purpose** |The New York City Office of Technology and Innovation GIS unit maintains and distributes an accurate 'basemap' for New York City. The basemap provides the foundation for almost all other geospatial data in New York City.
+**Purpose** |The New York City Office of Technology and Innovation GIS unit maintains and distributes an accurate 'basemap' for New York City. The basemap provides the foundation upon which virtually all other geospatial data within New York City government is registered.
 **Description** |Historic Building footprints represent buildings that have been demolished or significantly altered. As with the building footprint features, historic footprints represent the full perimeter outline of each building as viewed from directly above. Additional attribute information maintained for each feature includes: Building Identification Number (BIN); Borough, Block, and Lot information; ground elevation at building base; roof height above ground elevation; construction year; demolition year; and feature type.
 **Source(s)** |Annually captured aerial imagery, Research of Department of Buildings records and other NYC records, EagleView Oblique imagery, Cyclomedia panoramic photographs.
-**Publication Dates** |**Last Update**: Weekly<br>**Metadata**: 01/13/2025<br>**Update Frequency**: Features are updated daily by OTI staff and regularly published on [NYC Open Data](https://opendata.cityofnewyork.us/) and [NYCMaps](https://nycmaps-nyc.hub.arcgis.com/). 
+**Publication Dates** |**Last Update**: Weekly<br>**Metadata**: 10/09/2025<br>**Update Frequency**: Features are updated daily by OTI staff and regularly published on [NYC Open Data](https://opendata.cityofnewyork.us/) and [NYCMaps](https://nycmaps-nyc.hub.arcgis.com/). 
 **Available Formats** |Multiple formats. See links below.
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
 **Access Rights** |Public
-**Links** |[Public](https://nycmaps-nyc.hub.arcgis.com/datasets/nyc::building-historic/about) <br> [REST service](https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_HISTORIC_view/FeatureServer) <br> [City Employees](https://nyc.maps.arcgis.com/home/item.html?id=780dd00c689f444cb20070185fada44d) <br>
-**Tags** |Buildings, Building footprint, BIN, Structure
+**Links: Building Historic** |[Public](https://nycmaps-nyc.hub.arcgis.com/datasets/nyc::building-historic/about) <br> [REST service](https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_HISTORIC_view/FeatureServer) <br> [City Employees](https://nyc.maps.arcgis.com/home/item.html?id=780dd00c689f444cb20070185fada44d) <br>
+**Links: Building Historic Points** |[Public](https://nycmaps-nyc.hub.arcgis.com/datasets/nyc::building-historic-points/about) <br> [REST service](https://services6.arcgis.com/yG5s3afENB5iO9fj/ArcGIS/rest/services/BUILDING_HISTORIC_P_view/FeatureServer) <br> [City Employees](https://nyc.maps.arcgis.com/home/item.html?id=a6e04ed8f46044c09124340bf081665b) <br>
+**Tags** |Buildings, Building footprint, BIN, Structure, Building_Historic_P
 ## 2. Data Quality and Specifications
 ---------------------------------------------
 |     |     |
@@ -47,6 +48,7 @@ Geometry Type: polygon<br><br>![image](../Images/building-historic.png)
 | FEATURE_CODE | FEAT_CODE | Type of Building. List of values:<br>1000 = Parking<br>1001 = Gas Station Canopy<br>1002 = Storage Tank<br>1003 = Placeholder (triangle for permitted bldg)<br>1004 = Auxiliary Structure (non-addressable, not garage)<br>1005 = Temporary Structure (e.g. construction trailer)<br>1006 = Cantilevered Building<br>2100 = Building<br>2110 = Skybridge<br>5100 = Building Under Construction<br>5110 = Garage<br> | number | |
 | GROUND_ELEVATION | GROUNDELEV | Lowest Elevation at the building ground level. Calculated from LiDAR or photogrammetrically. | number | Accuracy varies but when collected photogrammetrically or from modern sources this value is based on the [North American Vertical Datum of 1988](https://www.ngs.noaa.gov/datums/vertical/north-american-vertical-datum-1988.shtml). |
 | GLOBALID | GLOBALID | A universally unique identifier ([uuid](https://en.wikipedia.org/wiki/Universally_unique_identifier)). | number | Not published in all datasets. |
+| SHAPE | SHAPE | Historic building outline as a single outer polygon ring collected in [New York Long Island State Plane](https://spatialreference.org/ref/epsg/2263/) and published in [Web Mercator](https://spatialreference.org/ref/epsg/3857/). Building historic points are at the centroid or closest internal point of the polygon. | varies | |
 
 
 
