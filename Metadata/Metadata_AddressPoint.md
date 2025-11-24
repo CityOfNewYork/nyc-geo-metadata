@@ -11,7 +11,7 @@ Geometry Type: point<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-me
 **Source(s)** |Department of City Planning Property Address Directory (PAD), OTI
 **Publication Dates** |**Data**: 4/27/2015<br>**Last Update**: Weekly<br>**Metadata**: 12/22/2016<br>**Update Frequency**: Agency data is updated daily by Centerline Management Group (CMG). Public releases of this data are made weekly. 
 **Available Formats** |Multiple formats. See links below.
-**Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
+**Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](https://opendata.cityofnewyork.us/overview/#termsofuse)
 **Access Rights** |Public
 **Links** |[Public](https://nycmaps-nyc.hub.arcgis.com/datasets/nyc::address-point/about) <br> [REST service](https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/AddressPoint_view/FeatureServer) <br> [City employees](https://nyc.maps.arcgis.com/home/item.html?id=06cff8e8c25547b0afec0170dff26c30) <br>
 **Tags** |address, BIN, New York City, NYC, Brooklyn, Bronx, Manhattan, Queens, Staten Island, gis, oti, doitt

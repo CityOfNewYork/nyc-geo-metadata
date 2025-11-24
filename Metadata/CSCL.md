@@ -19,7 +19,7 @@ Geometry Type: point, line, polygon<br><br>![image](../Images/CSCL.png)
 **Description** |This CSCL database is an ESRI Enterprise geodatabase and consists of a feature dataset, more than 72 feature classes, 38 tables, and 46 relationship classes. The CSCL database is updated daily by the NYC Office of Technology and Innovation (OTI) and the Department of City Planning (DCP) and is governed by 8 city agencies.
 **Publication Dates** |**Last Update**: Weekly<br>**Metadata**: 12/11/2024<br>**Update Frequency**: Features are updated daily by staff and released publicly on [NYCMaps](https://nycmaps-nyc.hub.arcgis.com/). 
 **Available Formats** | (zipped) ESRI File Geodatabase 
-**Use Limitations** |NYC Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
+**Use Limitations** |NYC Open Data policies and restrictions apply. See [Terms of Use](https://opendata.cityofnewyork.us/overview/#termsofuse)
 **Access Rights** |Public
 **Links** |https://nyc.maps.arcgis.com/home/item.html?id=113249f31f994dde836f3617c9bca1e3
 **Tags** |CSCL
