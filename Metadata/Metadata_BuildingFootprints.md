@@ -11,7 +11,7 @@ Geometry Type: polygon<br><br>![image](https://github.com/CityOfNewYork/nyc-plan
 **Source(s)** |Annually captured aerial imagery, Research of Department of Buildings records and other NYC records, EagleView Oblique imagery, Cyclomedia panoramic photographs.
 **Publication Dates** |**Last Update**: Weekly<br>**Metadata**: 10/09/2025<br>**Update Frequency**: Features are updated daily by OTI staff and released publicly on [NYC Open Data](https://opendata.cityofnewyork.us/) and [NYCMaps](https://nycmaps-nyc.hub.arcgis.com/). 
 **Available Formats** | Multiple formats. See links below. Separately NYC OTI GIS publishes buildings as point locations.
-**Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
+**Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](https://opendata.cityofnewyork.us/overview/#termsofuse)
 **Access Rights** |Public
 **Links: Building** | [Public](https://nycmaps-nyc.hub.arcgis.com/datasets/nyc::building/about) <br> [REST service](https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_view/FeatureServer) <br> [City Employees](https://nyc.maps.arcgis.com/home/item.html?id=870bf69e8a8044aea4488e564c0b4010) <br>
 **Links: Building Centroid Points** | [Public](https://nycmaps-nyc.hub.arcgis.com/datasets/nyc::building-points/about) <br> [REST service](https://services6.arcgis.com/yG5s3afENB5iO9fj/ArcGIS/rest/services/BUILDING_P_view/FeatureServer) <br> [City Employees](https://nyc.maps.arcgis.com/home/item.html?id=76774418a79e4d1cb14f932355f9f051) <br>

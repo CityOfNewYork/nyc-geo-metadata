@@ -11,7 +11,7 @@ Geometry Type: point<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-me
 **Source(s)** |Wi-Fi providers include At&T, LinkNYC-Citybridge (BETA), BPL, Cablevision, Chelsea, City Tech, Downtown Brooklyn, Harlem, Manhattan Down Alliance, NYCHA, NYPL, QPL, Time Warner Cable, Transit Wireless, and various partners.
 **Publication Dates** |**Data**: 09/12/2014<br>**Last Update**: 05/08/2017<br>**Metadata**: 05/08/2017<br>**Update Frequency**: As needed
 **Available Formats** |Shapefile. Additional data formats are available for download on the [NYC Open Data Portal](https://opendata.cityofnewyork.us/).
-**Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
+**Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](https://opendata.cityofnewyork.us/overview/#termsofuse)
 **Access Rights** |Public
 **Links** |[https://data.cityofnewyork.us/Social-Services/NYC-Wi-Fi-Hotspot-Locations/a9we-mtpn](https://data.cityofnewyork.us/City-Government/NYC-Wi-Fi-Hotspot-Locations/yjub-udmw/about_data)
 **Tags** |wi-fi, parks, wifi, nyc wi-fi hotspot locations, internet, mifi, connectivity, optics, oti, doitt, mobile, web, www, world wide web, websites

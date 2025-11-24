@@ -11,7 +11,7 @@ Geometry Type: raster<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-m
 **Source(s)** |City of New York, University of Vermont Spatial Analysis Laboratory, Sanborn
 **Publication Dates** |**Data**: 08/09/2013<br>**Last Update**: 05/27/2013<br>**Metadata**: 12/22/2016<br>**Update Frequency**: As needed
 **Available Formats** |Zipped raster file 
-**Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html). Access and use of this data set require the approval of the City of New York Department of Environmental Protection. The City of New York and the University of Vermont make no representations of any kind, including but not limited to the warranties of merchantability or fitness for a particular use, nor are any such warranties to be implied with respect to the data.
+**Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](https://opendata.cityofnewyork.us/overview/#termsofuse). Access and use of this data set require the approval of the City of New York Department of Environmental Protection. The City of New York and the University of Vermont make no representations of any kind, including but not limited to the warranties of merchantability or fitness for a particular use, nor are any such warranties to be implied with respect to the data.
 **Access Rights** |Public
 **Links** |[1 Foot Digital Elevation Model](https://data.cityofnewyork.us/City-Government/1-foot-Digital-Elevation-Model-DEM-/dpc8-z3jc)
 **Tags** |dem, digital elevation model, foot, elevation, gis, oti, doitt

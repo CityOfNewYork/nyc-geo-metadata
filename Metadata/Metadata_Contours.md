@@ -11,7 +11,7 @@ Geometry Type: polyline<br><br>![image](https://github.com/CityOfNewYork/nyc-geo
 **Source(s)** |Office of Technology and Innovation (OTI)
 **Publication Dates** |**Data**: 08/08/2014<br>**Last Update**: 2008 <br>**Metadata**: 11/20/2025
 **Available Formats** |Multiple formats. See links below.
-**Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
+**Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](https://opendata.cityofnewyork.us/overview/#termsofuse)
 **Access Rights** |Public
 **Links:** | [Public](https://nycmaps-nyc.hub.arcgis.com/datasets/nyc::contour-2008/about) <br> [REST service](https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/CONTOUR_2008/FeatureServer) <br> [City Employees](https://nyc.maps.arcgis.com/home/item.html?id=0a9c86766e3a4115b2ec10831fda577e) 
 **Tags** |2-ft, basemap, contours, oti, doitt

@@ -11,7 +11,7 @@ Geometry Type: point<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-me
 **Source(s)** |Metropolitan Transit Authority (MTA) website
 **Publication Dates** |**Data**: 09/13/2010<br>**Last Update**: 1/4/2017<br>**Metadata**: 1/5/2017<br>**Update Frequency**: As needed
 **Available Formats** |Multiple formats. See links below.
-**Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
+**Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](https://opendata.cityofnewyork.us/overview/#termsofuse)
 **Access Rights** |Public
 **Links** |[Public](https://nycmaps-nyc.hub.arcgis.com/datasets/nyc::subway-station/about) <br> [REST service](https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/SubwayStation_view/FeatureServer) <br> [City employees](https://nyc.maps.arcgis.com/home/item.html?id=d520d33541ed477ba6a7e2141c684538) <br>
 **Tags** |oti, doitt, gis, location, map, cartography, basemap, transit, transportation, train, subway, travel, entrance, station, transfer
