@@ -11,7 +11,7 @@ Geometry Type: point<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-me
 **Source(s)** |Office of Technology and Innovation (OTI)
 **Publication Dates** |**Data**: 8/30/2016<br>**Last Update**: Weekly<br>**Metadata**: 11/21/2018<br>**Update Frequency**: Agency data is updated daily by Centerline Management Group (CMG). Public releases of this data are made weekly. 
 **Available Formats** |Multiple formats. See links below.
-**Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
+**Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](https://opendata.cityofnewyork.us/overview/#termsofuse)
 **Access Rights** |Public
 **Links** |[Public](https://nycmaps-nyc.hub.arcgis.com/maps/5ae6c324eb09493596aee04af3025179/about) <br> [REST service](https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/CommonPlace_view/FeatureServer) <br> [City employees](https://nyc.maps.arcgis.com/home/item.html?id=5ae6c324eb09493596aee04af3025179) <br>
 **Tags** |Manhattan, Brooklyn, Staten Island, New York City, Bronx, Common Place Name, complex, Queens, Common Place

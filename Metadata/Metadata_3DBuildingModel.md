@@ -11,7 +11,7 @@ Geometry Type: Multiple<br><br>![image](https://www.nyc.gov/assets/planning/imag
 **Source(s)** |Office of Technology and Innovation (OTI)
 **Publication Dates** |**Data**: 04/18/2016<br>**Last Update**: 04/18/2016<br>**Metadata**: 12/28/2016<br>**Update Frequency**: The 3-D model was a one-time capture. Updates and extensions may be considered in the future. 
 **Available Formats** |3-D Model data is available in the following formats: <br>     [CityGML](http://maps.nyc.gov/download/3dmodel/DA_WISE_GML.zip) : 894 MB<br>     [Multipatch (ESRI)](http://maps.nyc.gov/download/3dmodel/DA_WISE_Multipatch.zip) : 251 MB<br>     [DGN (Microstation)](http://maps.nyc.gov/download/3dmodel/DA_Wise_DGN.zip) : 744 MB
-**Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
+**Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](https://opendata.cityofnewyork.us/overview/#termsofuse)
 **Access Rights** |Public
 **Links** |https://data.cityofnewyork.us/City-Government/3-D-Building-Model/tnru-abg2
 **Tags** |oti, doitt, gis, 3d, buildings, model

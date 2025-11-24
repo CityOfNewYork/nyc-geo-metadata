@@ -11,7 +11,7 @@ Geometry Type: polyline<br><br>![image](https://github.com/CityOfNewYork/nyc-geo
 **Source(s)** |Department of City Planning, Linear Integrated Ordered Network (LION)
 **Publication Dates** |**Data**: 4/19/2014<br>**Last Update**: Weekly<br>**Metadata**: 12/22/2016<br>**Update Frequency**: Agency data is updated daily by Centerline Management Group (CMG). Public releases of this data are made weekly. 
 **Available Formats** |Multiple formats. See links below.
-**Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
+**Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](https://opendata.cityofnewyork.us/overview/#termsofuse)
 **Access Rights** |Public
 **Links** |[Public](https://nycmaps-nyc.hub.arcgis.com/maps/82854419a16044aaa75a038b3706235b/about) <br> [REST service](https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/Centerline_view/FeatureServer) <br> [City employees](https://nyc.maps.arcgis.com/home/item.html?id=82854419a16044aaa75a038b3706235b) <br>
 **Tags** |New York, Manhattan, Staten Island, LION, Bronx, Transportation, Queens, centerline, Brooklyn, Highway, CSCL, Streets, Roads

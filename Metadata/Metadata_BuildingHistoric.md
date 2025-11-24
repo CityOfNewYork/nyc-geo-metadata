@@ -11,7 +11,7 @@ Geometry Type: polygon<br><br>![image](../Images/building-historic.png)
 **Source(s)** |Annually captured aerial imagery, Research of Department of Buildings records and other NYC records, EagleView Oblique imagery, Cyclomedia panoramic photographs.
 **Publication Dates** |**Last Update**: Weekly<br>**Metadata**: 10/09/2025<br>**Update Frequency**: Features are updated daily by OTI staff and regularly published on [NYC Open Data](https://opendata.cityofnewyork.us/) and [NYCMaps](https://nycmaps-nyc.hub.arcgis.com/). 
 **Available Formats** |Multiple formats. See links below.
-**Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](http://www.nyc.gov/html/data/terms.html)
+**Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](https://opendata.cityofnewyork.us/overview/#termsofuse)
 **Access Rights** |Public
 **Links: Building Historic** |[Public](https://nycmaps-nyc.hub.arcgis.com/datasets/nyc::building-historic/about) <br> [REST service](https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_HISTORIC_view/FeatureServer) <br> [City Employees](https://nyc.maps.arcgis.com/home/item.html?id=780dd00c689f444cb20070185fada44d) <br>
 **Links: Building Historic Points** |[Public](https://nycmaps-nyc.hub.arcgis.com/datasets/nyc::building-historic-points/about) <br> [REST service](https://services6.arcgis.com/yG5s3afENB5iO9fj/ArcGIS/rest/services/BUILDING_HISTORIC_P_view/FeatureServer) <br> [City Employees](https://nyc.maps.arcgis.com/home/item.html?id=a6e04ed8f46044c09124340bf081665b) <br>
