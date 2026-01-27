@@ -39,12 +39,12 @@ Geometry Type: polyline<br><br>![image](/Images/SubwayLines.PNG)
 | SEGMENT_SEQNUM | SEGMENT_SE | | text |  |
 | CREATED_BY | CREATED_BY | | text | Internal tracking. Should not have been published |
 | CREATED_DATE | CREATED_DA | Date the row was initially added to CSCL | date |  |
-| MODIFIED_BY | MODIFIED_B | | Internal tracking. Should not have been published |  |
+| MODIFIED_BY | MODIFIED_B | | text | Internal tracking. Should not have been published  |
 | MODIFIED_DATE | MODIFIED_D | Most recent modification date | date  |  |
 | ROUTE | ROUTE | See [route codes below](#route-coded-domains) | coded domain (text) |  |
 | DIVISION | DIVISION | 1	IRT <br> 2	IND <br> 3	BMT <br> | coded domain (text) |  |
-| LINE | LINE | Text | Line name |  |
-| SUBWAY_LABEL | SUBWAY_LAB | text | Longer line name |  |
+| LINE | LINE | Line name  | text |  |
+| SUBWAY_LABEL | SUBWAY_LAB | Longer line name  | text  |  |
 | SEGLOCSTATUS | SEGLOCSTAT | 1	Segment bordering Manhattan <br> 2	Segment bordering Bronx <br> 3	Segment bordering Brooklyn <br> 4	Segment bordering Queens <br> 5	Segment bordering Staten Island <br> 9	Segment on NYC Boundary <br> H	Segment internal to an Atomic Polygon but not a dead end("land-hooked" segment) <br> I	Dead end segment <br> X	Tract Boundary segment other than borough boundary  | coded domain (text) |  |
 | FROM_LEVEL_CODE | FROM_LEVE | See [level codes below](#level-coded-domains) | coded domain (text) |  |
 | TO_LEVEL_CODE | TO_LEVEL_C  | See [level codes below](#level-coded-domains) | coded domain (text) |  |
@@ -170,6 +170,7 @@ Geometry Type: polyline<br><br>![image](/Images/SubwayLines.PNG)
 | 25 | Above Grade 12      |
 | 26 | Above Grade 13      |
 | 99 | Not Applicable      |
+
 
 
 
