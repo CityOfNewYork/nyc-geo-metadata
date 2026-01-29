@@ -1,15 +1,15 @@
 # Subway Lines
-Geometry Type: polyline<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/main/Images/SubwayLines.PNG)
+Geometry Type: polyline<br><br>![image](/Images/SubwayLines.PNG)
 
 ### Table of Contents<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**1. Identification**](#1-identification)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**2. Data Quality and Specifications**](#2-data-quality-and-specifications)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**3. Attribute Information**](#3-attribute-information)<br><br>
 ## 1. Identification
 ---------------------------------------------
 |     |     |
 | --- | --- |
-**Purpose** |The subway line layer may be used to assist with routing. 
-**Description** |Line representing NYC Transit Subway Lines. Lines are optimized for cartographic representation in web applications. 
-**Source(s)** |Metropolitan Transit Authority (MTA) website
-**Publication Dates** |**Data**: 09/13/2010<br>**Last Update**: 1/5/2017<br>**Metadata**: 1/5/2017<br>**Update Frequency**: As needed
+**Purpose** | This feature class is used by the NYC OTI GIS group to maintain and distribute an accurate 'basemap' for NYC. The basemap provides the foundation upon which virtually all other geospatial data within New York City government is registered.
+**Description** | Subway is a single line representation of the New York City subway system. Rows depict the location of subway lines with detailed attributes such as subway type, division, line name, and route.
+**Source(s)** | New York City Office of Technology and Innovation. New York City Department of City Planning.
+**Publication Dates** |**Last Update**: Weekly<br>**Metadata**: 1/27/2026<br>**Update Frequency**: As needed
 **Available Formats** |Multiple formats. See links below.
 **Use Limitations** |Open Data policies and restrictions apply. See [Terms of Use](https://opendata.cityofnewyork.us/overview/#termsofuse)
 **Access Rights** |Public
@@ -19,21 +19,159 @@ Geometry Type: polyline<br><br>![image](https://github.com/CityOfNewYork/nyc-geo
 ---------------------------------------------
 |     |     |
 | --- | --- |
-**Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot
+**Source Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot ([epsg:2263](https://spatialreference.org/ref/epsg/2263/))
 **Resolution** |NA
 **Spatial Coverage** |New York City, NY
 **Temporal Coverage** |Data is current as of last update date.
-**Positional Accuracy** |Position of lines are optimized for cartography and therefore are approximate. 
-**Features Captured** |Includes all active subway lines as provided by the MTA. 
+**Positional Accuracy** |
+**Features Captured** |Includes all active subway lines.
 **Features Excluded** |Proposed or under construction features are not included in the dataset. 
 **Capture and Update Notes** |Subway features are based on data provided by the MTA. Updates are made as new subway lines, entrances, or stations are opened. 
 ## 3. Attribute Information
 ---------------------------------------------
-| Attribute | Description | Field Type | Sensitive Field (Y/N) | Notes| 
+| Attribute | Shapefile Attribute | Description | Field Type | Notes | 
 |------------ | ------------- | -------- | ----------- | ----------|
-| ID | Segment of subway ID | double | 
-| RT_Symbol | Value used for symbology of subway lines.  | text | 
-| Name | Name of subway line | text | 
-| URL | URL link to MTA | text | 
+| OBJECTID | FID | Synthetic key populated by internal software | number |  |
+| SEGMENTID | SEGMENTID | | number |  |
+| LEGACY_SEGMENTID | LEGACY_SEG |  | number |  |
+| RAIL_TYPE | RAIL_TYPE |1	Subway <br> 2	Staten Island Railway <br> | coded domain (text) |  |
+| ROW_TYPE | ROW_TYPE | Right of Way Type <br> 1	Subterranean <br> 2	Elevated <br> 3	Surface <br> 4	Hidden <br> 5	Open Cut Depression <br> 6	Embankment <br> 7	Viaduct <br> 8	Subterranean Coincident with Boundary <br> | coded domain (text) |  |
+| SEGMENT_SEQNUM | SEGMENT_SE | | text |  |
+| CREATED_BY | CREATED_BY | | text | Internal tracking. Should not have been published |
+| CREATED_DATE | CREATED_DA | Date the row was initially added to CSCL | date |  |
+| MODIFIED_BY | MODIFIED_B | | text | Internal tracking. Should not have been published  |
+| MODIFIED_DATE | MODIFIED_D | Most recent modification date | date  |  |
+| ROUTE | ROUTE | See [route codes below](#route-coded-domains) | coded domain (text) |  |
+| DIVISION | DIVISION | 1	IRT <br> 2	IND <br> 3	BMT <br> | coded domain (text) |  |
+| LINE | LINE | Line name  | text |  |
+| SUBWAY_LABEL | SUBWAY_LAB | Longer line name  | text  |  |
+| SEGLOCSTATUS | SEGLOCSTAT | 1	Segment bordering Manhattan <br> 2	Segment bordering Bronx <br> 3	Segment bordering Brooklyn <br> 4	Segment bordering Queens <br> 5	Segment bordering Staten Island <br> 9	Segment on NYC Boundary <br> H	Segment internal to an Atomic Polygon but not a dead end("land-hooked" segment) <br> I	Dead end segment <br> X	Tract Boundary segment other than borough boundary  | coded domain (text) |  |
+| FROM_LEVEL_CODE | FROM_LEVE | See [level codes below](#level-coded-domains) | coded domain (text) |  |
+| TO_LEVEL_CODE | TO_LEVEL_C  | See [level codes below](#level-coded-domains) | coded domain (text) |  |
 | SHAPE__Length | Do not use. This value is auto-generated by the system in [Web Mercator](https://spatialreference.org/ref/epsg/3857/) which is not length preserving. | number |  | Do not use
+
+### ROUTE coded domains
+
+| Code | Value |
+|----|--------|
+| 1 | 1 |
+| 2 | 1-2 |
+| 3 | 1-2-3 |
+| 4 | 1-2-3-9 |
+| 5 | 1-9 |
+| 6 | 2 |
+| 7 | 2-3 |
+| 8 | 2-3-4-5 |
+| 9 | 2-5 |
+| 10 | 3 |
+| 11 | 3-4 |
+| 12 | 4 |
+| 13 | 4-5 |
+| 14 | 4-5-6 |
+| 15 | 4-6 |
+| 16 | 5 |
+| 17 | 6 |
+| 18 | 7 |
+| 19 | 7-N-W |
+| 20 | A |
+| 21 | A-B-C |
+| 22 | A-B-C-D |
+| 23 | A-B-C-D-E-F-V |
+| 24 | A-C |
+| 25 | A-C-E |
+| 26 | A-C-F |
+| 27 | A-C-G |
+| 28 | A-S |
+| 29 | B-D |
+| 30 | B-D-E |
+| 31 | B-D-F-V |
+| 32 | B-D-M-N-Q-R |
+| 33 | B-D-N-Q |
+| 34 | B-Q |
+| 35 | B-Q-S |
+| 36 | D |
+| 37 | D-F-N-Q |
+| 38 | D-M |
+| 39 | D-M-N-R |
+| 40 | D-N |
+| 41 | E |
+| 42 | E-F |
+| 43 | E-F-G-R-V |
+| 44 | E-G-R-V |
+| 45 | E-G-V |
+| 46 | E-J-Z |
+| 47 | E-V |
+| 48 | F |
+| 49 | F-G |
+| 50 | F-Q |
+| 51 | F-V |
+| 52 | G |
+| 53 | G-R-V |
+| 54 | J |
+| 55 | J-M |
+| 56 | J-M-Z |
+| 57 | J-Z |
+| 58 | L |
+| 59 | M |
+| 60 | M-N-R |
+| 61 | N |
+| 62 | N-Q |
+| 63 | N-Q-R-W |
+| 64 | N-R |
+| 65 | N-R-W |
+| 66 | N-W |
+| 67 | Q |
+| 68 | R |
+| 69 | S |
+| 70 | SIR |
+| 71 | V |
+| 72 | T |
+| 73 | T-Q |
+| 74 | E-F-M-R |
+| 75 | E-M-R |
+| 76 | E-M |
+| 77 | B-D-N-Q-R |
+| 78 | D-N-R |
+| 79 | A-B-C-D-E-F-M |
+| 80 | B-D-F-M |
+| 82 | F-M |
+| 83 | B-D-T |
+| 84 | F-M-Q |
+| 85 | E-F-M |
+
+### Level coded domains
+
+| ID | Description        |
+|----|---------------------|
+| 1  | Below Grade 1       |
+| 2  | Below Grade 2       |
+| 3  | Below Grade 3       |
+| 4  | Below Grade 4       |
+| 5  | Below Grade 5       |
+| 6  | Below Grade 6       |
+| 7  | Below Grade 7       |
+| 8  | Below Grade 8       |
+| 9  | Below Grade 9       |
+| 10 | Below Grade 10      |
+| 11 | Below Grade 11      |
+| 12 | Below Grade 12      |
+| 13 | At Grade            |
+| 14 | Above Grade 1       |
+| 15 | Above Grade 2       |
+| 16 | Above Grade 3       |
+| 17 | Above Grade 4       |
+| 18 | Above Grade 5       |
+| 19 | Above Grade 6       |
+| 20 | Above Grade 7       |
+| 21 | Above Grade 8       |
+| 22 | Above Grade 9       |
+| 23 | Above Grade 10      |
+| 24 | Above Grade 11      |
+| 25 | Above Grade 12      |
+| 26 | Above Grade 13      |
+| 99 | Not Applicable      |
+
+
+
+
 
