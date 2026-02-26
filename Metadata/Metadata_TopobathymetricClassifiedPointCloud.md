@@ -1,7 +1,8 @@
 # Topobathymetric Classified Point Cloud
-Geometry Type: Point (LAS 1.4)<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/main/Images/TopobathymetricClassifiedPointCloud.png)
+Geometry Type: Point (LAS 1.4)<br><br>
+<img src="https://github.com/CityOfNewYork/nyc-geo-metadata/blob/main/Images/TopobathymetricClassifiedPointCloud.png" width="400">
 
-### Table of Contents<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**1. Identification**](#1-identification)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**2. Data Quality and Specifications**](#2-data-quality-and-specifications)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**3. Attribute Information**](#3-attribute-information)<br><br>
+### Table of Contents<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**1. Identification**](#1-identification)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**2. Data Quality and Specifications**](#2-data-quality-and-specifications)
 ## 1. Identification
 ---------------------------------------------
 |     |     |
@@ -25,3 +26,4 @@ Geometry Type: Point (LAS 1.4)<br><br>![image](https://github.com/CityOfNewYork/
 **Positional Accuracy** |**Topographic**<br>Non-Vegetated Vertical Accuracy (95% confidence level): 0.242 ft (0.074 m)<br>Vegetated Vertical Accuracy (95th percentile): 0.517 ft (0.158 m)<br>Relative Vertical Accuracy: 0.085 ft (0.026 m)<br><br>**Bathymetric**<br>Non-Vegetated Vertical Accuracy (95% confidence level): 0.208 ft (0.064 m)
 **Features Captured** |The topobathymetric point cloud was classified as follows: <br><br> 1 - Default/Unclassified<br> 1 WO - Default/Unclassified Withheld Overlap<br> 2 - Ground<br> 7 W - Noise Withheld<br> 9 - Water<br> 10 - Ignored Ground (Water's Edge)<br> 17 - Bridge<br> 25 - Subway Stairs<br> 40 - Bathymetric Bottom<br> 41 - Water Surface<br> 45 - Water Column
 **Capture and Update Notes** |For more information on data acquisition, processing, and accuracy assessments of the 2017 LiDAR data, see the [Topobathymetric LiDAR Technical Data Report](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Supplemental/New_York_City_2017_Topobathymetric_LiDAR_Report.pdf)
+

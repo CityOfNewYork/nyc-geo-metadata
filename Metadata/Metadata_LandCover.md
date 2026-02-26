@@ -1,7 +1,9 @@
 # Land Cover
-Geometry Type: Raster<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/main/Images/LandCover.png)
+Geometry Type: Raster<br>
+<img src="https://github.com/CityOfNewYork/nyc-geo-metadata/blob/main/Images/LandCover.png" width="400">
 
-### Table of Contents<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**1. Identification**](#1-identification)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**2. Data Quality and Specifications**](#2-data-quality-and-specifications)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**3. Attribute Information**](#3-attribute-information)<br><br>
+### Table of Contents<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**1. Identification**](#1-identification)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**2. Data Quality and Specifications**](#2-data-quality-and-specifications)
+
 ## 1. Identification
 ---------------------------------------------
 |     |     |
@@ -11,7 +13,6 @@ Geometry Type: Raster<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-m
 **Source(s)** |University of Vermont Spatial Analysis Laboratory, in collaboration with New York City Office of Technology and Innovation (NYC OTI), Applied Geographics (AppGeo), and Quantum Spatial
 **Publication Dates** |**Data**: 2017<br>**Last Update**: 2018<br>**Metadata**: 09/12/2018<br>**Update Frequency**: As needed. This dataset was created as part of the 2017 LiDAR update
 **Available Formats** |Raster
-**Use Limitations** |
 **Access Rights** |Public
 **Links** |[Land Cover](https://data.cityofnewyork.us/Environment/Land-Cover-Raster-Data-2017-6in-Resolution/he6d-2qns)
 **Tags** |Urban, New York, 2017, 2016, land cover, tree canopy, New York City, UTC
@@ -25,3 +26,4 @@ Geometry Type: Raster<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-m
 **Temporal Coverage** |05/03/2017 - 05/17/2017 
 **Positional Accuracy** |This land-cover dataset was subjected to a thorough manual quality control (QC) that focused on correction of non-systematic errors that could not addressed by additional model refinement. A per-pixel accuracy assessment based on 8,493 random points indicated an overall accuracy of 98%.  User's and producer's accuracies for all classes except Bare Soil exceeded 94%; for bare soil, the user's and producer's accuracies were 89 and 82%, respectively.
 **Features Captured** |Object based image analysis was used to automate land-cover features using LiDAR point clouds and derivatives, orthoimagery, and vector GIS datasets -- City Boundary (2017, NYC OTI); Buildings (2017, NYC OTI); Hydrography (2014, NYC OTI); LiDAR Hydro Breaklines (2017, NYC OTI); Transportation Structures (2014, NYC OTI); Roadbed (2014, NYC OTI); Road Centerlines (2014, NYC OTI); Railroads (2014, NYC OTI); Green Roofs (date unknown, NYC Parks); Parking Lots (2014, NYC OTI); Parks (2016, NYC Parks), Sidewalks (2014, NYC OTI), Synthetic Turf (2018, NYC Parks); Wetlands (2014, NYC Parks); Shoreline (2014, NYC OTI), Plazas (2014, NYC OTI), Utility Poles (2014, ConEdison via NYCEM); Athletic Facilities (2017, NYC Parks). <br><br> For the purposes of classification, only vegetation < 8 ft were classed as Tree Canopy. Vegetation below 8 ft was classed as Grass/Shrub. 
+
