@@ -15,7 +15,7 @@ Geometry Type: Point Cloud (LAZ), Raster (TIFF)<br><br>
 **Available Formats** |Point Cloud (LAS), Raster (GeoTIFF)
 **Access Rights** |Public
 **Contact Information** |**Name**: OTI GIS Unit<br>**Email**: gis-mgt@oti.nyc.gov
-**Links to Data and Products** |See [Derived Products](#derived-products) below
+**Links to Data and Products** |See "Derived Products" links below
 **Tags** |lidar, point cloud, dem, digital elevation model, foot, elevation, gis, oti, doitt
 ## 2. Data Quality and Specifications
 ---------------------------------------------
@@ -24,8 +24,9 @@ Geometry Type: Point Cloud (LAZ), Raster (TIFF)<br><br>
 **Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot
 **Vertical Datum** |NAVD88 Geoid 12B
 
- | Year | Resolution | Dates of Capture | Sensor | <a id="derived-products"></a>Derived Products | 
+ | Year | Resolution | Dates of Capture | Sensor | Derived Products | 
 |-- | --| -- | --| -- |
 |2010|1 foot|Topographic: 4/14/2010 - 5/1/2010|Topographic: Leica ALS-50|Classified Point Clouds (LAS 1.2)<br>[Hydroflattened DEM](./Metadata_2010_DEM.md)
 |2017|1 foot|Topographic: 5/3/2017 - 5/17/2017 (1am - 6am) <br> Bathymetric: 7/4/2017 - 7/26/2017 (1am - 6am)|Topographic: Leica ALS80 <br> Bathymetric: Riegl VQ-880-G|[Topobathymetric Classified Point Cloud (LAS 1.4)](./Metadata_TopobathymetricClassifiedPointCloud.md)<br> [Base Bare Earth DEM](./Metadata_BareEarthDigitalElevationModel.md)<br> [Hydroflattened DEM](./Metadata_HydroflattenedDigitalElevationModel.md)<br> [Hydroenforced (Fill) DEM](./Metadata_HydroEnforcedElevationModelFilled.md)<br>[Hydroenforced (Unfill) DEM](./Metadata_HydroEnforcedElevationModelUnfilled.md)<br>[Highest Hit Model DSM](./Metadata_HighestHitDigitalSurfaceModel.md)<br>[8-Class Land Cover](./Metadata_LandCover.md)<br>[Tree Canopy Change (2010-2017)](./Metadata_TreeCanopyChange.md)<br>[Tidally Coordinated Shoreline](./Metadata_TidalShoreline.md)
+
 
