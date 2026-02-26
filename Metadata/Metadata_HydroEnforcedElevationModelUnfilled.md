@@ -1,7 +1,9 @@
 # Hydro-Enforced Digital Elevation Model (Unfilled)
-Geometry Type: Raster (TIF)<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/main/Images/Hydroenforced_Unfill.png)
+Geometry Type: Raster (TIF)<br>
+<img src="https://github.com/CityOfNewYork/nyc-geo-metadata/blob/main/Images/Hydroenforced_Unfill.png" width="400">
 
-### Table of Contents<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**1. Identification**](#1-identification)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**2. Data Quality and Specifications**](#2-data-quality-and-specifications)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**3. Attribute Information**](#3-attribute-information)<br><br>
+### Table of Contents<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**1. Identification**](#1-identification)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**2. Data Quality and Specifications**](#2-data-quality-and-specifications)
+
 ## 1. Identification
 ---------------------------------------------
 |     |     |
@@ -11,7 +13,6 @@ Geometry Type: Raster (TIF)<br><br>![image](https://github.com/CityOfNewYork/nyc
 **Source(s)** |City of New York, Quantum Spatial Inc. 
 **Publication Dates** |**Data**: 2017<br>**Last Update**: 2018<br>**Metadata**: 09/12/2018<br>**Update Frequency**: As needed. This dataset was created as part of the 2017 LiDAR update
 **Available Formats** |Topographic Mosaic<br>Topographic Tiled<br>Bathymetric Mosaic<br>Bathymetric Tiled<br>Topobathymetric Mosaic<br>Topobathymetric Tiled
-**Use Limitations** |
 **Access Rights** |Public
 **Links** |[Digital Elevation and Surface Models](https://data.cityofnewyork.us/City-Government/Topobathymetric-LiDAR-Data-2017-/7sc8-jtbz/about_data)
 **Tags** |LiDAR, Light Detection and Ranging, elevation data, topography, bare earth, hydro-flattened, hydro-enforced, breaklines, DEM, digital elevation model, New York City, New York, NYC, Manhattan, Brooklyn, Queens, The Bronx, Staten Island
@@ -24,3 +25,4 @@ Geometry Type: Raster (TIF)<br><br>![image](https://github.com/CityOfNewYork/nyc
 **Spatial Coverage** |New York City, NY
 **Temporal Coverage** |Topographic: 05/03/2017 - 05/17/2017<br>Bathymetric: 07/04/2017 - 07/26/2017
 **Capture and Update Notes** |In some areas of heavy vegetation or forest cover, there may be relatively few ground points in the LiDAR data. TINing the points produces large triangles and hence the elevations may be less accurate within such areas. Due to some very large buildings within the city, there are very large triangles/interpolation throughout. Mosaicking lines and "cross hairs" may be seen in the middle of some interpolation. This is normal and will not affect the quality of the data. Wooden boardwalks and concrete boardwalks which are known to be on pylons and where separation is clearly visible, were removed from the bare earth models. In some areas of the dataset, the DEM goes from being hydroflattened to being bathymetric bottom data. This happens where the "Waters_Edge_for_Data_Splicing" shape cuts through a coastline or long stream/river. For ponds and lakes that cross this boundary, the data has been hydroflattened within the shape while bathymetric data may still exists within the LiDAR point cloud.
+
