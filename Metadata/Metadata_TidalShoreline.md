@@ -1,5 +1,6 @@
 # Shoreline
-Geometry Type: Shapefile (Polyline Z)<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/main/Images/TidalShoreline.PNG)
+Geometry Type: Shapefile (Polyline Z)<br>
+<img src="https://github.com/CityOfNewYork/nyc-geo-metadata/blob/main/Images/TidalShoreline.PNG" width="400">
 
 ### Table of Contents<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**1. Identification**](#1-identification)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**2. Data Quality and Specifications**](#2-data-quality-and-specifications)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**3. Attribute Information**](#3-attribute-information)<br><br>
 ## 1. Identification
@@ -36,3 +37,4 @@ Geometry Type: Shapefile (Polyline Z)<br><br>![image](https://github.com/CityOfN
 | FID | Internal feature number. | Internal Feature Number | 
 | Feature | Feature description (Shoreline) | String | 
 | Type | Description field on how the shoreline was created. Bathymetric -low tide means the data was captured using the bathymetric (green) LiDAR data. NIR - low tide means the data was captured using the topographic (NIR) LiDAR data. NIR - not tidally coordinated means the data was captured with topographic LiDAR data but was not necessarily captured at low tide.  | String | 
+

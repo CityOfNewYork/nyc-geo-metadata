@@ -1,7 +1,9 @@
 # Highest Hit Digital Surface Model
-Geometry Type: Raster (TIF)<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-metadata/blob/main/Images/HighestHitModel.png)
+Geometry Type: Raster (TIF)<br>
+<img src="https://github.com/CityOfNewYork/nyc-geo-metadata/blob/main/Images/HighestHitModel.png" width="400">
 
-### Table of Contents<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**1. Identification**](#1-identification)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**2. Data Quality and Specifications**](#2-data-quality-and-specifications)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**3. Attribute Information**](#3-attribute-information)<br><br>
+### Table of Contents<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**1. Identification**](#1-identification)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**2. Data Quality and Specifications**](#2-data-quality-and-specifications)
+
 ## 1. Identification
 ---------------------------------------------
 |     |     |
@@ -11,7 +13,6 @@ Geometry Type: Raster (TIF)<br><br>![image](https://github.com/CityOfNewYork/nyc
 **Source(s)** |City of New York, Quantum Spatial Inc. 
 **Publication Dates** |**Data**: 2017<br>**Last Update**: 2018<br>**Metadata**: 09/12/2018<br>**Update Frequency**: As needed. This dataset was created as part of the 2017 LiDAR update
 **Available Formats** |Topographic Mosaic<br>Topographic Tiled<br>Bathymetric Mosaic<br>Bathymetric Tiled<br>Topobathymetric Mosaic<br>Topobathymetric Tiled
-**Use Limitations** |
 **Access Rights** |Public
 **Links** |[Digital Elevation and Surface Models](https://data.cityofnewyork.us/City-Government/Topobathymetric-LiDAR-Data-2017-/7sc8-jtbz/about_data)
 **Tags** |LiDAR, Light detection and ranging, highest hit, digital surface model, DSM, vegetation, anthropogenic structures, New York City, New York, NYC, Manhattan, Brooklyn, Queens, The Bronx, Staten Island
@@ -24,3 +25,4 @@ Geometry Type: Raster (TIF)<br><br>![image](https://github.com/CityOfNewYork/nyc
 **Spatial Coverage** |New York City, NY
 **Temporal Coverage** |Topographic: 05/03/2017 - 05/17/2017<br>Bathymetric: 07/04/2017 - 07/26/2017
 **Capture and Update Notes** |Elevation values for open water surfaces with no returns are derived from waters edge breaklines used in hydro-flattening the bare earth model. Triangles were created across water surfaces by interpolating from the nearest breakline elevation points.
+
