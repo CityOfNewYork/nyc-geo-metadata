@@ -37,7 +37,7 @@ Geometry Type: point<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-me
 | HNO_SUFFIX | For address points representing suffixed range-type addresses, this value is the upper range for the address suffix. | text | No
 | HYPHEN_TYP | The Address Point Feature Class will support the storage of hyphenated addresses. <br>R = Building Range <br>Q = Queens Type <br>X = Range of Queens Style <br>N = No Hyphen Type <br>U = Unit | text | No
 | SIDE_OF_ST | Indicates which side of the street the point is located on relative to the digitized direction of the associated Centerline street segment. <br>1 = Left <br>2 = Right | text | No
-| SPECIAL_CO | This data element is used to store conditions identified in the DCP Special Address File (SAF) and from other sources. <br>A = Alt Address  = SAF record same as LION record <br>B = Alt Address  = SAF record and LION record differ <br>C = Ruby Street on Brooklyn-Queens border <br>E = Neighborhood name <br>I = Named Intersection <br>N = NAP assigned to a Stand-alone feature <br>O = Out-of-Sequence Address or Opposite Parity Address <br>P = Addressable place name <br>S = Suffixed house numbers at an intersection <br>V = Vanity address <br>M = Multiple <br>G = Complex NAP <br>X = Constituent NAP <br>D = Duplicate or overlapping address ranges (real DAPS) <br>F = Duplicate or overlapping address ranges (Pseudo DAPS) | text | No
+| SPECIAL_CO | Special conditions. This data element is used to store conditions identified in the DCP Special Address File (SAF) and from other sources. <br>A = Alt Address  = SAF record same as LION record <br>B = Alt Address  = SAF record and LION record differ <br>C = Ruby Street on Brooklyn-Queens border <br>E = Neighborhood name <br>I = Named Intersection <br>N = NAP assigned to a Stand-alone feature <br>O = Out-of-Sequence Address or Opposite Parity Address <br>P = Addressable place name <br>S = Suffixed house numbers at an intersection <br>V = Vanity address <br>M = Multiple <br>G = Complex NAP <br>X = Constituent NAP <br>D = Duplicate or overlapping address ranges (real DAPS) <br>F = Duplicate or overlapping address ranges (Pseudo DAPS) | text | No | See [Special Conditions](#special-conditions) for expanded descriptions (where available)
 | BOROCODE | Numeric codes for NYC 5 boroughs. <br>1 = Manhattan<br>2 = Bronx<br>3 = Brooklyn<br>4 = Queens<br>5 = Staten Island | text | No
 | ZIPCODE | Five-digit postal zip code. | text | No
 | CREATED | Date feature was created | date | No
@@ -46,3 +46,12 @@ Geometry Type: point<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-me
 | HN_RNG | For address points representing range-type addresses, this value is the upper range for the address.  | text | No
 | HN_RNG_SUF | For address points representing suffixed rang-type addresses, this value is the upper range for the address suffix. | text | No
 | PHYSICALID | A unique ID assigned to intersection to intersection stretches of a street.  | double | No
+
+## Special Conditions
+
+| Code | Name | Description |
+|------------ | ------------- | ------------- |
+| P | Addressable Place Name | An addressable place name is a place name, usually the name of an individual building or a building complex, that can serve the role of a street name in an address, even though there is no actual street with that name. Examples of addressable place names are PENN PLAZA, WASHINGTON SQUARE VILLAGE and CONFUCIUS PLAZA. Each of these can combine with house numbers to form addresses, such as 5 PENN PLAZA, 13 CONFUCIUS PLAZA, 4 WASHINGTON SQUARE VILLAGE, etc. |
+
+
+
