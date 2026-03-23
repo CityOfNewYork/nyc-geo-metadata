@@ -19,7 +19,7 @@ Geometry Type: point<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-me
 ---------------------------------------------
 |     |     |
 | --- | --- |
-**Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot
+**Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot ([epsg:2263](https://spatialreference.org/ref/epsg/2263/))
 **Resolution** |NA
 **Spatial Coverage** |New York City, NY
 **Temporal Coverage** |Data is current as of last update date.
