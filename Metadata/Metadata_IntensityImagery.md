@@ -19,7 +19,7 @@ Geometry Type: Raster (TIF)<br><br>![image](https://github.com/CityOfNewYork/nyc
 ---------------------------------------------
 |     |     |
 | --- | --- |
-**Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot
+**Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot ([epsg:2263](https://spatialreference.org/ref/epsg/2263/))
 **Vertical Datum** | NAVD88, Geoid 12B
 **Resolution** |1 foot
 **Spatial Coverage** |New York City, NY

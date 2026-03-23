@@ -19,7 +19,7 @@ Geometry Type: Point (LAS 1.4)<br><br>
 ---------------------------------------------
 |     |     |
 | --- | --- |
-**Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot
+**Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot ([epsg:2263](https://spatialreference.org/ref/epsg/2263/))
 **Resolution** |Data was collected with QL1 specifications (8 pulses/m2). Actual first return densities for this dataset are: <br>Topographic (NIR): 10.75 pts/m2<br>Bathymetric (Green): 15.24 pts/m2
 **Spatial Coverage** |New York City, plus an additional 100 m buffer around the city
 **Temporal Coverage** |Topographic: 05/03/2017 - 05/17/2017<br>Bathymetric: 07/04/2017 - 07/26/2017

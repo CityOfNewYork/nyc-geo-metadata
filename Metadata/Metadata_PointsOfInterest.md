@@ -19,7 +19,7 @@ Geometry Type: point<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-me
 ---------------------------------------------
 |     |     |
 | --- | --- |
-**Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot
+**Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot ([epsg:2263](https://spatialreference.org/ref/epsg/2263/))<br>**Downloads**<br>**[NYCMapHub](https://nycmaps-nyc.hub.arcgis.com/)**<br>shapefile: [3857](https://spatialreference.org/ref/epsg/3857/)<br>geojson: [4326](https://spatialreference.org/ref/epsg/4326/)<br>file geodatabase: [4326](https://spatialreference.org/ref/epsg/4326/)<br>**[NYCmaps](https://nyc.maps.arcgis.com/home/index.html)**<br>service: [3857](https://spatialreference.org/ref/epsg/3857/)<br>shapefile: [3857](https://spatialreference.org/ref/epsg/3857/)<br>geojson: [4326](https://spatialreference.org/ref/epsg/4326/)<br>file geodatabase: [3857](https://spatialreference.org/ref/epsg/3857/)<br>**[NYC Open Data](https://opendata.cityofnewyork.us/)**<br>shapefile: [4326](https://spatialreference.org/ref/epsg/4326/)<br>geojson: [4326](https://spatialreference.org/ref/epsg/4326/)
 **Resolution** |NA
 **Spatial Coverage** |New York City, NY and areas of Nassau County, Westchester, and New Jersey. 
 **Temporal Coverage** |Data is current as of last update date.

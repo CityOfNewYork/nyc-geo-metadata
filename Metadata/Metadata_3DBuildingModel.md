@@ -19,7 +19,7 @@ Geometry Type: Multiple<br><br>![image](https://www.nyc.gov/assets/planning/imag
 ---------------------------------------------
 |     |     |
 | --- | --- |
-**Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot
+**Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot ([epsg:2263](https://spatialreference.org/ref/epsg/2263/))
 **Resolution** |ASPRS CLASS 1.5 for 1"=100' scale maps
 **Spatial Coverage** |New York City, NY
 **Temporal Coverage** |Data is based on buildings present in 2014 aerial survey.
