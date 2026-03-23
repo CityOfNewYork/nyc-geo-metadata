@@ -20,8 +20,7 @@ Geometry Type: raster<br><br>![image](https://github.com/CityOfNewYork/nyc-geo-m
 ---------------------------------------------
 |     |     |
 | --- | --- |
-**Horizontal Coordinate System** |New York State Plane Coordinates, Long Island East Zone, NAD83, US foot
-**Vertical Datum** |NAVD88
+**Horizontal Coordinate System** |**Collection**: New York State Plane Coordinates, Long Island East Zone, NAD83, US foot ([epsg:2263](https://spatialreference.org/ref/epsg/2263/) or [epsg:6539](https://spatialreference.org/ref/epsg/6539/))<br>**Published**: Web Mercator ([epsg:3857](https://spatialreference.org/ref/epsg/3857/))
 
  | Year | Resolution | Coverage | Dates of Capture | Product Details | Color Infrared | 
 | -- | -- | -- | -- | -- | -- |
