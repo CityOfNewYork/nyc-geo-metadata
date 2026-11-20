@@ -15,6 +15,7 @@ Geometry Type: polygon<br><br>![image](https://github.com/CityOfNewYork/nyc-plan
 **Access Rights** |Public
 **Links: Building** | [Public](https://nycmaps-nyc.hub.arcgis.com/datasets/nyc::building/about) <br> [REST service](https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_view/FeatureServer) <br> [City Employees](https://nyc.maps.arcgis.com/home/item.html?id=870bf69e8a8044aea4488e564c0b4010) <br>
 **Links: Building Centroid Points** | [Public](https://nycmaps-nyc.hub.arcgis.com/datasets/nyc::building-points/about) <br> [REST service](https://services6.arcgis.com/yG5s3afENB5iO9fj/ArcGIS/rest/services/BUILDING_P_view/FeatureServer) <br> [City Employees](https://nyc.maps.arcgis.com/home/item.html?id=76774418a79e4d1cb14f932355f9f051) <br>
+**Link: Building Archive** | [Geodatabase](https://nyc.maps.arcgis.com/home/item.html?id=dff637f1bb54405ca285d49d2855de51#overview) 
 **Tags** |Buildings, Building footprint, BIN, Structure, Building_p
 ## 2. Data Quality and Specifications
 ---------------------------------------------
