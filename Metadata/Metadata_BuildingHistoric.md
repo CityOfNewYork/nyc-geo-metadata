@@ -15,6 +15,7 @@ Geometry Type: polygon<br><br>![image](../Images/building-historic.png)
 **Access Rights** |Public
 **Links: Building Historic** |[Public](https://nycmaps-nyc.hub.arcgis.com/datasets/nyc::building-historic/about) <br> [REST service](https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_HISTORIC_view/FeatureServer) <br> [City Employees](https://nyc.maps.arcgis.com/home/item.html?id=780dd00c689f444cb20070185fada44d) <br>
 **Links: Building Historic Points** |[Public](https://nycmaps-nyc.hub.arcgis.com/datasets/nyc::building-historic-points/about) <br> [REST service](https://services6.arcgis.com/yG5s3afENB5iO9fj/ArcGIS/rest/services/BUILDING_HISTORIC_P_view/FeatureServer) <br> [City Employees](https://nyc.maps.arcgis.com/home/item.html?id=a6e04ed8f46044c09124340bf081665b) <br>
+**Link: Building Historic Archive** | [Geodatabase](https://nyc.maps.arcgis.com/home/item.html?id=5768092a1c9b4980aa5c3fc4cca8b33c#overview) 
 **Tags** |Buildings, Building footprint, BIN, Structure, Building_Historic_P
 ## 2. Data Quality and Specifications
 ---------------------------------------------
